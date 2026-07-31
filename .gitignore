@@ -1,0 +1,49 @@
+# --- Third-party data (NOT redistributable) ---
+# PMBJP mirror + DDInter dumps are third-party sources with their own licensing.
+# Never commit them. data/processed/ and data/manual/ are tracked (see .gitkeep).
+# Ignore the contents, not the directory itself — git cannot un-ignore a file inside an
+# excluded directory, and the empty dir must survive a clone for the ingestion scripts.
+data/raw/*
+!data/raw/.gitkeep
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# --- Virtualenvs / tooling ---
+.venv/
+venv/
+env/
+.python-version
+uv.lock
+
+# --- Test / lint caches ---
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# --- Environment ---
+.env
+.env.local
+*.env
+!.env.example
+
+# --- Neo4j local volume (if bind-mounted) ---
+neo4j_data/
+neo4j_logs/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
