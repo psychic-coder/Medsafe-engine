@@ -1,0 +1,16 @@
+molecule_id,inn_name,category
+MOL001,amoxicillin,small_molecule
+MOL002,metformin,small_molecule
+MOL003,atorvastatin,small_molecule
+MOL004,warfarin,small_molecule
+MOL005,aspirin,small_molecule
+MOL006,omeprazole,small_molecule
+MOL007,hydroxyzine,small_molecule
+MOL008,clopidogrel,small_molecule
+MOL009,amlodipine,small_molecule
+MOL010,prednisolone,small_molecule
+MOL011,prednisone,small_molecule
+MOL012,salbutamol,small_molecule
+MOL013,levothyroxine,small_molecule
+MOL014,clavulanic acid,small_molecule
+MOL015,insulin glargine,biologic

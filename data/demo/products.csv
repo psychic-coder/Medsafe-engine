@@ -1,0 +1,14 @@
+product_id,source,generic_name_raw,form,strength_raw,mrp
+PRD001,PMBJP,Amoxicillin 500mg Capsule,capsule,500mg,32.50
+PRD002,branded_csv,Novamox 500 Amoxicillin Capsule,capsule,500mg,98.00
+PRD003,branded_csv,Mox 500 Capsule,capsule,500mg,112.00
+PRD004,PMBJP,Amoxicillin 250mg Capsule,capsule,250mg,20.00
+PRD010,PMBJP,Metformin 500mg Tablet,tablet,500mg,8.00
+PRD011,branded_csv,Glycomet 500 Tablet,tablet,500mg,24.00
+PRD012,branded_csv,Metformin Hydrochloride 0.5g Tablet,tablet,0.5g,31.00
+PRD020,PMBJP,Atorvastatin 10mg Tablet,tablet,10mg,12.00
+PRD021,branded_csv,Atorva 10 Tablet,tablet,10mg,85.00
+PRD030,PMBJP,Aspirin 75mg Tablet,tablet,75mg,4.00
+PRD031,branded_csv,Ecosprin 75 Tablet,tablet,75mg,11.50
+PRD040,branded_csv,Amoxicillin and Clavulanic Acid 500mg/125mg Tablet,tablet,500mg/125mg,145.00
+PRD050,PMBJP,Salbutamol 100mcg Inhaler,inhaler,100mcg,142.00

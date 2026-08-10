@@ -92,6 +92,36 @@ pytest
 ruff check .
 ```
 
+### 6. Running without Neo4j
+
+The graph is reached through a single interface with two backends, so the whole pipeline runs
+in-process against `data/demo/` when no database is available. This is what the test suite uses, and
+it is the quickest way to see the engine work end to end:
+
+```bash
+MEDSAFE_GRAPH_BACKEND=memory MEDSAFE_SEED_DIR=data/demo \
+    COVERAGE_MANIFEST=data/demo/ddinter_coverage.json \
+    uvicorn medsafe.api.main:app --reload
+
+curl "localhost:8000/resolve?drug=Amoxicillin%20500mg%20Capsule"
+curl -X POST localhost:8000/check -H 'content-type: application/json' \
+     -d '{"drugs":["Warfarin","Ecosprin","Atorvastatin"]}'
+```
+
+`data/demo/` holds fixtures in the exact shape `graph.loader` expects from `data/processed/`. They
+are illustrative, not clinical data.
+
+### 7. Evaluation harness
+
+```bash
+python -m medsafe.eval.harness --seed-dir data/demo            # human-readable report
+python -m medsafe.eval.harness --seed-dir data/demo --json     # machine-readable, for CI
+python -m medsafe.eval.harness --seed-dir data/demo --threshold 70   # sweep the fuzzy threshold
+```
+
+Exit code is non-zero when the run fails. A single false accept or blocklist violation fails the
+run outright, whatever the coverage numbers say — see `src/medsafe/eval/metrics.py`.
+
 ## Repository layout
 
 | Path | Contents |
@@ -104,6 +134,7 @@ ruff check .
 | `src/medsafe/eval/` | Golden set, metrics, and evaluation harness |
 | `scripts/` | One-shot ingestion and graph-loading entry points |
 | `data/raw/` | Third-party sources — **gitignored, not redistributable** |
+| `data/demo/` | Offline fixtures in processed-artifact shape (see §6) |
 | `docs/schema.md` | Locked graph schema and entity-resolution policy |
 
 ## Graph schema
@@ -114,3 +145,9 @@ The graph schema and the entity-resolution policy are **locked**. See
 > Exact match (post-normalization) and the alias/bridge table are the only auto-accept paths. Fuzzy
 > matching produces candidates for a human-review queue and is **never** auto-merged. Auto-accepting
 > a fuzzy match in this vocabulary is a patient-safety bug.
+
+That policy is enforced structurally rather than by convention. `ResolvedMatch.path` can only hold
+`exact` or `alias`, so no value of the type means "resolved by fuzzy"; `ResolutionResult` validates
+at construction that a match is present if and only if the status is `resolved`; and the fuzzy
+branch never assigns a match, so no threshold setting reaches that code path. The generated OpenAPI
+schema inherits the same constraint — `MatchOut.path` is an enum of two values.

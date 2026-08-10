@@ -1,0 +1,6 @@
+molecule_id_a,molecule_id_b,severity,mechanism,provenance
+MOL004,MOL005,major,Additive bleeding risk from combined anticoagulant and antiplatelet effect,ddinter
+MOL004,MOL008,major,Additive bleeding risk; CYP2C9 interaction,ddinter
+MOL005,MOL008,moderate,Additive antiplatelet effect increasing bleeding risk,ddinter
+MOL006,MOL008,major,CYP2C19 inhibition reduces clopidogrel activation,ddinter
+MOL002,MOL010,moderate,Corticosteroid-induced hyperglycaemia opposes glycaemic control,ddinter
