@@ -29,6 +29,7 @@ from __future__ import annotations
 
 import csv
 import json
+import logging
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -36,6 +37,8 @@ from typing import Any
 
 from medsafe.errors import SchemaViolationError
 from medsafe.graph.repository import GraphRepository
+
+logger = logging.getLogger(__name__)
 
 __all__ = ["LoadReport", "ArtifactSet", "load_artifacts", "load_records", "read_artifact"]
 
@@ -112,6 +115,7 @@ class ArtifactSet:
     contains: list[Record] = field(default_factory=list)
     aliases: list[Record] = field(default_factory=list)
     interactions: list[Record] = field(default_factory=list)
+    anchors: dict[str, str] = field(default_factory=dict)  # inn_name -> ddinter_anchor (ATC)
 
 
 def _coerce_scalar(value: str) -> Any:
@@ -160,6 +164,42 @@ def _normalize_keys(stage: str, rows: list[Record]) -> list[Record]:
             prepared.append({**row, "normalized_string": normalize_key(str(source_string))})
         return prepared
     return rows
+
+
+def _load_anchor_profile(manual_dir: Path | str) -> dict[str, str]:
+    """Load drug → ATC group mapping from ddinter_anchor_profile.csv.
+    
+    Returns a dict mapping drug names to their top_file (ATC group). Missing file yields empty dict.
+    """
+    csv_path = Path(manual_dir) / "ddinter_anchor_profile.csv"
+    if not csv_path.is_file():
+        logger.warning(f"Anchor profile not found at {csv_path}; ddinter_anchor will be None for all molecules")
+        return {}
+    
+    anchors: dict[str, str] = {}
+    try:
+        with csv_path.open(newline="", encoding="utf-8") as handle:
+            for row in csv.DictReader(handle):
+                drug = (row.get("drug") or "").strip()
+                atc = (row.get("top_file") or "").strip()
+                if drug and atc:
+                    anchors[drug.lower()] = atc
+    except Exception as exc:
+        # If the file is malformed, silently skip: anchors are optional enrichment
+        logger.warning(f"Failed to load anchor profile from {csv_path}: {exc}")
+    return anchors
+
+
+def _enrich_molecules_with_anchors(
+    molecules: list[Record], anchors: dict[str, str]
+) -> list[Record]:
+    """Attach ddinter_anchor to molecules by looking up inn_name in the anchor map."""
+    enriched = []
+    for mol in molecules:
+        drug_key = str(mol.get("inn_name") or "").lower()
+        anchor = anchors.get(drug_key)
+        enriched.append({**mol, "ddinter_anchor": anchor})
+    return enriched
 
 
 def _merge_stage(
@@ -211,7 +251,12 @@ def load_records(
         report.schema_statements = len(repo.apply_schema())
     report.counts_before = repo.counts()
 
-    _merge_stage(repo, report, MOLECULES_FILE, artifacts.molecules, strict)
+    # Enrich molecules with anchors before merging
+    molecules = artifacts.molecules
+    if artifacts.anchors:
+        molecules = _enrich_molecules_with_anchors(molecules, artifacts.anchors)
+
+    _merge_stage(repo, report, MOLECULES_FILE, molecules, strict)
     _merge_stage(repo, report, PRODUCTS_FILE, artifacts.products, strict)
     _merge_stage(repo, report, CONTAINS_FILE, artifacts.contains, strict)
     _merge_stage(repo, report, ALIASES_FILE, artifacts.aliases, strict)
@@ -233,15 +278,30 @@ def load_artifacts(
     Missing artifacts are recorded in ``report.skipped`` rather than raising, so an incomplete load
     is visible in the report instead of aborting the run. Defaults to non-strict so a single bad
     row is rejected and reported instead of failing the whole load.
+    
+    Loads anchors from ``data/manual/ddinter_anchor_profile.csv`` relative to ``data/`` root and
+    enriches Molecule nodes with ATC group information for Phase 5 coverage tracking.
     """
     directory = Path(processed_dir)
+    # Anchors live in data/manual/, siblings of data/processed/
+    manual_dir = directory.parent / "manual"
+    
     report = LoadReport()
     if apply_schema:
         report.schema_statements = len(repo.apply_schema())
     report.counts_before = repo.counts()
 
-    for stage in LOAD_ORDER:
-        _merge_stage(repo, report, stage, read_artifact(directory, stage), strict)
+    # Load anchors and molecules, enrich before merge
+    anchors = _load_anchor_profile(manual_dir)
+    molecules = read_artifact(directory, MOLECULES_FILE)
+    if molecules is not None:
+        molecules = _enrich_molecules_with_anchors(molecules, anchors)
+    
+    _merge_stage(repo, report, MOLECULES_FILE, molecules, strict)
+    _merge_stage(repo, report, PRODUCTS_FILE, read_artifact(directory, PRODUCTS_FILE), strict)
+    _merge_stage(repo, report, CONTAINS_FILE, read_artifact(directory, CONTAINS_FILE), strict)
+    _merge_stage(repo, report, ALIASES_FILE, read_artifact(directory, ALIASES_FILE), strict)
+    _merge_stage(repo, report, INTERACTIONS_FILE, read_artifact(directory, INTERACTIONS_FILE), strict)
 
     report.counts_after = repo.counts()
     return report

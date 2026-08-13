@@ -78,7 +78,7 @@ REL_ALIAS_OF = "ALIAS_OF"
 REL_INTERACTS_WITH = "INTERACTS_WITH"
 REL_SUBSTITUTE_FOR = "SUBSTITUTE_FOR"
 
-MOLECULE_PROPERTIES: tuple[str, ...] = ("molecule_id", "inn_name", "category")
+MOLECULE_PROPERTIES: tuple[str, ...] = ("molecule_id", "inn_name", "category", "ddinter_anchor")
 PRODUCT_PROPERTIES: tuple[str, ...] = (
     "product_id",
     "source",
@@ -154,12 +154,13 @@ def _require_enum(value: Any, enum_cls: type[StrEnum], field: str) -> str:
 
 
 def validate_molecule(row: dict[str, Any]) -> dict[str, Any]:
-    """Validate and coerce a ``Molecule`` row. Raises :class:`SchemaViolationError` if invalid."""
-    _require(row, MOLECULE_PROPERTIES, "Molecule")
+    """Validate and coerce a ``Molecule`` row. ddinter_anchor is optional."""
+    _require(row, ("molecule_id", "inn_name", "category"), "Molecule")
     return {
         "molecule_id": str(row["molecule_id"]),
         "inn_name": str(row["inn_name"]),
         "category": _require_enum(row["category"], MoleculeCategory, "Molecule.category"),
+        "ddinter_anchor": str(row["ddinter_anchor"]) if row.get("ddinter_anchor") else None,
     }
 
 

@@ -42,9 +42,10 @@ __all__ = [
 #     so this is a straight equality lookup, not a CONTAINS/STARTS WITH scan. Auto-accept path.
 MOLECULE_BY_EXACT_NAME = """
 MATCH (m:Molecule {inn_name: $normalized_string})
-RETURN m.molecule_id AS molecule_id,
-       m.inn_name    AS inn_name,
-       m.category    AS category
+RETURN m.molecule_id    AS molecule_id,
+       m.inn_name       AS inn_name,
+       m.category       AS category,
+       m.ddinter_anchor AS ddinter_anchor
 ORDER BY m.molecule_id
 LIMIT 1
 """
@@ -55,6 +56,7 @@ MATCH (a:Alias {normalized_string: $normalized_string})-[:ALIAS_OF]->(m:Molecule
 RETURN m.molecule_id      AS molecule_id,
        m.inn_name         AS inn_name,
        m.category         AS category,
+       m.ddinter_anchor   AS ddinter_anchor,
        a.raw_string       AS alias_raw_string,
        a.normalized_string AS alias_normalized_string,
        a.source           AS alias_source
@@ -64,17 +66,19 @@ LIMIT 1
 
 MOLECULE_BY_ID = """
 MATCH (m:Molecule {molecule_id: $molecule_id})
-RETURN m.molecule_id AS molecule_id,
-       m.inn_name    AS inn_name,
-       m.category    AS category
+RETURN m.molecule_id    AS molecule_id,
+       m.inn_name       AS inn_name,
+       m.category       AS category,
+       m.ddinter_anchor AS ddinter_anchor
 """
 
 MOLECULES_BY_IDS = """
 MATCH (m:Molecule)
 WHERE m.molecule_id IN $molecule_ids
-RETURN m.molecule_id AS molecule_id,
-       m.inn_name    AS inn_name,
-       m.category    AS category
+RETURN m.molecule_id    AS molecule_id,
+       m.inn_name       AS inn_name,
+       m.category       AS category,
+       m.ddinter_anchor AS ddinter_anchor
 ORDER BY m.molecule_id
 """
 
@@ -84,9 +88,10 @@ ORDER BY m.molecule_id
 ALL_MOLECULE_NAMES = """
 MATCH (m:Molecule)
 OPTIONAL MATCH (a:Alias)-[:ALIAS_OF]->(m)
-RETURN m.molecule_id AS molecule_id,
-       m.inn_name    AS inn_name,
-       m.category    AS category,
+RETURN m.molecule_id    AS molecule_id,
+       m.inn_name       AS inn_name,
+       m.category       AS category,
+       m.ddinter_anchor AS ddinter_anchor,
        collect(DISTINCT a.normalized_string) AS alias_strings
 ORDER BY m.molecule_id
 """
@@ -174,8 +179,9 @@ ORDER BY a.molecule_id, b.molecule_id
 MERGE_MOLECULE = """
 UNWIND $rows AS row
 MERGE (m:Molecule {molecule_id: row.molecule_id})
-SET m.inn_name = row.inn_name,
-    m.category = row.category
+SET m.inn_name       = row.inn_name,
+    m.category       = row.category,
+    m.ddinter_anchor = row.ddinter_anchor
 RETURN count(m) AS written
 """
 

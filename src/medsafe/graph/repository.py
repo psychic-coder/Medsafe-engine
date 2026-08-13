@@ -331,6 +331,7 @@ class InMemoryRepository:
             "molecule_id": molecule["molecule_id"],
             "inn_name": molecule["inn_name"],
             "category": molecule["category"],
+            "ddinter_anchor": molecule.get("ddinter_anchor"),
         }
 
     def find_molecule_by_exact_name(self, normalized_string: str) -> Record | None:
