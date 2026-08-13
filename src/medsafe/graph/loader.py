@@ -42,11 +42,11 @@ logger = logging.getLogger(__name__)
 
 __all__ = ["LoadReport", "ArtifactSet", "load_artifacts", "load_records", "read_artifact"]
 
-MOLECULES_FILE = "molecules"
-PRODUCTS_FILE = "products"
-CONTAINS_FILE = "contains"
-ALIASES_FILE = "aliases"
-INTERACTIONS_FILE = "interactions"
+MOLECULES_FILE = "molecule_catalog"
+PRODUCTS_FILE = "pmbjp_final_clean"
+CONTAINS_FILE = "contains"  # Not used in current data; loader skips gracefully if missing
+ALIASES_FILE = "alias_bridge_table_final"
+INTERACTIONS_FILE = "ddinter_final_clean"
 
 # Dependency order is load-bearing: an edge whose endpoints do not exist yet is silently dropped by
 # a MATCH-based MERGE, so nodes must always precede the edges that reference them.

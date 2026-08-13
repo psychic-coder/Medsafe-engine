@@ -100,8 +100,6 @@ CONSTRAINTS: tuple[str, ...] = (
     "FOR (p:Product) REQUIRE p.product_id IS UNIQUE",
     "CREATE CONSTRAINT alias_normalized_unique IF NOT EXISTS "
     "FOR (a:Alias) REQUIRE a.normalized_string IS UNIQUE",
-    "CREATE CONSTRAINT molecule_inn_name_exists IF NOT EXISTS "
-    "FOR (m:Molecule) REQUIRE m.inn_name IS NOT NULL",
 )
 
 INDEXES: tuple[str, ...] = (

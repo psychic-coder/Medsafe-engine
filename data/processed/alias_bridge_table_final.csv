@@ -1,0 +1,156 @@
+raw_string,normalized_string,source,molecule_id
+chlorthalidon,chlorthalidone,pmbjp,MOL-00420
+coenzyme q,co-enzyme q,pmbjp,MOL-00480
+cyanocobalamine,cyanocobalamin,pmbjp,MOL-00523
+cyclosporin,cyclosporine,pmbjp,MOL-00533
+di-cloxacillin,dicloxacillin,pmbjp,MOL-00623
+dil oil,dill oil,pmbjp,MOL-00645
+dosulepin,dosulepine,pmbjp,MOL-00681
+duloxetin,duloxetine,pmbjp,MOL-00705
+etophyllin,etophylline,pmbjp,MOL-00808
+flupentixol,flupentixole,pmbjp,MOL-00881
+guaifenesin,guaiphenesin,pmbjp,MOL-00988
+isosorbidemononitrate,isosorbide mononitrate,pmbjp,MOL-01147
+l-carnitine l-tartrate,l-carnitine-l-tartrate,pmbjp,MOL-01185
+l-methylfolate,l-methyl folate,pmbjp,MOL-01187
+levo salbutamol,levosalbutamol,pmbjp,MOL-01249
+levo-thyroxine,levothyroxine,pmbjp,MOL-01251
+multiminerals,multi minerals,pmbjp,MOL-01461
+nimesulid,nimesulide,pmbjp,MOL-01524
+nortryptyline,nortriptyline,pmbjp,MOL-01547
+omega fatty acid,omega- fatty acid,pmbjp,MOL-01573
+paroxetin,paroxetine,pmbjp,MOL-01646
+povidone iodine,povidone- iodine,pmbjp,MOL-01761
+povidone iodine,povidone-iodine,pmbjp,MOL-01761
+povidone-iodine,povidone- iodine,pmbjp,MOL-01761
+selenium sulphide,selenium sulfide,pmbjp,MOL-01950
+trihexiphenidyl,trihexyphenidyl,pmbjp,MOL-02198
+vitamin b complex,vitamin b-complex,pmbjp,MOL-02287
+5-aminosalicylic acid,mesalazine,manual,MOL-01360
+5-fluorouracil,fluorouracil,manual,MOL-00877
+6-mercaptopurine,mercaptopurine,manual,MOL-01358
+acetyl salicylic acid,acetylsalicylic acid,manual,MOL-00024
+aciclovir,acyclovir,manual,MOL-00031
+actinomycin d,dactinomycin,manual,MOL-00543
+adrenaline,epinephrine,manual,MOL-00754
+albuterol,salbutamol,manual,MOL-01923
+all-trans retinoic acid,tretinoin,manual,MOL-02181
+alpha tocopherol,vitamin e,manual,MOL-02290
+amoxicillin trihydrate,amoxicillin,manual,MOL-00102
+amoxycillin,amoxicillin,manual,MOL-00102
+asa,acetylsalicylic acid,manual,MOL-00024
+aspirin,acetylsalicylic acid,manual,MOL-00024
+atorvastatin calcium,atorvastatin,manual,MOL-00156
+atra,tretinoin,manual,MOL-02181
+barium sulphate,barium sulfate,manual,MOL-00192
+beclomethasone dipropionate,beclomethasone,manual,MOL-00196
+benzathine benzylpenicillin,penicillin g benzathine,manual,MOL-01673
+benzyl penicillin,penicillin g,manual,MOL-01672
+betamethasone valerate,betamethasone,manual,MOL-00229
+calcium folinate,folinic acid,manual,MOL-00895
+carboxymethylcellulose,carmellose,manual,MOL-00349
+cefalexin,cephalexin,manual,MOL-00389
+ceftriaxone sodium,ceftriaxone,manual,MOL-00383
+cephradine,cefradine,manual,MOL-00377
+cetirizin,cetirizine,manual,MOL-00394
+cetrizine,cetirizine,manual,MOL-00394
+chlorphenamine,chlorpheniramine,manual,MOL-00416
+chlorpheniramine maleate,chlorpheniramine,manual,MOL-00416
+clavulanate,clavulanic acid,manual,MOL-00456
+clobetasol propionate,clobetasol,manual,MOL-00463
+clomiphene,clomifene,manual,MOL-00469
+cytosine arabinoside,cytarabine,manual,MOL-00536
+dec,diethylcarbamazine,manual,MOL-00630
+desferrioxamine,deferoxamine,manual,MOL-00566
+diclofenac potassium,diclofenac,manual,MOL-00619
+diclofenac sodium,diclofenac,manual,MOL-00619
+dicycloverine,dicyclomine,manual,MOL-00625
+divalproex,valproic acid,manual,MOL-02251
+eltroxin,levothyroxine,manual,MOL-01251
+ergonovine,ergometrine,manual,MOL-00764
+esomeprazole magnesium,esomeprazole,manual,MOL-00778
+ethinyl estradiol,ethinylestradiol,manual,MOL-00796
+ethyl alcohol,ethanol,manual,MOL-00793
+ferrous sulphate,ferrous sulfate,manual,MOL-00843
+fluticasone propionate,fluticasone,manual,MOL-00890
+folinic acid,leucovorin,manual,MOL-01221
+frusemide,furosemide,manual,MOL-00919
+frusemide anhydrous,furosemide,manual,MOL-00919
+gentamycin,gentamicin,manual,MOL-00947
+glibenclamide,glyburide,manual,MOL-00972
+glyceryl trinitrate,nitroglycerin,manual,MOL-01534
+gtn,nitroglycerin,manual,MOL-01534
+hydrocortisone acetate,hydrocortisone,manual,MOL-01036
+hydroxypropyl methylcellulose,hypromellose,manual,MOL-01049
+hyoscine,scopolamine,manual,MOL-01940
+hyoscine butylbromide,scopolamine butylbromide,manual,MOL-01941
+isabgol,psyllium,manual,MOL-01809
+isosorbide 5 mononitrate,isosorbide mononitrate,manual,MOL-01147
+isosorbide-5-mononitrate,isosorbide mononitrate,manual,MOL-01147
+ispaghula,psyllium,manual,MOL-01809
+l-asparaginase,asparaginase,manual,MOL-00147
+l-thyroxine,levothyroxine,manual,MOL-01251
+levocetirizine dihydrochloride,levocetirizine,manual,MOL-01237
+lignocain,lidocaine,manual,MOL-01253
+lignocaine,lidocaine,manual,MOL-01253
+liquid paraffin,mineral oil,manual,MOL-01431
+medroxyprogesterone acetate,medroxyprogesterone,manual,MOL-01332
+mesalamine,mesalazine,manual,MOL-01360
+methylated spirit,ethanol,manual,MOL-00793
+methylcobalamin,mecobalamin,manual,MOL-01331
+methylergonovine,methylergometrine,manual,MOL-01392
+methylrosanilinium,gentian violet,manual,MOL-00948
+methylrosanilinium chloride,gentian violet,manual,MOL-00948
+methylthioninium,methylene blue,manual,MOL-01391
+methylthioninium chloride,methylene blue,manual,MOL-01391
+mometasone furoate,mometasone,manual,MOL-01449
+montelukast sodium,montelukast,manual,MOL-01453
+n-acetylcysteine,acetylcysteine,manual,MOL-00023
+nac,acetylcysteine,manual,MOL-00023
+niacinamide,nicotinamide,manual,MOL-01515
+noradrenaline,norepinephrine,manual,MOL-01541
+norethindrone,norethisterone,manual,MOL-01543
+oestradiol,estradiol,manual,MOL-00784
+omeprazole magnesium,omeprazole,manual,MOL-01576
+pantoprazole sodium,pantoprazole,manual,MOL-01628
+para-aminosalicylic acid,aminosalicylic acid,manual,MOL-00092
+paracetamol,acetaminophen,manual,MOL-00018
+penicillin g,benzylpenicillin,manual,MOL-00223
+penicillin v,phenoxymethylpenicillin,manual,MOL-01703
+pethidine,meperidine,manual,MOL-01352
+phenobarbitone,phenobarbital,manual,MOL-01700
+phytomenadione,phytonadione,manual,MOL-01716
+potassium clavulanate,clavulanate,manual,MOL-00455
+pralidoxime chloride,pralidoxime,manual,MOL-01763
+quinine sulphate,quinine,manual,MOL-01824
+rabeprazole sodium,rabeprazole,manual,MOL-01827
+retinol,vitamin a,manual,MOL-02281
+riboflavine,riboflavin,manual,MOL-01865
+rifampin,rifampicin,manual,MOL-01867
+rosuvastatin calcium,rosuvastatin,manual,MOL-01903
+salbutamol sulphate,albuterol,manual,MOL-00043
+serratiopeptidase,serrapeptase,manual,MOL-01957
+sod. valproate,valproic acid,manual,MOL-02251
+sodium thiosulphate,sodium thiosulfate,manual,MOL-01995
+sodium valproate,valproic acid,manual,MOL-02251
+sulphadiazine,sulfadiazine,manual,MOL-02030
+sulphadoxine,sulfadoxine,manual,MOL-02031
+sulphamethoxazole,sulfamethoxazole,manual,MOL-02033
+sulphasalazine,sulfasalazine,manual,MOL-02034
+terbutaline sulphate,terbutaline,manual,MOL-02087
+thiopentone,thiopental,manual,MOL-02115
+thyroxine,levothyroxine,manual,MOL-01251
+tocopherol,vitamin e,manual,MOL-02290
+triamcinolone acetonide,triamcinolone,manual,MOL-02182
+valproate semisodium,valproic acid,manual,MOL-02251
+vitamin b1,thiamine,manual,MOL-02110
+vitamin b2,riboflavin,manual,MOL-01865
+vitamin b6,pyridoxine,manual,MOL-01815
+vitamin c,ascorbic acid,manual,MOL-00145
+vitamin d3,cholecalciferol,manual,MOL-00422
+vitamin k1,phytonadione,manual,MOL-01716
+white petrolatum,petrolatum,manual,MOL-01691
+methyl ergometrine,methylergometrine,ddinter,MOL-01392
+silver sulphadiazine,silver sulfadiazine,ddinter,MOL-01970
+sulphacetamide,sulfacetamide,ddinter,MOL-02038
+valacyclovir,valaciclovir,ddinter,MOL-02244
