@@ -1,0 +1,26 @@
+pmbjp_molecule,ddinter_candidate,ddinter_raw,edit_distance,decision,auto_accepted
+beclometasone,alclometasone,Alclometasone (topical),2,HUMAN_REVIEW_REQUIRED,false
+co-enzyme q,coenzyme m,Coenzyme M,2,HUMAN_REVIEW_REQUIRED,false
+coenzyme q,coenzyme m,Coenzyme M,1,HUMAN_REVIEW_REQUIRED,false
+etizolam,estazolam,Estazolam,2,HUMAN_REVIEW_REQUIRED,false
+flecanide,flecainide,Flecainide,1,HUMAN_REVIEW_REQUIRED,false
+fluoromethalone,fluorometholone,Fluorometholone,1,HUMAN_REVIEW_REQUIRED,false
+fluromethalone,fluorometholone,Fluorometholone,2,HUMAN_REVIEW_REQUIRED,false
+flurouracil,fluorouracil,Fluorouracil,1,HUMAN_REVIEW_REQUIRED,false
+halobetasol,ulobetasol,Ulobetasol (topical),2,HUMAN_REVIEW_REQUIRED,false
+linomycin,mitomycin,Mitomycin,2,HUMAN_REVIEW_REQUIRED,false
+menotrophin,menotropins,Menotropins,2,HUMAN_REVIEW_REQUIRED,false
+mosapride,cisapride,Cisapride,2,HUMAN_REVIEW_REQUIRED,false
+natamycin,kanamycin,Kanamycin,2,HUMAN_REVIEW_REQUIRED,false
+omega fatty acid,omega- fatty acids,Omega-3 fatty acids,2,HUMAN_REVIEW_REQUIRED,false
+omega- fatty acid,omega- fatty acids,Omega-3 fatty acids,1,HUMAN_REVIEW_REQUIRED,false
+ozenoxacin,enoxacin,Enoxacin,2,HUMAN_REVIEW_REQUIRED,false
+papain,papaya,Papaya,2,HUMAN_REVIEW_REQUIRED,false
+pepsin,pectin,Pectin,2,HUMAN_REVIEW_REQUIRED,false
+pheniramine,phenindamine,Phenindamine,2,HUMAN_REVIEW_REQUIRED,false
+protamine,ergotamine,Ergotamine,2,HUMAN_REVIEW_REQUIRED,false
+protamine,procaine,Procaine,2,HUMAN_REVIEW_REQUIRED,false
+protamine,promazine,Promazine,2,HUMAN_REVIEW_REQUIRED,false
+ramosetron,alosetron,Alosetron,2,HUMAN_REVIEW_REQUIRED,false
+ringer,ginger,Ginger,1,HUMAN_REVIEW_REQUIRED,false
+taurine,tacrine,Tacrine,1,HUMAN_REVIEW_REQUIRED,false

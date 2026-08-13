@@ -1,82 +1,86 @@
-# Confusable-pair blocklist — hard negatives for fuzzy matching. See docs/schema.md.
-#
-# SEED FILE, NOT THE CURATED SET. docs/schema.md refers to 67 confirmed dangerous confusable pairs
-# in this vocabulary. That curated file is derived from the PMBJP + DDInter vocabularies in
-# data/raw/, which are not redistributable and are not present in this checkout. The rows below are
-# well-established look-alike/sound-alike (LASA) molecule pairs seeded so the safety control is
-# active rather than absent. Replace this file with the curated 67-pair set before any clinical use.
-#
-# Semantics: each row is an UNORDERED pair. If both members appear as fuzzy candidates for one
-# query, or if one is a candidate for a query equal to the other, BOTH are suppressed entirely —
-# never returned as a match, never surfaced as a review suggestion.
-#
-# Adding a row can only reduce fuzzy recall. Omitting a row is how a wrong drug reaches a patient.
-# When in doubt, add the row.
-#
-# Columns: name_a, name_b, reason, source
-name_a,name_b,reason,source
-hydralazine,hydroxyzine,look-alike/sound-alike; vasodilator vs antihistamine,seed_lasa
-hydralazine,hydrochlorothiazide,look-alike stem; vasodilator vs thiazide diuretic,seed_lasa
-chlorpromazine,chlorpropamide,look-alike/sound-alike; antipsychotic vs sulfonylurea,seed_lasa
-chlorpromazine,chlorpheniramine,look-alike stem; antipsychotic vs antihistamine,seed_lasa
-clonidine,clonazepam,look-alike stem; antihypertensive vs benzodiazepine,seed_lasa
-clonazepam,clobazam,look-alike/sound-alike benzodiazepines with different potency,seed_lasa
-cycloserine,cyclosporine,look-alike/sound-alike; antitubercular vs immunosuppressant,seed_lasa
-cyclophosphamide,cyclosporine,look-alike stem; cytotoxic vs immunosuppressant,seed_lasa
-glipizide,glibenclamide,sound-alike sulfonylureas with different hypoglycaemia risk,seed_lasa
-glipizide,glimepiride,look-alike/sound-alike sulfonylureas,seed_lasa
-lamivudine,lamotrigine,look-alike/sound-alike; antiretroviral vs anticonvulsant,seed_lasa
-metformin,metronidazole,look-alike stem; antidiabetic vs antimicrobial,seed_lasa
-methotrexate,metolazone,look-alike stem; cytotoxic vs diuretic,seed_lasa
-methotrexate,mitoxantrone,look-alike cytotoxics with different dosing schedules,seed_lasa
-prednisone,prednisolone,look-alike corticosteroids; not dose-equivalent,seed_lasa
-methylprednisolone,medroxyprogesterone,look-alike/sound-alike; corticosteroid vs progestogen,seed_lasa
-quinine,quinidine,look-alike/sound-alike; antimalarial vs antiarrhythmic,seed_lasa
-tramadol,trazodone,look-alike/sound-alike; opioid analgesic vs antidepressant,seed_lasa
-vinblastine,vincristine,look-alike vinca alkaloids; fatal if interchanged,seed_lasa
-carboplatin,cisplatin,look-alike platinum agents with very different toxicity,seed_lasa
-carboplatin,oxaliplatin,look-alike platinum agents,seed_lasa
-daunorubicin,doxorubicin,look-alike anthracyclines with different cardiotoxicity,seed_lasa
-doxorubicin,idarubicin,look-alike anthracyclines,seed_lasa
-dobutamine,dopamine,look-alike/sound-alike vasoactive infusions,seed_lasa
-ephedrine,epinephrine,look-alike/sound-alike sympathomimetics; different potency,seed_lasa
-amiodarone,amantadine,look-alike stem; antiarrhythmic vs antiviral/antiparkinsonian,seed_lasa
-amlodipine,amiloride,look-alike stem; calcium channel blocker vs potassium-sparing diuretic,seed_lasa
-azathioprine,azithromycin,look-alike stem; immunosuppressant vs macrolide antibiotic,seed_lasa
-cefazolin,cefotaxime,look-alike cephalosporins of different generations,seed_lasa
-cefotaxime,ceftriaxone,look-alike cephalosporins,seed_lasa
-dactinomycin,daptomycin,look-alike/sound-alike; cytotoxic vs antibiotic,seed_lasa
-digoxin,doxepin,look-alike/sound-alike; cardiac glycoside vs antidepressant,seed_lasa
-dipyridamole,disopyramide,look-alike/sound-alike; antiplatelet vs antiarrhythmic,seed_lasa
-fluoxetine,duloxetine,look-alike/sound-alike antidepressants,seed_lasa
-fluoxetine,paroxetine,look-alike/sound-alike SSRIs,seed_lasa
-guaifenesin,guanfacine,look-alike/sound-alike; expectorant vs antihypertensive,seed_lasa
-hydromorphone,morphine,look-alike opioid names; not dose-equivalent,seed_lasa
-oxycodone,hydrocodone,look-alike/sound-alike opioids; not dose-equivalent,seed_lasa
-levetiracetam,levocetirizine,look-alike stem; anticonvulsant vs antihistamine,seed_lasa
-mifepristone,misoprostol,look-alike stem; used together but not interchangeable,seed_lasa
-nifedipine,nimodipine,look-alike dihydropyridines with different indications,seed_lasa
-nifedipine,nicardipine,look-alike dihydropyridines,seed_lasa
-olanzapine,olsalazine,look-alike stem; antipsychotic vs aminosalicylate,seed_lasa
-paclitaxel,docetaxel,look-alike taxanes with different dosing,seed_lasa
-penicillamine,penicillin,look-alike/sound-alike; chelator vs antibiotic,seed_lasa
-risperidone,ropinirole,look-alike/sound-alike; antipsychotic vs dopamine agonist,seed_lasa
-rifampicin,rifabutin,look-alike rifamycins,seed_lasa
-sulfadiazine,sulfasalazine,look-alike sulfonamides with different indications,seed_lasa
-tizanidine,tiagabine,look-alike/sound-alike; muscle relaxant vs anticonvulsant,seed_lasa
-valaciclovir,valganciclovir,look-alike/sound-alike antivirals,seed_lasa
-vancomycin,vecuronium,look-alike/sound-alike; antibiotic vs neuromuscular blocker,seed_lasa
-zolpidem,zolmitriptan,look-alike stem; hypnotic vs triptan,seed_lasa
-acetazolamide,acetohexamide,look-alike/sound-alike; diuretic vs sulfonylurea,seed_lasa
-allopurinol,haloperidol,sound-alike; urate-lowering vs antipsychotic,seed_lasa
-bupropion,buspirone,look-alike/sound-alike; antidepressant vs anxiolytic,seed_lasa
-carbamazepine,oxcarbazepine,look-alike anticonvulsants; not dose-equivalent,seed_lasa
-cetirizine,sertraline,sound-alike; antihistamine vs SSRI,seed_lasa
-clomifene,clomipramine,look-alike/sound-alike; ovulation inducer vs tricyclic,seed_lasa
-desmopressin,vasopressin,look-alike/sound-alike peptides with different potency,seed_lasa
-diphenhydramine,dimenhydrinate,look-alike/sound-alike antihistamines,seed_lasa
-chlorpropamide,chlorpheniramine,look-alike stem; sulfonylurea vs antihistamine,seed_lasa
-niacin,nizatidine,sound-alike; vitamin vs H2 antagonist,seed_lasa
-sumatriptan,zolmitriptan,look-alike triptans with different dosing,seed_lasa
-tolbutamide,tolazamide,look-alike/sound-alike sulfonylureas,seed_lasa
-vinblastine,vinorelbine,look-alike vinca alkaloids,seed_lasa
+molecule_a,molecule_b,edit_distance,verdict,reason,origin
+alpha lipoic acid,alpha lipolic acid,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+arteether,artemether,1,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+beclometasone,beclomethasone,1,dangerous,shared class suffix -sone but different stem - different molecules in the same class,pmbjp_self_scan
+benedipine,benidipine,1,dangerous,shared class suffix -dipine but different stem - different molecules in the same class,pmbjp_self_scan
+diclofenac diethylamine,diclofenac dithylamine,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+fluoromethalone,fluromethalone,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+l-methylfoate,l-methylfolate,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+l-ornithin l-aspartate,l-ornithine l-aspartate,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+levocetirizine,levocetrizine,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+linceed oil,linseed oil,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+lincomycin,linomycin,1,dangerous,shared class suffix -mycin but different stem - different molecules in the same class,pmbjp_self_scan
+magaldrate,megaldrate,1,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+multivitamin,multivitamins,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+ofloxacin,ofloxaxin,1,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+s amlodipine,s-amlodipine,1,dangerous,"enantiomer vs racemate - different strength, not interchangeable",pmbjp_self_scan
+tazobactam,tazobactum,1,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+thiocholchicoside,thiocolchicoside,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+torasemide,torsemide,1,dangerous,shared class suffix -semide but different stem - different molecules in the same class,pmbjp_self_scan
+vildaglipitin,vildagliptin,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+vit d,vit k,1,dangerous,same stem but different single-letter designator (d vs k) - different substances,pmbjp_self_scan
+vitamin a,vitamin b,1,dangerous,same stem but different single-letter designator (a vs b) - different substances,pmbjp_self_scan
+vitamin a,vitamin d,1,dangerous,same stem but different single-letter designator (a vs d) - different substances,pmbjp_self_scan
+vitamin a,vitamin e,1,dangerous,same stem but different single-letter designator (a vs e) - different substances,pmbjp_self_scan
+vitamin a,vitamin k,1,dangerous,same stem but different single-letter designator (a vs k) - different substances,pmbjp_self_scan
+vitamin b,vitamin d,1,dangerous,same stem but different single-letter designator (b vs d) - different substances,pmbjp_self_scan
+vitamin b,vitamin e,1,dangerous,same stem but different single-letter designator (b vs e) - different substances,pmbjp_self_scan
+vitamin b,vitamin k,1,dangerous,same stem but different single-letter designator (b vs k) - different substances,pmbjp_self_scan
+vitamin b complex,vitamine b complex,1,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+vitamin d,vitamin e,1,dangerous,same stem but different single-letter designator (d vs e) - different substances,pmbjp_self_scan
+vitamin d,vitamin k,1,dangerous,same stem but different single-letter designator (d vs k) - different substances,pmbjp_self_scan
+vitamin e,vitamin k,1,dangerous,same stem but different single-letter designator (e vs k) - different substances,pmbjp_self_scan
+albendazole,mebendazole,2,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+alogliptin,evogliptin,2,dangerous,shared class suffix -gliptin but different stem - different molecules in the same class,pmbjp_self_scan
+amlodipine,s amlodipine,2,dangerous,"enantiomer vs racemate - different strength, not interchangeable",pmbjp_self_scan
+amlodipine,s-amlodipine,2,dangerous,"enantiomer vs racemate - different strength, not interchangeable",pmbjp_self_scan
+amoxicillin,ampicillin,2,dangerous,shared class suffix -cillin but different stem - different molecules in the same class,pmbjp_self_scan
+armodafinil,modafinil,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+betamethasone,dexamethasone,2,dangerous,shared class suffix -sone but different stem - different molecules in the same class,pmbjp_self_scan
+bifonazole,miconazole,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+bleomycin,neomycin,2,dangerous,shared class suffix -mycin but different stem - different molecules in the same class,pmbjp_self_scan
+calcipotriol,calcitriol,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+canagliflozin,dapagliflozin,2,dangerous,shared class suffix -gliflozin but different stem - different molecules in the same class,pmbjp_self_scan
+cefepime,cefixime,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+citalopram,escitalopram,2,dangerous,"enantiomer/isomer prefix - different strength, not interchangeable",pmbjp_self_scan
+clobetasol,halobetasol,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+clonazepam,lorazepam,2,dangerous,shared class suffix -azepam but different stem - different molecules in the same class,pmbjp_self_scan
+cloxacillin,dicloxacillin,2,dangerous,shared class suffix -cillin but different stem - different molecules in the same class,pmbjp_self_scan
+dapoxetine,duloxetine,2,dangerous,shared class suffix -oxetine but different stem - different molecules in the same class,pmbjp_self_scan
+dapoxetine,paroxetine,2,dangerous,shared class suffix -oxetine but different stem - different molecules in the same class,pmbjp_self_scan
+dasatinib,lapatinib,2,dangerous,shared class suffix -tinib but different stem - different molecules in the same class,pmbjp_self_scan
+dha,epa,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+esomeprazole,omeprazole,2,dangerous,"enantiomer/isomer prefix - different strength, not interchangeable",pmbjp_self_scan
+etodolac,ketorolac,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+faropenem,meropenem,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+folic acid,folic acid a,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+folic acid,folinic acid,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+gatifloxacin,nadifloxacin,2,dangerous,shared class suffix -floxacin but different stem - different molecules in the same class,pmbjp_self_scan
+glimepiride,glimipride,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+hydroxyprogesterone,medroxyprogesterone,2,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+l-methyl folate,l-methylfoate,2,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+lansoprazole,pantoprazole,2,dangerous,shared class suffix -prazole but different stem - different molecules in the same class,pmbjp_self_scan
+linagliptin,sitagliptin,2,dangerous,shared class suffix -gliptin but different stem - different molecules in the same class,pmbjp_self_scan
+lincomycin,vancomycin,2,dangerous,shared class suffix -mycin but different stem - different molecules in the same class,pmbjp_self_scan
+loratadine,olopatadine,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+menthol,methyl,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+metoprolol,s-metoprolol,2,dangerous,"enantiomer vs racemate - different strength, not interchangeable",pmbjp_self_scan
+nifedipine,nimodipine,2,dangerous,shared class suffix -dipine but different stem - different molecules in the same class,pmbjp_self_scan
+norfloxacin,ofloxacin,2,dangerous,shared class suffix -floxacin but different stem - different molecules in the same class,pmbjp_self_scan
+ornidazole,tinidazole,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+papain,pepsin,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+prednisolone,prednisone,2,dangerous,prodrug vs active metabolite - not interchangeable,prior_scan_carryforward
+saxagliptin,sitagliptin,2,dangerous,shared class suffix -gliptin but different stem - different molecules in the same class,pmbjp_self_scan
+trypsin,trypsin k,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+vitamin a,vitamin-c,2,dangerous,same stem but different single-letter designator (a vs c) - different substances,pmbjp_self_scan
+vitamin a,vitamins,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+vitamin b,vitamin-c,2,dangerous,same stem but different single-letter designator (b vs c) - different substances,pmbjp_self_scan
+vitamin b,vitamins,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+vitamin b-complex,vitamine b complex,2,dangerous,no orthographic rule explains the difference - treat as different molecules pending human review,pmbjp_self_scan
+vitamin d,vitamin-c,2,dangerous,same stem but different single-letter designator (d vs c) - different substances,pmbjp_self_scan
+vitamin d,vitamins,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+vitamin e,vitamin-c,2,dangerous,same stem but different single-letter designator (e vs c) - different substances,pmbjp_self_scan
+vitamin e,vitamins,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+vitamin k,vitamin-c,2,dangerous,same stem but different single-letter designator (k vs c) - different substances,pmbjp_self_scan
+vitamin k,vitamins,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan
+vitamin-c,vitamins,2,dangerous,short name - a 1-2 character edit changes molecular identity,pmbjp_self_scan

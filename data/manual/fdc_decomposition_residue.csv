@@ -1,0 +1,49 @@
+product_id,generic_name_raw,unit_size_raw,mrp,components_recovered,n_dose_tokens,residue_reason
+PMBJP-142,Soluble Insulin Injection IP 40 IU per ml (R-DNA Origin),10 ml Vial,781.00,soluble insulin,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-143,Insulin Injection IP 40 IU per ml (Insulin Human Soluble 30% and Isophane 70%),10 ml Vial,90.00,insulin insulin human soluble|isophane,3,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-230,Vitamin B-Complex fort Zinc Capsule,10's,99.00,vitamin b-complex fort zinc,0,opaque blend / trivial name carries no component molecule names
+PMBJP-231,"Vitamin B-Complex Tablets (B1 10mg, B2 10mg, B3 45mg, B5 50mg, B6 3mg, B12 15mcg)",10's,16.00,vitamin b-complex,5,opaque blend / trivial name carries no component molecule names
+PMBJP-232,Vitamin B-Complex Syrup,200 ml,42.00,vitamin b-complex,0,opaque blend / trivial name carries no component molecule names
+PMBJP-362,Biphasic Isophane Insulin Injection IP (50:50) 40 IU per ml,10 ML VIAL,88.00,biphasic isophane insulin,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-363,Insulin Glargine Injection IP 100 IU per ml,Cartridge 3 ml,340.00,insulin glargine,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-580,"Ginseng, Multivitamins and multiminerals Capsules",10's,33.00,ginseng multivitamins|multiminerals,0,opaque blend / trivial name carries no component molecule names
+PMBJP-582,"Vitamins A,C,D,E,And B Complex and Minerals Syrup",200 ML,47.00,vitamins a c d e b complex|minerals,0,opaque blend / trivial name carries no component molecule names
+PMBJP-590,"Multivitamins with Amino acid & Inositol injection (Hydroxocobalamin 1000mcg, VitaminB6 (Pyridoxine) 1.5mg, Folic Acid 15mg, Nicotinamide 50mg, Inositol 10mg, L-Lysine 150mg)",5ml Vial,0.00,multivitamins amino acid|inositol hydroxocobalamin vitaminb folic acid nicotinamide inositol l-lysine,6,opaque blend / trivial name carries no component molecule names
+PMBJP-592,"L-Lysine + Multivitamins (Vit-B1,B2,B3,B5,B6 ) Syrup",200 ML,52.00,l-lysine|multivitamins,0,opaque blend / trivial name carries no component molecule names
+PMBJP-656,Diastase and Pepsin Enzyme Drops,15 ml,18.00,diastase|pepsin enzyme,0,opaque blend / trivial name carries no component molecule names
+PMBJP-664,"Mouth Ulcer Gel (Choline Salicylate Sodium 9% W/V, Benzalkonium Chloride 0.01% W/W)",10 gm,15.00,,2,no component normalized to a molecule
+PMBJP-665,Vitamin B Complex and Ascorbic Acid Capsules,10's,17.00,vitamin b complex|ascorbic acid,0,opaque blend / trivial name carries no component molecule names
+PMBJP-668,Multivitamin Drops,15 ml,18.00,multivitamin,0,opaque blend / trivial name carries no component molecule names
+PMBJP-807,Biphasic Isophane Insulin Injection IP 100 IU/ml (30:70 ) (30% Soluble Insulin and 70% Isophane Insu,3 ml Catridge,165.00,biphasic isophane insulin soluble insulin|isophane insu,3,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-920,Soluble Insulin Injection IP 100 IU per ml (R-DNA Origin),3 ml Catridge,170.00,soluble insulin,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-951,Lycopene with Multivitamins and Multi Minerals Syrup,200 ml,54.00,lycopene multivitamins|multi minerals,0,opaque blend / trivial name carries no component molecule names
+PMBJP-1248,"Haematinic Syrup of Iron 32mg ,Folic Acid 0.5mg and Vitamin B12 7.5mcg",200 ml Bottle,42.00,haematinic iron|folic acid|vitamin b,3,opaque blend / trivial name carries no component molecule names
+PMBJP-1254,"Diphenhydramine 13-15mg, Ammonium Chloride 135-150mg , Sodium Citrate 57-85mg, Menthol 0.9-2.6mg Cough Syrup",100 ml Bottle,18.00,diphenhydramine|ammonium|sodium|menthol - cough,4,opaque blend / trivial name carries no component molecule names
+PMBJP-1441,Janaushadhi Nirmal (Nicotine Polacrilex Chewing Gum 2 mg)),1 x 9's (mono carton pack),42.00,janaushadhi nirmal,1,opaque blend / trivial name carries no component molecule names
+PMBJP-1447,Janaushadhi Janani 250g,1's Tin 250g,225.00,janaushadhi janani,1,opaque blend / trivial name carries no component molecule names
+PMBJP-1449,Enzyme syrup mixed fruit flavour,200 ml,48.00,enzyme mixed fruit,0,opaque blend / trivial name carries no component molecule names
+PMBJP-1460,Insulin Pen,1's,0.00,insulin pen,0,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-1472,Janaushadhi Janani (Vanilla) 250 gm,1's Tin 250g,225.00,janaushadhi janani,1,opaque blend / trivial name carries no component molecule names
+PMBJP-1544,"Coenzyme Q10 100mg, Lycopene 4000mcg, Selenium 70mcg and Omega-3 Fatty Acids (EPA 90mg and DHA 60mg) Capsules",10's,150.00,coenzyme q|lycopene|selenium|omega- fatty acids epa|dha,5,component too short to be a molecule
+PMBJP-1598,"Pancreatin 170 mg (containing 15000 units of Amylase activity, 4000 units of Lipase activity, 15000 units of Protease activity) and Sodium Tauroglycocholate 65mg Digestive Enzyme Tablets",10's,75.00,pancreatin|sodium tauroglycocholate digestive enzyme,4,opaque blend / trivial name carries no component molecule names
+PMBJP-1651,"Glucosamine Sulfate, Chondroitin Sulfat, MSM, Vitamin & Minerals Tablets",10's,65.00,glucosamine sulfate chondroitin sulfat msm vitamin|minerals,0,component did not reduce to a molecule-length string
+PMBJP-1666,Insulin Glulisine injection (Monocomponent Insulin Glulisine) 100IU per ml,3 ml,0.00,insulin glulisine,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-1667,Insulin Lispro injection IP 100IU per ml,3 ml,0.00,insulin lispro,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-1700,"Measles Vaccine (Live) 1000ccid50, Mumps Virus Vaccine 5000ccid50 and Rubella Vaccine (live) 1000ccid50 IP",0.5 ml Vial,379.00,measles vaccine mumps virus vaccine|rubella vaccine,0,component did not reduce to a molecule-length string
+PMBJP-1806,Sodium Valproate 200mg and Valproic acid 87mg Controlled Release Tablets,10's,25.00,valproic acid,2,suspected component fusion (1 molecule but >=2 dose tokens)
+PMBJP-1807,Sodium Valproate 333mg and Valproic acid 145mg Controlled Release Tablets,10's,42.00,valproic acid,2,suspected component fusion (1 molecule but >=2 dose tokens)
+PMBJP-1842,Vitamine B Complex injection (IM/IV) Use,2 ml,0.00,vitamine b complex,0,opaque blend / trivial name carries no component molecule names
+PMBJP-1964,Biphasic Insulin Lispro Injection IP 100IU per ml (25:75),3ml Pre-Filled Cartridge,0.00,biphasic insulin lispro,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-1965,Insulin Aspart Injection IP 100IU per ml,10ml Vial,0.00,insulin aspart,1,insulin preparation - strength and mix ratio not decomposable by name
+PMBJP-2051,"L-Carnitine-L-Tartrate 1000Mg, Co-Enzyme Q10 60Mg, Zinc Oxide (As Elemental Zinc) 12.5Mg, Lycopene 2500Mcg Tablets",10's,207.00,l-carnitine-l-tartrate|co-enzyme q|zinc oxide|lycopene,4,opaque blend / trivial name carries no component molecule names
+PMBJP-2212,Micronized Purified flavanoid Fraction Tablets ( MPFF Diosmin 450mg and Hesperidin 50mg Tablets),10's,75.00,micronized purified flavanoid fraction mpff diosmin|hesperidin,2,component did not reduce to a molecule-length string
+PMBJP-2251,Recombinant Human Tissue type Plasminogen Activator Injection 20mg (Alteplase),Vial with WFI and Transfer canula in Mono Carton,0.00,recombinant human tissue plasminogen activator,1,component did not reduce to a molecule-length string
+PMBJP-2252,Recombinant Human Tissue type Plasminogen Activator Injection 50mg (Alteplase),Vial with WFI and Transfer canula in Mono Carton,0.00,recombinant human tissue plasminogen activator,1,component did not reduce to a molecule-length string
+PMBJP-2265,Multivitamin Syrup Chocolate Flavour,200ml Bottle,0.00,multivitamin chocolate,0,opaque blend / trivial name carries no component molecule names
+PMBJP-2327,"Omega 3 Fatty Acid 500mg, EPA 150mg, DHA 100mg, Bilberry Extract 50mg, Lutein 20% & Zeaxanthin 4%- 25mg, Beta carotene 4.8mg, Vitamin D3 10mcg Capsules",30's Bottle,150.00,omega fatty acid|epa|dha|bilberry extract|lutein|zeaxanthin|beta carotene|vitamin d,9,component too short to be a molecule
+PMBJP-2510,Janaushadhi Burn Relief Spray (Lidocaine 3% w/w and Benzethonium 0.20% w/w Spray),50ml,0.00,janaushadhi burn relief lidocaine|benzethonium,2,opaque blend / trivial name carries no component molecule names
+PMBJP-2558,"Janaushadhi Footcare Cream (Urea 10% w/w, Lactic acid 10% w/w, Propylene Glycol 10% w/w, Light Liquid Paraffin 10% w/w)",50g,35.00,janaushadhi footcare,1,opaque blend / trivial name carries no component molecule names
+PMBJP-2608,"Janaushadhi Mouth Ulcer Gel (Choline Salicylate 8.7% w/w, Lignocaine Hydrochloride 2% w/w & Benzalkonium Chloride 0.01% w/w)",10g,15.00,janaushadhi choline salicylate lignocaine|benzalkonium,3,opaque blend / trivial name carries no component molecule names
+PMBJP-2763,Ubidecarenone (Co-enzyme Q10) Capsules 100 mg,10's,90.00,ubidecarenone,1,opaque blend / trivial name carries no component molecule names
+PMBJP-2764,Ubidecarenone (Co-enzyme Q10) Capsules 300 mg,10's,250.00,ubidecarenone,1,opaque blend / trivial name carries no component molecule names
+PMBJP-5009,Janaushadhi Suraksha (Adhesive Bandages Washproof),1's,1.00,janaushadhi suraksha,0,opaque blend / trivial name carries no component molecule names

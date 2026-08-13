@@ -1,0 +1,13 @@
+molecule_id,inn_name,reclassified_from,reclassified_to,basis
+MOL-00062,aloe vera,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-00063,aloe vera leaf,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-00264,boswellia serrata extract,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-00346,carica papaya leaf extract,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-00400,chamomile,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-00813,evening primrose oil,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-00952,ginkgo biloba,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-00953,ginkgo biloba extract,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-01632,papaya,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-01633,papaya leaf extract,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-01901,rosehip extract,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"
+MOL-02134,tinospora cordifolia extract,small_molecule,herbal,"curated botanical name — Latin binomial, extract/oil suffix, or bare common plant name found in PMBJP source"

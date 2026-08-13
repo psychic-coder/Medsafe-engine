@@ -1,0 +1,39 @@
+stem_pattern,atc_group
+(olol|alol)$,C
+dipine$,C
+(pril|prilat)$,C
+sartan$,C
+statin$,C
+fibrate$,C
+(thiazide|thiazidone)$,C
+semide$,C
+(digoxin|digitoxin|amiodarone|dronedarone|ivabradine|ranolazine|nicorandil|trimetazidine|sacubitril|nitroglycerin|isosorbide.*|spironolactone|eplerenone|torasemide|torsemide|indapamide|chlorthalidone|metolazone|clonidine|methyldopa|hydralazine|minoxidil|prazosin|terazosin|doxazosin|labetalol|ezetimibe|fenofibrate|bezafibrate|nebivolol|ivabradin|sodium nitroprusside|dobutamine|dopamine|noradrenaline|norepinephrine|adrenaline|epinephrine|verapamil|diltiazem|flecainide|mexiletine|adenosine)$,C
+cillin$,J
+^cef|^ceph,J
+floxacin$,J
+(mycin|micin)$,J
+cycline$,J
+penem$,J
+(conazole|fungin)$,J
+(vir|vudine|navir|ciclovir|clovir)$,J
+(sulfamethoxazole|sulphamethoxazole|trimethoprim|metronidazole|tinidazole|ornidazole|secnidazole|nitrofurantoin|fosfomycin|linezolid|vancomycin|teicoplanin|daptomycin|colistin|colistimethate|polymyxin b|rifampicin|rifampin|isoniazid|ethambutol|pyrazinamide|dapsone|clofazimine|cycloserine|ethionamide|bedaquiline|delamanid|chloroquine|hydroxychloroquine|primaquine|artemether|artesunate|lumefantrine|mefloquine|quinine|albendazole|mebendazole|ivermectin|praziquantel|diethylcarbamazine|griseofulvin|terbinafine|nystatin|amphotericin b|aztreonam|clavulanate|clavulanic acid|sulbactam|tazobactam|avibactam|streptomycin|kanamycin|amikacin|gentamicin|capreomycin|chloramphenicol|fusidic acid|mupirocin|nitazoxanide|furazolidone|paromomycin|miltefosine)$,J
+(azepam|azolam)$,N
+barbital$,N
+triptan$,N
+(oxetine|opram|alopram)$,N
+(pramine|triptyline)$,N
+(peridone|piprazole|perazine|promazine|peridol)$,N
+(caine)$,N
+(racetam)$,N
+(fentanil|fentanyl)$,N
+(morphine|codeine|tramadol|tapentadol|buprenorphine|naloxone|naltrexone|methadone|pentazocine|gabapentin|pregabalin|carbamazepine|oxcarbazepine|lamotrigine|topiramate|zonisamide|valproic acid|sodium valproate|divalproex|phenytoin|phenobarbitone|phenobarbital|lacosamide|vigabatrin|levodopa|carbidopa|pramipexole|ropinirole|amantadine|entacapone|trihexyphenidyl|selegiline|rasagiline|donepezil|rivastigmine|galantamine|memantine|lithium|clozapine|olanzapine|quetiapine|sertraline|paroxetine|venlafaxine|desvenlafaxine|duloxetine|mirtazapine|bupropion|trazodone|buspirone|zolpidem|zopiclone|eszopiclone|melatonin|modafinil|armodafinil|atomoxetine|methylphenidate|flunarizine|sumatriptan|ergotamine|baclofen|tizanidine|thiocolchicoside|chlorzoxazone|propofol|ketamine|thiopental|etomidate|sevoflurane|isoflurane|halothane|nitrous oxide|midazolam|haloperidol|amisulpride|aripiprazole|lurasidone|paliperidone|escitalopram|citalopram|fluoxetine|fluvoxamine|clomipramine|imipramine|amitriptyline|nortriptyline|dosulepin|dothiepin|flupentixol|zuclopenthixol|acamprosate|disulfiram|varenicline|nicotine|piracetam|citicoline|tetrabenazine|riluzole|clonidine)$,N
+(sterone|gestrel|gestodene|dienogest|drospirenone)$,G
+(estradiol|estriol|estrone)$,G
+afil$,G
+(oxytocin|dinoprostone|misoprostol|mifepristone|clomifene|clomiphene|letrozole|tamsulosin|alfuzosin|silodosin|dutasteride|finasteride|solifenacin|tolterodine|darifenacin|oxybutynin|mirabegron|methylergometrine|ergometrine|ritodrine|isoxsuprine|clotrimazole|progesterone|ulipristal|levonorgestrel|norethisterone|medroxyprogesterone|ethinylestradiol|cyproterone|bromocriptine|cabergoline|tranexamic acid)$,G
+(coxib)$,M
+(profen|fenac|fenamic acid)$,M
+dronate$,M
+(icam)$,M
+(aceclofenac|diclofenac|ibuprofen|naproxen|indomethacin|ketorolac|etoricoxib|celecoxib|nimesulide|paracetamol|acetaminophen|acetylsalicylic acid|aspirin|colchicine|allopurinol|febuxostat|leflunomide|methotrexate|sulfasalazine|hydroxychloroquine|teriparatide|alendronate|risedronate|zoledronic acid|ibandronate|raloxifene|calcitonin|glucosamine|diacerein|chondroitin|dantrolene|orphenadrine)$,M
+(timolol|latanoprost|bimatoprost|travoprost|brimonidine|dorzolamide|brinzolamide|pilocarpine|tropicamide|homatropine|phenylephrine|proparacaine|natamycin|olopatadine|ketotifen|carboxymethylcellulose|carmellose|hypromellose|hydroxypropyl methylcellulose|acetazolamide|fluorescein|nepafenac|bromfenac|ranibizumab|aflibercept|cyclopentolate)$,S

@@ -1,0 +1,2328 @@
+molecule_id,inn_name,category,in_pmbjp,in_ddinter,in_nppa,sources,pmbjp_product_count
+MOL-00001,abacavir,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00002,abaloparatide,small_molecule,false,true,false,ddinter,0
+MOL-00003,abametapir,small_molecule,false,true,false,ddinter,0
+MOL-00004,abarelix,small_molecule,false,true,false,ddinter,0
+MOL-00005,abatacept,small_molecule,false,true,false,ddinter,0
+MOL-00006,abciximab,biologic,false,true,false,ddinter,0
+MOL-00007,abemaciclib,small_molecule,false,true,false,ddinter,0
+MOL-00008,abiraterone,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00009,absolute alcohol,small_molecule,true,false,false,pmbjp,2
+MOL-00010,absorbent gelatin sponge,small_molecule,true,false,false,pmbjp,1
+MOL-00011,acalabrutinib,small_molecule,false,true,false,ddinter,0
+MOL-00012,acamprosate,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00013,acarbose,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00014,acebrophylline,small_molecule,true,false,false,pmbjp,5
+MOL-00015,acebutolol,small_molecule,false,true,false,ddinter,0
+MOL-00016,aceclofenac,small_molecule,true,false,false,pmbjp,15
+MOL-00017,acenocoumarol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00018,acetaminophen,small_molecule,true,true,true,pmbjp|ddinter|nppa,41
+MOL-00019,acetazolamide,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00020,acetohexamide,small_molecule,false,true,false,ddinter,0
+MOL-00021,acetohydroxamic acid,small_molecule,false,true,false,ddinter,0
+MOL-00022,acetylcholine,small_molecule,false,true,false,ddinter,0
+MOL-00023,acetylcysteine,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-00024,acetylsalicylic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,17
+MOL-00025,acitretin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00026,aclidinium,small_molecule,false,true,false,ddinter,0
+MOL-00027,acotiamide,small_molecule,true,false,false,pmbjp,1
+MOL-00028,acrivastine,small_molecule,false,true,false,ddinter,0
+MOL-00029,activated charcoal,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00030,activated dimethicone,small_molecule,true,false,false,pmbjp,4
+MOL-00031,acyclovir,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-00032,adalimumab,biologic,true,true,false,pmbjp|ddinter,1
+MOL-00033,adapalene,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00034,adefovir dipivoxil,small_molecule,false,true,false,ddinter,0
+MOL-00035,adenosine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00036,afatinib,small_molecule,false,true,false,ddinter,0
+MOL-00037,aflibercept,small_molecule,false,true,false,ddinter,0
+MOL-00038,aflibercept intravitreal,small_molecule,true,false,false,pmbjp,1
+MOL-00039,agalsidase beta,small_molecule,false,true,false,ddinter,0
+MOL-00040,agomelatine,small_molecule,true,false,false,pmbjp,1
+MOL-00041,albendazole,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00042,albiglutide,small_molecule,false,true,false,ddinter,0
+MOL-00043,albuterol,small_molecule,true,false,false,pmbjp,7
+MOL-00044,alclometasone,small_molecule,false,true,false,ddinter,0
+MOL-00045,alcohol swab,small_molecule,true,false,false,pmbjp,1
+MOL-00046,aldesleukin,small_molecule,false,true,false,ddinter,0
+MOL-00047,alectinib,small_molecule,false,true,false,ddinter,0
+MOL-00048,alefacept,small_molecule,false,true,false,ddinter,0
+MOL-00049,alemtuzumab,biologic,false,true,false,ddinter,0
+MOL-00050,alendronate,small_molecule,true,false,false,pmbjp,1
+MOL-00051,alendronic acid,small_molecule,false,true,false,ddinter,0
+MOL-00052,alfacalcidol,small_molecule,true,false,false,pmbjp,1
+MOL-00053,alfentanil,small_molecule,false,true,false,ddinter,0
+MOL-00054,alfuzosin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00055,alimemazine,small_molecule,false,true,false,ddinter,0
+MOL-00056,aliskiren,small_molecule,false,true,false,ddinter,0
+MOL-00057,alitretinoin,small_molecule,false,true,false,ddinter,0
+MOL-00058,allantoin,small_molecule,true,false,false,pmbjp,2
+MOL-00059,allopurinol,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00060,allylestrenol,small_molecule,true,false,false,pmbjp,1
+MOL-00061,almotriptan,small_molecule,false,true,false,ddinter,0
+MOL-00062,aloe vera,herbal,true,false,false,pmbjp,3
+MOL-00063,aloe vera leaf,herbal,false,true,false,ddinter,0
+MOL-00064,alogliptin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00065,alosetron,small_molecule,false,true,false,ddinter,0
+MOL-00066,alpelisib,small_molecule,false,true,false,ddinter,0
+MOL-00067,alpha ketoanalouge,small_molecule,true,false,false,pmbjp,1
+MOL-00068,alpha lipoic acid,small_molecule,true,false,false,pmbjp,3
+MOL-00069,alpha lipolic acid,small_molecule,true,false,false,pmbjp,1
+MOL-00070,alpha-amylase,small_molecule,true,false,false,pmbjp,1
+MOL-00071,alprazolam,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00072,alprostadil,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00073,alteplase,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00074,altretamine,small_molecule,false,true,false,ddinter,0
+MOL-00075,aluminum hydroxide,small_molecule,false,true,false,ddinter,0
+MOL-00076,alvimopan,small_molecule,false,true,false,ddinter,0
+MOL-00077,amantadine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00078,ambenonium,small_molecule,false,true,false,ddinter,0
+MOL-00079,ambrisentan,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00080,ambroxol,small_molecule,true,false,false,pmbjp,5
+MOL-00081,amcinonide,small_molecule,false,true,false,ddinter,0
+MOL-00082,amifampridine,small_molecule,false,true,false,ddinter,0
+MOL-00083,amifostine,small_molecule,false,true,false,ddinter,0
+MOL-00084,amikacin,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00085,amiloride,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00086,amino acid iv,small_molecule,true,false,false,pmbjp,1
+MOL-00087,aminobenzoic acid,small_molecule,false,true,false,ddinter,0
+MOL-00088,aminocaproic acid,small_molecule,false,true,false,ddinter,0
+MOL-00089,aminoglutethimide,small_molecule,false,true,false,ddinter,0
+MOL-00090,aminolevulinic acid,small_molecule,false,true,false,ddinter,0
+MOL-00091,aminophylline,small_molecule,false,true,false,ddinter,0
+MOL-00092,aminosalicylic acid,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00093,amiodarone,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00094,amisulpride,small_molecule,true,true,false,pmbjp|ddinter,9
+MOL-00095,amitriptyline,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-00096,amitriptyline hydrochloride chlordiazepoxide,small_molecule,true,false,false,pmbjp,1
+MOL-00097,amlodipine,small_molecule,true,true,true,pmbjp|ddinter|nppa,30
+MOL-00098,ammonium,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00099,amobarbital,small_molecule,false,true,false,ddinter,0
+MOL-00100,amorolfine,small_molecule,true,false,false,pmbjp,2
+MOL-00101,amoxapine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00102,amoxicillin,small_molecule,true,true,true,pmbjp|ddinter|nppa,23
+MOL-00103,amphetamine,small_molecule,false,true,false,ddinter,0
+MOL-00104,amphotericin b,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00105,ampicillin,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00106,amprenavir,small_molecule,false,true,false,ddinter,0
+MOL-00107,amrinone,small_molecule,false,true,false,ddinter,0
+MOL-00108,amyl nitrite,small_molecule,false,true,false,ddinter,0
+MOL-00109,anagrelide,small_molecule,false,true,false,ddinter,0
+MOL-00110,anakinra,small_molecule,false,true,false,ddinter,0
+MOL-00111,anastrozole,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00112,anidulafungin,small_molecule,false,true,false,ddinter,0
+MOL-00113,anise oil,small_molecule,true,false,false,pmbjp,1
+MOL-00114,anisindione,small_molecule,false,true,false,ddinter,0
+MOL-00115,anistreplase,small_molecule,false,true,false,ddinter,0
+MOL-00116,anthrax vaccine,vaccine,false,true,false,ddinter,0
+MOL-00117,anti-d immunoglobulin,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-00118,anti-inhibitor coagulant complex,small_molecule,false,true,false,ddinter,0
+MOL-00119,anti-rabies immunoglobulin,small_molecule,false,false,true,nppa,0
+MOL-00120,anti-tetanus immunoglobulin,small_molecule,false,false,true,nppa,0
+MOL-00121,antihemophilic factor human recombinant,small_molecule,false,true,false,ddinter,0
+MOL-00122,antilymphocyte immunoglobulin,small_molecule,false,true,false,ddinter,0
+MOL-00123,antioxidant,small_molecule,true,false,false,pmbjp,1
+MOL-00124,antithrombin alfa,small_molecule,false,true,false,ddinter,0
+MOL-00125,antithrombin iii human,small_molecule,false,true,false,ddinter,0
+MOL-00126,antithymocyte immunoglobulin,small_molecule,false,true,false,ddinter,0
+MOL-00127,apalutamide,small_molecule,false,true,false,ddinter,0
+MOL-00128,apixaban,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00129,apomorphine,small_molecule,false,true,false,ddinter,0
+MOL-00130,apraclonidine,small_molecule,false,true,false,ddinter,0
+MOL-00131,apremilast,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00132,aprepitant,small_molecule,false,true,false,ddinter,0
+MOL-00133,aprotinin,small_molecule,false,true,false,ddinter,0
+MOL-00134,arbutamine,small_molecule,false,true,false,ddinter,0
+MOL-00135,ardeparin,small_molecule,false,true,false,ddinter,0
+MOL-00136,arformoterol,small_molecule,false,true,false,ddinter,0
+MOL-00137,argatroban,small_molecule,false,true,false,ddinter,0
+MOL-00138,aripiprazole,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00139,armodafinil,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00140,arsenic trioxide,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00141,arteether,small_molecule,true,false,false,pmbjp,2
+MOL-00142,artemether,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00143,artesunate,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00144,articaine,small_molecule,false,true,false,ddinter,0
+MOL-00145,ascorbic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-00146,asenapine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00147,asparaginase,small_molecule,false,false,true,nppa,0
+MOL-00148,asparaginase erwinia chrysanthemi,small_molecule,false,true,false,ddinter,0
+MOL-00149,asparaginase escherichia coli,small_molecule,false,true,false,ddinter,0
+MOL-00150,astaxanthin,small_molecule,true,false,false,pmbjp,2
+MOL-00151,astemizole,small_molecule,false,true,false,ddinter,0
+MOL-00152,atazanavir,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00153,atenolol,small_molecule,true,true,true,pmbjp|ddinter|nppa,10
+MOL-00154,atezolizumab,biologic,false,true,false,ddinter,0
+MOL-00155,atomoxetine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00156,atorvastatin,small_molecule,true,true,true,pmbjp|ddinter|nppa,20
+MOL-00157,atovaquone,small_molecule,false,true,false,ddinter,0
+MOL-00158,atracurium,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00159,atropine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00160,attapulgite,small_molecule,false,true,false,ddinter,0
+MOL-00161,auranofin,small_molecule,false,true,false,ddinter,0
+MOL-00162,aurothioglucose,small_molecule,false,true,false,ddinter,0
+MOL-00163,avanafil,small_molecule,false,true,false,ddinter,0
+MOL-00164,avapritinib,small_molecule,false,true,false,ddinter,0
+MOL-00165,avatrombopag,small_molecule,false,true,false,ddinter,0
+MOL-00166,avelumab,biologic,false,true,false,ddinter,0
+MOL-00167,avibactam concentrate,small_molecule,true,false,false,pmbjp,1
+MOL-00168,axicabtagene ciloleucel,small_molecule,false,true,false,ddinter,0
+MOL-00169,axitinib,small_molecule,false,true,false,ddinter,0
+MOL-00170,azacitidine,small_molecule,false,true,false,ddinter,0
+MOL-00171,azatadine,small_molecule,false,true,false,ddinter,0
+MOL-00172,azathioprine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00173,azelaic acid,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00174,azelastine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00175,azelnidipine,small_molecule,true,false,false,pmbjp,3
+MOL-00176,azilsartan,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-00177,azithromycin,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00178,aztreonam,small_molecule,false,true,false,ddinter,0
+MOL-00179,b-complex,small_molecule,true,false,false,pmbjp,1
+MOL-00180,baby wipes,small_molecule,true,false,false,pmbjp,1
+MOL-00181,bacampicillin,small_molecule,false,true,false,ddinter,0
+MOL-00182,bacillus calmette-guerin substrain tice live antigen,small_molecule,false,true,false,ddinter,0
+MOL-00183,bacillus clausii,small_molecule,true,false,false,pmbjp,1
+MOL-00184,bacitracin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00185,bacitracin zinc,small_molecule,true,false,false,pmbjp,2
+MOL-00186,baclofen,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-00187,bal raksha,small_molecule,true,false,false,pmbjp,1
+MOL-00188,baloxavir marboxil,small_molecule,false,true,false,ddinter,0
+MOL-00189,balsalazide,small_molecule,false,true,false,ddinter,0
+MOL-00190,bare metal stents,small_molecule,false,false,true,nppa,0
+MOL-00191,baricitinib,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00192,barium,small_molecule,false,false,true,nppa,0
+MOL-00193,basiliximab,biologic,false,true,false,ddinter,0
+MOL-00194,bazedoxifene,small_molecule,false,true,false,ddinter,0
+MOL-00195,beclometasone,small_molecule,true,false,false,pmbjp,1
+MOL-00196,beclomethasone,small_molecule,true,true,false,pmbjp|ddinter,14
+MOL-00197,beclomethasone respicaps,small_molecule,true,false,false,pmbjp,1
+MOL-00198,bedaquiline,small_molecule,false,true,false,ddinter,0
+MOL-00199,belantamab mafodotin,biologic,false,true,false,ddinter,0
+MOL-00200,belatacept,small_molecule,false,true,false,ddinter,0
+MOL-00201,belimumab,biologic,false,true,false,ddinter,0
+MOL-00202,belinostat,small_molecule,false,true,false,ddinter,0
+MOL-00203,belladonna,small_molecule,false,true,false,ddinter,0
+MOL-00204,bempedoic acid,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00205,benazepril,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00206,bendamustine,small_molecule,false,true,false,ddinter,0
+MOL-00207,bendroflumethiazide,small_molecule,false,true,false,ddinter,0
+MOL-00208,benedipine,small_molecule,true,false,false,pmbjp,1
+MOL-00209,benfotiamine,small_molecule,true,false,false,pmbjp,1
+MOL-00210,benidipine,small_molecule,true,false,false,pmbjp,3
+MOL-00211,benzalkonium,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00212,benzatropine,small_molecule,false,true,false,ddinter,0
+MOL-00213,benzethonium,small_molecule,true,false,false,pmbjp,1
+MOL-00214,benzhydrocodone,small_molecule,false,true,false,ddinter,0
+MOL-00215,benznidazole,small_molecule,false,true,false,ddinter,0
+MOL-00216,benzocaine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00217,benzoic acid,small_molecule,true,false,false,pmbjp,2
+MOL-00218,benzonatate,small_molecule,false,true,false,ddinter,0
+MOL-00219,benzoyl peroxide,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00220,benzphetamine,small_molecule,false,true,false,ddinter,0
+MOL-00221,benzthiazide,small_molecule,false,true,false,ddinter,0
+MOL-00222,benzyl,small_molecule,true,false,false,pmbjp,1
+MOL-00223,benzylpenicillin,small_molecule,false,true,false,ddinter,0
+MOL-00224,bepotastine,small_molecule,true,false,false,pmbjp,1
+MOL-00225,bepridil,small_molecule,false,true,false,ddinter,0
+MOL-00226,berotralstat,small_molecule,false,true,false,ddinter,0
+MOL-00227,beta carotene,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00228,betahistine,small_molecule,true,false,false,pmbjp,4
+MOL-00229,betamethasone,small_molecule,true,true,true,pmbjp|ddinter|nppa,10
+MOL-00230,betaxolol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00231,bethanechol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00232,betrixaban,small_molecule,false,true,false,ddinter,0
+MOL-00233,bevacizumab,biologic,false,true,false,ddinter,0
+MOL-00234,bexarotene,small_molecule,false,true,false,ddinter,0
+MOL-00235,bicalutamide,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00236,bictegravir,small_molecule,false,true,false,ddinter,0
+MOL-00237,bifidobacterium longum infantis,small_molecule,false,true,false,ddinter,0
+MOL-00238,bifonazole,small_molecule,true,false,false,pmbjp,1
+MOL-00239,bilastine,small_molecule,true,false,false,pmbjp,2
+MOL-00240,bilastine montelukast,small_molecule,true,false,false,pmbjp,1
+MOL-00241,bilberry extract,small_molecule,true,false,false,pmbjp,1
+MOL-00242,bimatoprost,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00243,binimetinib,small_molecule,false,true,false,ddinter,0
+MOL-00244,bioresorbable vascular scaffold biodegradable stents vaccine,vaccine,false,false,true,nppa,0
+MOL-00245,biotin,small_molecule,true,false,false,pmbjp,3
+MOL-00246,biperiden,small_molecule,false,true,false,ddinter,0
+MOL-00247,biphasic insulin lispro,biologic,true,false,false,pmbjp,1
+MOL-00248,biphasic isophane insulin,biologic,true,false,false,pmbjp,1
+MOL-00249,biphasic isophane insulin soluble insulin,biologic,true,false,false,pmbjp,1
+MOL-00250,bisacodyl,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-00251,bismuth subcitrate,small_molecule,false,true,false,ddinter,0
+MOL-00252,bismuth subgallate,small_molecule,false,true,false,ddinter,0
+MOL-00253,bismuth subsalicylate,small_molecule,false,true,false,ddinter,0
+MOL-00254,bisoprolol,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00255,bivalirudin,small_molecule,false,true,false,ddinter,0
+MOL-00256,bleaching,small_molecule,false,false,true,nppa,0
+MOL-00257,bleomycin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00258,blinatumomab,biologic,false,true,false,ddinter,0
+MOL-00259,boceprevir,small_molecule,false,true,false,ddinter,0
+MOL-00260,bone wax,small_molecule,true,false,false,pmbjp,1
+MOL-00261,bortezomib,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-00262,bosentan,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00263,bosutinib,small_molecule,false,true,false,ddinter,0
+MOL-00264,boswellia serrata extract,herbal,true,false,false,pmbjp,1
+MOL-00265,botulinum toxin a,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00266,botulinum toxin b,small_molecule,false,true,false,ddinter,0
+MOL-00267,breathing exerciser,small_molecule,true,false,false,pmbjp,1
+MOL-00268,bremelanotide,small_molecule,false,true,false,ddinter,0
+MOL-00269,brentuximab vedotin,biologic,false,true,false,ddinter,0
+MOL-00270,bretylium,small_molecule,false,true,false,ddinter,0
+MOL-00271,brexanolone,small_molecule,false,true,false,ddinter,0
+MOL-00272,brexpiprazole,small_molecule,false,true,false,ddinter,0
+MOL-00273,brexucabtagene autoleucel,small_molecule,false,true,false,ddinter,0
+MOL-00274,brigatinib,small_molecule,false,true,false,ddinter,0
+MOL-00275,brimonidine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00276,brinzolamide,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00277,brivaracetam,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00278,brodalumab,biologic,false,true,false,ddinter,0
+MOL-00279,bromelain,small_molecule,true,false,false,pmbjp,2
+MOL-00280,bromfenac,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00281,bromhexine,small_molecule,true,false,false,pmbjp,2
+MOL-00282,bromhexine expectorant,small_molecule,true,false,false,pmbjp,1
+MOL-00283,bromocriptine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00284,bromotheophylline,small_molecule,false,true,false,ddinter,0
+MOL-00285,brompheniramine,small_molecule,false,true,false,ddinter,0
+MOL-00286,brucella abortus vaccine live freeze dried,vaccine,false,false,true,nppa,0
+MOL-00287,budesonide,small_molecule,true,true,true,pmbjp|ddinter|nppa,12
+MOL-00288,budesonide respirator,small_molecule,true,false,false,pmbjp,2
+MOL-00289,bumetanide,small_molecule,false,true,false,ddinter,0
+MOL-00290,bupivacaine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00291,buprenorphine,small_molecule,false,true,false,ddinter,0
+MOL-00292,bupropion,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00293,burosumab,biologic,false,true,false,ddinter,0
+MOL-00294,buspirone,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00295,busulfan,small_molecule,false,true,false,ddinter,0
+MOL-00296,butabarbital,small_molecule,false,true,false,ddinter,0
+MOL-00297,butalbital,small_molecule,false,true,false,ddinter,0
+MOL-00298,butorphanol,small_molecule,false,true,false,ddinter,0
+MOL-00299,cabazitaxel,small_molecule,false,true,false,ddinter,0
+MOL-00300,cabergoline,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00301,cabotegravir,small_molecule,false,true,false,ddinter,0
+MOL-00302,cabozantinib,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00303,caffeine,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00304,calamine,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-00305,calaspargase pegol,small_molecule,false,true,false,ddinter,0
+MOL-00306,calcifediol,small_molecule,false,true,false,ddinter,0
+MOL-00307,calcipotriol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00308,calcitriol,small_molecule,true,true,false,pmbjp|ddinter,8
+MOL-00309,calcium,small_molecule,true,true,true,pmbjp|ddinter|nppa,21
+MOL-00310,calcium dobesilate,small_molecule,true,false,false,pmbjp,2
+MOL-00311,calcium glubionate,small_molecule,false,true,false,ddinter,0
+MOL-00312,calcium glucoheptonate,small_molecule,false,true,false,ddinter,0
+MOL-00313,calcium glycerophosphate,small_molecule,false,true,false,ddinter,0
+MOL-00314,calcium lactobionate,small_molecule,true,false,false,pmbjp,1
+MOL-00315,calcium magnesium zinc,small_molecule,true,false,false,pmbjp,1
+MOL-00316,calcium pant,small_molecule,true,false,false,pmbjp,1
+MOL-00317,calcium pantothenate,small_molecule,true,false,false,pmbjp,1
+MOL-00318,calcium polystyrene sulphonate,small_molecule,true,false,false,pmbjp,1
+MOL-00319,camylofin,small_molecule,true,false,false,pmbjp,1
+MOL-00320,canagliflozin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00321,canakinumab,biologic,false,true,false,ddinter,0
+MOL-00322,candida albicans,small_molecule,false,true,false,ddinter,0
+MOL-00323,cangrelor,small_molecule,false,true,false,ddinter,0
+MOL-00324,cannabidiol,small_molecule,false,true,false,ddinter,0
+MOL-00325,capecitabine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00326,caplacizumab,biologic,false,true,false,ddinter,0
+MOL-00327,capmatinib,small_molecule,false,true,false,ddinter,0
+MOL-00328,capreomycin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00329,capromab pendetide,biologic,false,true,false,ddinter,0
+MOL-00330,capsicum,small_molecule,false,true,false,ddinter,0
+MOL-00331,captopril,small_molecule,false,true,false,ddinter,0
+MOL-00332,caraway oil,small_molecule,true,false,false,pmbjp,1
+MOL-00333,carbamazepine,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-00334,carbamoylcholine,small_molecule,false,true,false,ddinter,0
+MOL-00335,carbenicillin,small_molecule,false,true,false,ddinter,0
+MOL-00336,carbetocin,small_molecule,true,false,false,pmbjp,1
+MOL-00337,carbidopa,small_molecule,true,false,true,pmbjp|nppa,6
+MOL-00338,carbimazole,small_molecule,true,false,true,pmbjp|nppa,3
+MOL-00339,carbinoxamine,small_molecule,false,true,false,ddinter,0
+MOL-00340,carbonyl iron,small_molecule,true,false,false,pmbjp,2
+MOL-00341,carboplatin,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00342,carboprost,small_molecule,true,false,false,pmbjp,2
+MOL-00343,carboxymethlycellulose,small_molecule,true,false,false,pmbjp,1
+MOL-00344,carboxymethylcell ulose,small_molecule,false,false,true,nppa,0
+MOL-00345,carfilzomib,small_molecule,false,true,false,ddinter,0
+MOL-00346,carica papaya leaf extract,herbal,true,false,false,pmbjp,1
+MOL-00347,cariprazine,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00348,carisoprodol,small_molecule,false,true,false,ddinter,0
+MOL-00349,carmellose,small_molecule,true,false,false,pmbjp,1
+MOL-00350,carmustine,small_molecule,false,true,false,ddinter,0
+MOL-00351,carteolol,small_molecule,false,true,false,ddinter,0
+MOL-00352,carvedilol,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-00353,caspofungin,small_molecule,false,true,false,ddinter,0
+MOL-00354,castor oil,small_molecule,false,true,false,ddinter,0
+MOL-00355,cedazuridine,small_molecule,false,true,false,ddinter,0
+MOL-00356,cefaclor,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00357,cefadroxil,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-00358,cefalexin,small_molecule,true,false,false,pmbjp,5
+MOL-00359,cefalotin,small_molecule,false,true,false,ddinter,0
+MOL-00360,cefamandole,small_molecule,false,true,false,ddinter,0
+MOL-00361,cefapirin,small_molecule,false,true,false,ddinter,0
+MOL-00362,cefazolin,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00363,cefdinir,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00364,cefditoren,small_molecule,false,true,false,ddinter,0
+MOL-00365,cefepime,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00366,cefepime inection,small_molecule,true,false,false,pmbjp,1
+MOL-00367,cefiderocol,small_molecule,false,true,false,ddinter,0
+MOL-00368,cefixime,small_molecule,true,true,true,pmbjp|ddinter|nppa,11
+MOL-00369,cefmetazole,small_molecule,false,true,false,ddinter,0
+MOL-00370,cefonicid,small_molecule,false,true,false,ddinter,0
+MOL-00371,cefoperazone,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-00372,cefotaxime,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00373,cefotetan,small_molecule,false,true,false,ddinter,0
+MOL-00374,cefoxitin,small_molecule,false,true,false,ddinter,0
+MOL-00375,cefpodoxime,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00376,cefprozil,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00377,cefradine,small_molecule,false,true,false,ddinter,0
+MOL-00378,ceftaroline fosamil,small_molecule,false,true,false,ddinter,0
+MOL-00379,ceftazidime,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00380,ceftibuten,small_molecule,false,true,false,ddinter,0
+MOL-00381,ceftizoxime,small_molecule,false,true,false,ddinter,0
+MOL-00382,ceftolozane,small_molecule,false,true,false,ddinter,0
+MOL-00383,ceftriaxone,small_molecule,true,true,true,pmbjp|ddinter|nppa,9
+MOL-00384,cefuroxime,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-00385,celecoxib,small_molecule,false,true,false,ddinter,0
+MOL-00386,cemiplimab,biologic,false,true,false,ddinter,0
+MOL-00387,cenobamate,small_molecule,false,true,false,ddinter,0
+MOL-00388,centbucridine,small_molecule,true,false,false,pmbjp,1
+MOL-00389,cephalexin,small_molecule,false,true,false,ddinter,0
+MOL-00390,cerebroprotein hydrolysate,small_molecule,true,false,false,pmbjp,2
+MOL-00391,ceritinib,small_molecule,false,true,false,ddinter,0
+MOL-00392,cerivastatin,small_molecule,false,true,false,ddinter,0
+MOL-00393,certolizumab pegol,biologic,false,true,false,ddinter,0
+MOL-00394,cetirizine,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-00395,cetrimide,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-00396,cetrimide antiseptic,small_molecule,true,false,false,pmbjp,1
+MOL-00397,cetuximab,biologic,false,true,false,ddinter,0
+MOL-00398,cetylpyridinium,small_molecule,false,true,false,ddinter,0
+MOL-00399,cevimeline,small_molecule,false,true,false,ddinter,0
+MOL-00400,chamomile,herbal,false,true,false,ddinter,0
+MOL-00401,chenodeoxycholic acid,small_molecule,false,true,false,ddinter,0
+MOL-00402,chloral hydrate,small_molecule,false,true,false,ddinter,0
+MOL-00403,chlorambucil,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00404,chloramphenicol,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-00405,chlorbutol,small_molecule,true,false,false,pmbjp,2
+MOL-00406,chlorcyclizine,small_molecule,false,true,false,ddinter,0
+MOL-00407,chlordiazepoxide,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00408,chlorhexidine,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-00409,chlormezanone,small_molecule,false,true,false,ddinter,0
+MOL-00410,chlorocresol,small_molecule,true,false,false,pmbjp,1
+MOL-00411,chloroprocaine,small_molecule,false,true,false,ddinter,0
+MOL-00412,chloroquine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00413,chlorothiazide,small_molecule,false,true,false,ddinter,0
+MOL-00414,chloroxylenol,small_molecule,true,false,false,pmbjp,1
+MOL-00415,chlorphenesin,small_molecule,false,true,false,ddinter,0
+MOL-00416,chlorpheniramine,small_molecule,true,true,true,pmbjp|ddinter|nppa,11
+MOL-00417,chlorpromazine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00418,chlorpropamide,small_molecule,false,true,false,ddinter,0
+MOL-00419,chlorthalidon,small_molecule,true,false,false,pmbjp,1
+MOL-00420,chlorthalidone,small_molecule,true,true,false,pmbjp|ddinter,26
+MOL-00421,chlorzoxazone,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00422,cholecalciferol,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-00423,cholestyramine,small_molecule,false,true,false,ddinter,0
+MOL-00424,cholic acid,small_molecule,false,true,false,ddinter,0
+MOL-00425,choline,small_molecule,false,true,false,ddinter,0
+MOL-00426,chondroitin,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00427,chorionic gonadotropin,small_molecule,false,true,false,ddinter,0
+MOL-00428,chromic,small_molecule,false,true,false,ddinter,0
+MOL-00429,chromium,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00430,chyawanprash special,small_molecule,true,false,false,pmbjp,2
+MOL-00431,chymotrypsin,small_molecule,true,false,false,pmbjp,1
+MOL-00432,ciclesonide,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00433,ciclopirox,small_molecule,false,true,false,ddinter,0
+MOL-00434,ciclopirox olamine,small_molecule,true,false,false,pmbjp,2
+MOL-00435,cidofovir,small_molecule,false,true,false,ddinter,0
+MOL-00436,cilastatin,small_molecule,true,false,false,pmbjp,1
+MOL-00437,cilnidipine,small_molecule,true,false,false,pmbjp,19
+MOL-00438,cilostazol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00439,cimetidine,small_molecule,false,true,false,ddinter,0
+MOL-00440,cinacalcet,small_molecule,false,true,false,ddinter,0
+MOL-00441,cinchocaine,small_molecule,false,true,false,ddinter,0
+MOL-00442,cinitapride,small_molecule,true,false,false,pmbjp,2
+MOL-00443,cinnarizine,small_molecule,true,false,false,pmbjp,4
+MOL-00444,cinoxacin,small_molecule,false,true,false,ddinter,0
+MOL-00445,ciprofloxacin,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-00446,cisapride,small_molecule,false,true,false,ddinter,0
+MOL-00447,cisatracurium,small_molecule,false,true,false,ddinter,0
+MOL-00448,cisplatin,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00449,citalopram,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00450,citicoline,small_molecule,true,false,false,pmbjp,4
+MOL-00451,citric acid,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00452,citrus bioflavonoids,small_molecule,false,true,false,ddinter,0
+MOL-00453,cladribine,small_molecule,false,true,false,ddinter,0
+MOL-00454,clarithromycin,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00455,clavulanate,small_molecule,true,false,true,pmbjp|nppa,18
+MOL-00456,clavulanic acid,small_molecule,false,true,false,ddinter,0
+MOL-00457,clemastine,small_molecule,false,true,false,ddinter,0
+MOL-00458,clevidipine,small_molecule,false,true,false,ddinter,0
+MOL-00459,clidinium,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00460,clindamycin,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00461,clioquinol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00462,clobazam,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00463,clobetasol,small_molecule,true,true,false,pmbjp|ddinter,10
+MOL-00464,clocortolone,small_molecule,false,true,false,ddinter,0
+MOL-00465,clofarabine,small_molecule,false,true,false,ddinter,0
+MOL-00466,clofazimine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00467,clofedanol,small_molecule,false,true,false,ddinter,0
+MOL-00468,clofibrate,small_molecule,false,true,false,ddinter,0
+MOL-00469,clomifene,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00470,clomipramine,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00471,clonazepam,small_molecule,true,true,true,pmbjp|ddinter|nppa,11
+MOL-00472,clonidine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00473,clopidogrel,small_molecule,true,true,true,pmbjp|ddinter|nppa,13
+MOL-00474,clorazepic acid,small_molecule,false,true,false,ddinter,0
+MOL-00475,clostridium tetani toxoid antigen,vaccine,false,true,false,ddinter,0
+MOL-00476,clotrimazole,small_molecule,true,true,true,pmbjp|ddinter|nppa,13
+MOL-00477,clove,small_molecule,false,true,false,ddinter,0
+MOL-00478,cloxacillin,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-00479,clozapine,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00480,co-enzyme q,small_molecule,true,false,false,pmbjp,1
+MOL-00481,co-trimoxazole sulphamethoxazole,small_molecule,true,false,true,pmbjp|nppa,3
+MOL-00482,coagulation factor ix,small_molecule,false,false,true,nppa,0
+MOL-00483,coagulation factor ix human,small_molecule,false,true,false,ddinter,0
+MOL-00484,coagulation factor viia recombinant human,small_molecule,false,true,false,ddinter,0
+MOL-00485,coagulation factor viii,small_molecule,false,false,true,nppa,0
+MOL-00486,coagulation factor x human,small_molecule,false,true,false,ddinter,0
+MOL-00487,coal tar,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00488,cobicistat,small_molecule,false,true,false,ddinter,0
+MOL-00489,cobimetinib,small_molecule,false,true,false,ddinter,0
+MOL-00490,cocaine,small_molecule,false,true,false,ddinter,0
+MOL-00491,coccidioides immitis spherule,small_molecule,false,true,false,ddinter,0
+MOL-00492,cod liver oil,small_molecule,true,false,false,pmbjp,1
+MOL-00493,codeine,small_molecule,false,true,false,ddinter,0
+MOL-00494,coenzyme m,small_molecule,false,true,false,ddinter,0
+MOL-00495,coenzyme q,small_molecule,true,false,false,pmbjp,2
+MOL-00496,colchicine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00497,colesevelam,small_molecule,false,true,false,ddinter,0
+MOL-00498,colestipol,small_molecule,false,true,false,ddinter,0
+MOL-00499,colistimethate,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00500,colistin,small_molecule,true,false,false,pmbjp,1
+MOL-00501,collagen peptide,small_molecule,true,false,false,pmbjp,1
+MOL-00502,collagenase clostridium histolyticum,small_molecule,false,true,false,ddinter,0
+MOL-00503,combi torasemide,small_molecule,true,false,false,pmbjp,1
+MOL-00504,combikit eplerenone,small_molecule,true,false,false,pmbjp,1
+MOL-00505,combipack ambrisentan,small_molecule,true,false,false,pmbjp,1
+MOL-00506,combipack clarithromycin,small_molecule,true,false,false,pmbjp,2
+MOL-00507,combipack mifepristone,small_molecule,true,false,false,pmbjp,1
+MOL-00508,condom,small_molecule,false,false,true,nppa,0
+MOL-00509,conestat alfa,small_molecule,false,true,false,ddinter,0
+MOL-00510,conivaptan,small_molecule,false,true,false,ddinter,0
+MOL-00511,conjugated estrogens,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00512,copanlisib,small_molecule,false,true,false,ddinter,0
+MOL-00513,copper,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00514,copper oxodotreotide cu,small_molecule,false,true,false,ddinter,0
+MOL-00515,corticotropin,small_molecule,false,true,false,ddinter,0
+MOL-00516,covid self-testing,small_molecule,true,false,false,pmbjp,1
+MOL-00517,cranberry,small_molecule,false,true,false,ddinter,0
+MOL-00518,cranberry extract,small_molecule,true,false,false,pmbjp,1
+MOL-00519,creatine,small_molecule,false,true,false,ddinter,0
+MOL-00520,crizotinib,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00521,cromoglicic acid,small_molecule,false,true,false,ddinter,0
+MOL-00522,cryoprecipitate,small_molecule,false,false,true,nppa,0
+MOL-00523,cyanocobalamin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00524,cyanocobalamine,small_molecule,true,false,false,pmbjp,1
+MOL-00525,cyclandelate,small_molecule,false,true,false,ddinter,0
+MOL-00526,cyclizine,small_molecule,false,true,false,ddinter,0
+MOL-00527,cyclobenzaprine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00528,cyclopentolate,small_molecule,false,true,false,ddinter,0
+MOL-00529,cyclophosphamide,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00530,cycloserine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00531,cyclosporin,small_molecule,true,false,false,pmbjp,1
+MOL-00532,cyclosporin capulses,small_molecule,true,false,false,pmbjp,1
+MOL-00533,cyclosporine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00534,cyproheptadine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00535,cyproterone,small_molecule,true,false,false,pmbjp,1
+MOL-00536,cytarabine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00537,d-mannose,small_molecule,true,false,false,pmbjp,1
+MOL-00538,dabigatran,small_molecule,true,false,false,pmbjp,3
+MOL-00539,dabrafenib,small_molecule,false,true,false,ddinter,0
+MOL-00540,dacarbazine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00541,daclatasvir,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00542,dacomitinib,small_molecule,false,true,false,ddinter,0
+MOL-00543,dactinomycin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00544,dalbavancin,small_molecule,false,true,false,ddinter,0
+MOL-00545,dalfampridine,small_molecule,false,true,false,ddinter,0
+MOL-00546,dalfopristin,small_molecule,false,true,false,ddinter,0
+MOL-00547,dalteparin,small_molecule,false,true,false,ddinter,0
+MOL-00548,danaparoid,small_molecule,false,true,false,ddinter,0
+MOL-00549,danazol,small_molecule,false,true,false,ddinter,0
+MOL-00550,dantrolene,small_molecule,false,true,false,ddinter,0
+MOL-00551,dapagliflozin,small_molecule,true,true,false,pmbjp|ddinter,25
+MOL-00552,dapoxetine,small_molecule,true,false,false,pmbjp,2
+MOL-00553,dapsone,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00554,daptomycin,small_molecule,false,true,false,ddinter,0
+MOL-00555,daratumumab,biologic,false,true,false,ddinter,0
+MOL-00556,darbepoetin alfa,small_molecule,false,true,false,ddinter,0
+MOL-00557,darifenacin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00558,darolutamide,small_molecule,false,true,false,ddinter,0
+MOL-00559,darunavir,small_molecule,false,true,false,ddinter,0
+MOL-00560,dasabuvir,small_molecule,false,true,false,ddinter,0
+MOL-00561,dasatinib,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00562,daunorubicin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00563,decitabine,small_molecule,false,true,false,ddinter,0
+MOL-00564,deferasirox,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-00565,deferiprone,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00566,deferoxamine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00567,defibrotide,small_molecule,false,true,false,ddinter,0
+MOL-00568,deflazacort,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00569,degarelix,small_molecule,false,true,false,ddinter,0
+MOL-00570,dehydrocholic acid,small_molecule,false,true,false,ddinter,0
+MOL-00571,dehydroepiandrosterone,small_molecule,true,false,false,pmbjp,1
+MOL-00572,delafloxacin,small_molecule,false,true,false,ddinter,0
+MOL-00573,delavirdine,small_molecule,false,true,false,ddinter,0
+MOL-00574,demecarium,small_molecule,false,true,false,ddinter,0
+MOL-00575,demeclocycline,small_molecule,false,true,false,ddinter,0
+MOL-00576,denileukin diftitox,small_molecule,false,true,false,ddinter,0
+MOL-00577,denosumab,biologic,false,true,false,ddinter,0
+MOL-00578,deoxycholic acid,small_molecule,false,true,false,ddinter,0
+MOL-00579,deserpidine,small_molecule,false,true,false,ddinter,0
+MOL-00580,desflurane,small_molecule,false,true,false,ddinter,0
+MOL-00581,desipramine,small_molecule,false,true,false,ddinter,0
+MOL-00582,desirudin,small_molecule,false,true,false,ddinter,0
+MOL-00583,desloratadine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00584,desmopressin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00585,desogestrel,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00586,desonide,small_molecule,false,true,false,ddinter,0
+MOL-00587,desoximetasone,small_molecule,false,true,false,ddinter,0
+MOL-00588,desvenlafaxine,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00589,deutetrabenazine,small_molecule,false,true,false,ddinter,0
+MOL-00590,devil s claw extract,small_molecule,true,false,false,pmbjp,1
+MOL-00591,dexamethasone,small_molecule,true,true,true,pmbjp|ddinter|nppa,9
+MOL-00592,dexbrompheniramine,small_molecule,false,true,false,ddinter,0
+MOL-00593,dexchlorpheniramine,small_molecule,true,false,false,pmbjp,2
+MOL-00594,dexfenfluramine,small_molecule,false,true,false,ddinter,0
+MOL-00595,dexlansoprazole,small_molecule,false,true,false,ddinter,0
+MOL-00596,dexlansoprazole mr,small_molecule,true,false,false,pmbjp,1
+MOL-00597,dexmedetomidine,small_molecule,false,true,false,ddinter,0
+MOL-00598,dexmethylphenidate,small_molecule,false,true,false,ddinter,0
+MOL-00599,dexrazoxane,small_molecule,false,true,false,ddinter,0
+MOL-00600,dextran,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00601,dextroamphetamine,small_molecule,false,true,false,ddinter,0
+MOL-00602,dextromethorphan,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00603,dextropropoxyphene,small_molecule,false,true,false,ddinter,0
+MOL-00604,dextrose,small_molecule,true,false,false,pmbjp,4
+MOL-00605,dextrose intravenouse,small_molecule,true,false,false,pmbjp,1
+MOL-00606,dextrose unspecified form,small_molecule,false,true,false,ddinter,0
+MOL-00607,dextrothyroxine,small_molecule,false,true,false,ddinter,0
+MOL-00608,dezocine,small_molecule,false,true,false,ddinter,0
+MOL-00609,dha,small_molecule,true,false,false,pmbjp,2
+MOL-00610,di-cloxacillin,small_molecule,true,false,false,pmbjp,1
+MOL-00611,di-hydralazine,small_molecule,true,false,false,pmbjp,1
+MOL-00612,diacerein,small_molecule,true,false,false,pmbjp,4
+MOL-00613,diamorphine,small_molecule,false,true,false,ddinter,0
+MOL-00614,diastase,small_molecule,true,false,false,pmbjp,1
+MOL-00615,diatrizoate,small_molecule,false,true,false,ddinter,0
+MOL-00616,diazepam,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00617,diazoxide,small_molecule,false,true,false,ddinter,0
+MOL-00618,dichloralphenazone,small_molecule,false,true,false,ddinter,0
+MOL-00619,diclofenac,small_molecule,true,true,true,pmbjp|ddinter|nppa,19
+MOL-00620,diclofenac diethylamine,small_molecule,true,false,false,pmbjp,3
+MOL-00621,diclofenac dithylamine,small_molecule,true,false,false,pmbjp,1
+MOL-00622,diclofenamide,small_molecule,false,true,false,ddinter,0
+MOL-00623,dicloxacillin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00624,dicoumarol,small_molecule,false,true,false,ddinter,0
+MOL-00625,dicyclomine,small_molecule,false,true,false,ddinter,0
+MOL-00626,dicycloverine,small_molecule,true,false,true,pmbjp|nppa,7
+MOL-00627,didanosine,small_molecule,false,true,false,ddinter,0
+MOL-00628,dienestrol,small_molecule,false,true,false,ddinter,0
+MOL-00629,dienogest,small_molecule,false,true,false,ddinter,0
+MOL-00630,diethylcarbamazine,small_molecule,true,false,true,pmbjp|nppa,3
+MOL-00631,diethylpropion,small_molecule,false,true,false,ddinter,0
+MOL-00632,diethylstilbestrol,small_molecule,false,true,false,ddinter,0
+MOL-00633,difenoxin,small_molecule,false,true,false,ddinter,0
+MOL-00634,diflorasone,small_molecule,false,true,false,ddinter,0
+MOL-00635,diflunisal,small_molecule,false,true,false,ddinter,0
+MOL-00636,difluprednate,small_molecule,false,true,false,ddinter,0
+MOL-00637,digitoxin,small_molecule,false,true,false,ddinter,0
+MOL-00638,digoxin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00639,digoxin immune fab,small_molecule,false,true,false,ddinter,0
+MOL-00640,dihydrocodeine,small_molecule,false,true,false,ddinter,0
+MOL-00641,dihydroergotamine,small_molecule,false,true,false,ddinter,0
+MOL-00642,dihydrotachysterol,small_molecule,false,true,false,ddinter,0
+MOL-00643,diiodohydroxyquinoline,small_molecule,false,true,false,ddinter,0
+MOL-00644,dil oil,small_molecule,true,false,false,pmbjp,1
+MOL-00645,dill oil,small_molecule,true,false,false,pmbjp,1
+MOL-00646,diloxanide,small_molecule,false,false,true,nppa,0
+MOL-00647,diltiazem,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00648,dimenhydrinate,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00649,dimercaprol,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00650,dimethicone chewable,small_molecule,true,false,false,pmbjp,1
+MOL-00651,dimethyl,small_molecule,false,true,false,ddinter,0
+MOL-00652,dinoprostone,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00653,dinutuximab,biologic,false,true,false,ddinter,0
+MOL-00654,diosmin,small_molecule,true,false,false,pmbjp,1
+MOL-00655,diphenhydramine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00656,diphenoxylate,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00657,diphtheria antitoxin,vaccine,false,false,true,nppa,0
+MOL-00658,dipivefrin,small_molecule,false,true,false,ddinter,0
+MOL-00659,dipyridamole,small_molecule,false,true,false,ddinter,0
+MOL-00660,diroximel,small_molecule,false,true,false,ddinter,0
+MOL-00661,disodium hydrogen,small_molecule,true,false,false,pmbjp,3
+MOL-00662,disopyramide,small_molecule,false,true,false,ddinter,0
+MOL-00663,disulfiram,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00664,dithranol,small_molecule,true,false,false,pmbjp,1
+MOL-00665,dl-methionine,small_molecule,true,false,false,pmbjp,1
+MOL-00666,dobutamine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00667,docetaxel,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00668,docosahexaenoic acid,small_molecule,true,false,false,pmbjp,1
+MOL-00669,docusate,small_molecule,false,true,false,ddinter,0
+MOL-00670,dofetilide,small_molecule,false,true,false,ddinter,0
+MOL-00671,dolasetron,small_molecule,false,true,false,ddinter,0
+MOL-00672,dolutegravir,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00673,domperidone,small_molecule,true,false,true,pmbjp|nppa,16
+MOL-00674,donepezil,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00675,dopamine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00676,doravirine,small_molecule,false,true,false,ddinter,0
+MOL-00677,doripenem,small_molecule,false,true,false,ddinter,0
+MOL-00678,dornase alfa,small_molecule,false,true,false,ddinter,0
+MOL-00679,dorzolamide,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00680,dosulepin,small_molecule,true,false,false,pmbjp,2
+MOL-00681,dosulepine,small_molecule,true,false,false,pmbjp,1
+MOL-00682,dotatate,small_molecule,false,true,false,ddinter,0
+MOL-00683,doxacurium,small_molecule,false,true,false,ddinter,0
+MOL-00684,doxapram,small_molecule,false,true,false,ddinter,0
+MOL-00685,doxazosin,small_molecule,false,true,false,ddinter,0
+MOL-00686,doxepin,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00687,doxercalciferol,small_molecule,false,true,false,ddinter,0
+MOL-00688,doxofylline,small_molecule,true,false,false,pmbjp,2
+MOL-00689,doxorubicin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00690,doxycycline,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00691,doxylamine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00692,dpt,small_molecule,false,false,true,nppa,0
+MOL-00693,dpt vaccine,vaccine,false,false,true,nppa,0
+MOL-00694,dried aluminium hydroxide,small_molecule,true,false,false,pmbjp,2
+MOL-00695,dronabinol,small_molecule,false,true,false,ddinter,0
+MOL-00696,dronedarone,small_molecule,false,true,false,ddinter,0
+MOL-00697,droperidol,small_molecule,false,true,false,ddinter,0
+MOL-00698,drospirenone,small_molecule,false,true,false,ddinter,0
+MOL-00699,drotaverine,small_molecule,true,false,false,pmbjp,5
+MOL-00700,drotrecogin alfa,small_molecule,false,true,false,ddinter,0
+MOL-00701,droxidopa,small_molecule,false,true,false,ddinter,0
+MOL-00702,drug eluting stents which include metallic des,small_molecule,false,false,true,nppa,0
+MOL-00703,dulaglutide,small_molecule,false,true,false,ddinter,0
+MOL-00704,duloxetin,small_molecule,true,false,false,pmbjp,5
+MOL-00705,duloxetine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00706,dupilumab,biologic,false,true,false,ddinter,0
+MOL-00707,durvalumab,biologic,false,true,false,ddinter,0
+MOL-00708,dutasteride,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-00709,duvelisib,small_molecule,false,true,false,ddinter,0
+MOL-00710,dydrogesterone,small_molecule,true,false,false,pmbjp,1
+MOL-00711,dyphylline,small_molecule,false,true,false,ddinter,0
+MOL-00712,ebastine,small_molecule,true,false,false,pmbjp,3
+MOL-00713,eberconazole,small_molecule,true,false,false,pmbjp,1
+MOL-00714,echinacea,small_molecule,false,true,false,ddinter,0
+MOL-00715,echothiophate,small_molecule,false,true,false,ddinter,0
+MOL-00716,econazole,small_molecule,false,true,false,ddinter,0
+MOL-00717,eculizumab,biologic,false,true,false,ddinter,0
+MOL-00718,edetate,small_molecule,false,true,false,ddinter,0
+MOL-00719,edoxaban,small_molecule,false,true,false,ddinter,0
+MOL-00720,edrophonium,small_molecule,false,true,false,ddinter,0
+MOL-00721,efalizumab,biologic,false,true,false,ddinter,0
+MOL-00722,efavirenz,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00723,efonidipine hydrochloride ethanolate,small_molecule,true,false,false,pmbjp,2
+MOL-00724,eicosapentaenoic acid,small_molecule,true,false,false,pmbjp,1
+MOL-00725,elagolix,small_molecule,false,true,false,ddinter,0
+MOL-00726,elbasvir,small_molecule,false,true,false,ddinter,0
+MOL-00727,eletriptan,small_molecule,false,true,false,ddinter,0
+MOL-00728,elexacaftor,small_molecule,false,true,false,ddinter,0
+MOL-00729,eliglustat,small_molecule,false,true,false,ddinter,0
+MOL-00730,elotuzumab,biologic,false,true,false,ddinter,0
+MOL-00731,eltrombopag,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00732,eluxadoline,small_molecule,false,true,false,ddinter,0
+MOL-00733,elvitegravir,small_molecule,false,true,false,ddinter,0
+MOL-00734,emapalumab,biologic,false,true,false,ddinter,0
+MOL-00735,emicizumab,biologic,false,true,false,ddinter,0
+MOL-00736,empagliflozin,small_molecule,false,true,false,ddinter,0
+MOL-00737,emtricitabine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00738,enalapril,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-00739,enasidenib,small_molecule,false,true,false,ddinter,0
+MOL-00740,encorafenib,small_molecule,false,true,false,ddinter,0
+MOL-00741,enflurane,small_molecule,false,true,false,ddinter,0
+MOL-00742,enfortumab vedotin,biologic,false,true,false,ddinter,0
+MOL-00743,enfuvirtide,small_molecule,false,true,false,ddinter,0
+MOL-00744,enoxacin,small_molecule,false,true,false,ddinter,0
+MOL-00745,enoxaparin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00746,entacapone,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00747,entecavir,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00748,entrectinib,small_molecule,false,true,false,ddinter,0
+MOL-00749,enzalutamide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00750,enzyme mixed fruit,small_molecule,true,false,false,pmbjp,1
+MOL-00751,epa,small_molecule,true,false,false,pmbjp,1
+MOL-00752,epalrestat,small_molecule,true,false,false,pmbjp,1
+MOL-00753,ephedrine,small_molecule,false,true,false,ddinter,0
+MOL-00754,epinephrine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00755,epirubicin,small_molecule,false,true,false,ddinter,0
+MOL-00756,eplerenone,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00757,epoprostenol,small_molecule,false,true,false,ddinter,0
+MOL-00758,eprosartan,small_molecule,false,true,false,ddinter,0
+MOL-00759,eptifibatide,small_molecule,false,true,false,ddinter,0
+MOL-00760,eravacycline,small_molecule,false,true,false,ddinter,0
+MOL-00761,erdafitinib,small_molecule,false,true,false,ddinter,0
+MOL-00762,ergocalciferol,small_molecule,false,true,false,ddinter,0
+MOL-00763,ergoloid,small_molecule,false,true,false,ddinter,0
+MOL-00764,ergometrine,small_molecule,false,true,false,ddinter,0
+MOL-00765,ergotamine,small_molecule,false,true,false,ddinter,0
+MOL-00766,eribulin,small_molecule,false,true,false,ddinter,0
+MOL-00767,erlotinib,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00768,ertapenem,small_molecule,false,true,false,ddinter,0
+MOL-00769,ertugliflozin,small_molecule,false,true,false,ddinter,0
+MOL-00770,erythromycin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00771,erythromycin estolate,small_molecule,true,false,false,pmbjp,2
+MOL-00772,erythropoietin,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00773,escitalopram,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00774,escitalopram oxelate,small_molecule,true,false,false,pmbjp,1
+MOL-00775,esketamine,small_molecule,false,true,false,ddinter,0
+MOL-00776,eslicarbazepine,small_molecule,false,true,false,ddinter,0
+MOL-00777,esmolol,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00778,esomeprazole,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-00779,esomeprazole gastro-resistance,small_molecule,true,false,false,pmbjp,1
+MOL-00780,esomeprazole magnessium,small_molecule,true,false,false,pmbjp,1
+MOL-00781,essential amino acid,small_molecule,true,false,false,pmbjp,1
+MOL-00782,estazolam,small_molecule,false,true,false,ddinter,0
+MOL-00783,esterified estrogens,small_molecule,false,true,false,ddinter,0
+MOL-00784,estradiol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00785,estramustine,small_molecule,false,true,false,ddinter,0
+MOL-00786,estrone,small_molecule,false,true,false,ddinter,0
+MOL-00787,eszopiclone,small_molecule,false,true,false,ddinter,0
+MOL-00788,etacrynic acid,small_molecule,false,true,false,ddinter,0
+MOL-00789,etamsylate,small_molecule,true,false,false,pmbjp,2
+MOL-00790,etanercept,small_molecule,false,true,false,ddinter,0
+MOL-00791,etelcalcetide,small_molecule,false,true,false,ddinter,0
+MOL-00792,ethambutol,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00793,ethanol,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00794,ethchlorvynol,small_molecule,false,true,false,ddinter,0
+MOL-00795,ethinyl estradiol,small_molecule,true,false,true,pmbjp|nppa,5
+MOL-00796,ethinylestradiol,small_molecule,false,true,false,ddinter,0
+MOL-00797,ethiodized oil,small_molecule,false,true,false,ddinter,0
+MOL-00798,ethionamide,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00799,ethosuximide,small_molecule,false,true,false,ddinter,0
+MOL-00800,ethotoin,small_molecule,false,true,false,ddinter,0
+MOL-00801,etidocaine,small_molecule,false,true,false,ddinter,0
+MOL-00802,etidronic acid,small_molecule,false,true,false,ddinter,0
+MOL-00803,etizolam,small_molecule,true,false,false,pmbjp,7
+MOL-00804,etodolac,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00805,etomidate,small_molecule,false,true,false,ddinter,0
+MOL-00806,etonogestrel,small_molecule,false,true,false,ddinter,0
+MOL-00807,etophyllin,small_molecule,true,false,false,pmbjp,2
+MOL-00808,etophylline,small_molecule,true,false,false,pmbjp,2
+MOL-00809,etoposide,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00810,etoricoxib,small_molecule,true,false,false,pmbjp,5
+MOL-00811,etravirine,small_molecule,false,true,false,ddinter,0
+MOL-00812,eucalyptol,small_molecule,true,false,false,pmbjp,1
+MOL-00813,evening primrose oil,herbal,true,false,false,pmbjp,3
+MOL-00814,everolimus,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00815,evogliptin,small_molecule,true,false,false,pmbjp,2
+MOL-00816,evogliptin tartarate,small_molecule,true,false,false,pmbjp,1
+MOL-00817,exemestane,small_molecule,false,true,false,ddinter,0
+MOL-00818,exenatide,small_molecule,false,true,false,ddinter,0
+MOL-00819,exercise ball,small_molecule,true,false,false,pmbjp,1
+MOL-00820,ezetimibe,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00821,ezogabine,small_molecule,false,true,false,ddinter,0
+MOL-00822,factor ix complex,small_molecule,false,true,false,ddinter,0
+MOL-00823,factor xiii,small_molecule,false,true,false,ddinter,0
+MOL-00824,famciclovir,small_molecule,false,true,false,ddinter,0
+MOL-00825,famotidine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00826,faropenem,small_molecule,true,false,false,pmbjp,2
+MOL-00827,febuxostat,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00828,fedratinib,small_molecule,false,true,false,ddinter,0
+MOL-00829,felbamate,small_molecule,false,true,false,ddinter,0
+MOL-00830,felodipine,small_molecule,false,true,false,ddinter,0
+MOL-00831,fenfluramine,small_molecule,false,true,false,ddinter,0
+MOL-00832,fennel oil,small_molecule,true,false,false,pmbjp,1
+MOL-00833,fenofibrate,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00834,fenofibric acid,small_molecule,false,true,false,ddinter,0
+MOL-00835,fenoldopam,small_molecule,false,true,false,ddinter,0
+MOL-00836,fenoprofen,small_molecule,false,true,false,ddinter,0
+MOL-00837,fentanyl,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00838,feracrylum,small_molecule,true,false,false,pmbjp,3
+MOL-00839,feracrylum antiseptic,small_molecule,true,false,false,pmbjp,1
+MOL-00840,ferric ammonium,small_molecule,true,false,false,pmbjp,1
+MOL-00841,ferric carboxymaltose,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00842,ferric derisomaltose,small_molecule,false,true,false,ddinter,0
+MOL-00843,ferrous,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-00844,ferrous asparto,small_molecule,true,false,false,pmbjp,1
+MOL-00845,ferrous salt,small_molecule,false,false,true,nppa,0
+MOL-00846,ferrous salts,small_molecule,false,false,true,nppa,0
+MOL-00847,ferumoxides,small_molecule,false,true,false,ddinter,0
+MOL-00848,ferumoxsil,small_molecule,false,true,false,ddinter,0
+MOL-00849,ferumoxytol,small_molecule,false,true,false,ddinter,0
+MOL-00850,fesoterodine,small_molecule,false,true,false,ddinter,0
+MOL-00851,fexofenadine,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-00852,fibrin sealant,small_molecule,true,false,false,pmbjp,1
+MOL-00853,fibrinogen human,small_molecule,false,true,false,ddinter,0
+MOL-00854,fidaxomicin,small_molecule,false,true,false,ddinter,0
+MOL-00855,filgrastim,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00856,finasteride,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00857,fingolimod,small_molecule,false,true,false,ddinter,0
+MOL-00858,flavoxate,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00859,flax seed,small_molecule,false,true,false,ddinter,0
+MOL-00860,flecainide,small_molecule,false,true,false,ddinter,0
+MOL-00861,flecanide,small_molecule,true,false,false,pmbjp,2
+MOL-00862,flibanserin,small_molecule,false,true,false,ddinter,0
+MOL-00863,floxuridine,small_molecule,false,true,false,ddinter,0
+MOL-00864,fluconazole,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00865,flucytosine,small_molecule,false,true,false,ddinter,0
+MOL-00866,fludarabine,small_molecule,false,true,false,ddinter,0
+MOL-00867,fludeoxyglucose,small_molecule,false,true,false,ddinter,0
+MOL-00868,fludrocortisone,small_molecule,false,true,false,ddinter,0
+MOL-00869,flumazenil,small_molecule,false,true,false,ddinter,0
+MOL-00870,flunarizine,small_molecule,true,false,true,pmbjp|nppa,3
+MOL-00871,flunisolide,small_molecule,false,true,false,ddinter,0
+MOL-00872,fluocinolone acetonide,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00873,fluocinonide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00874,fluorescein,small_molecule,false,false,true,nppa,0
+MOL-00875,fluoromethalone,small_molecule,true,false,false,pmbjp,1
+MOL-00876,fluorometholone,small_molecule,false,true,false,ddinter,0
+MOL-00877,fluorouracil,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00878,fluoxetine,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-00879,fluoxymesterone,small_molecule,false,true,false,ddinter,0
+MOL-00880,flupentixol,small_molecule,true,false,false,pmbjp,2
+MOL-00881,flupentixole,small_molecule,true,false,false,pmbjp,1
+MOL-00882,fluphenazine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00883,flupirtine,small_molecule,true,false,false,pmbjp,1
+MOL-00884,flurandrenolide,small_molecule,false,true,false,ddinter,0
+MOL-00885,flurazepam,small_molecule,false,true,false,ddinter,0
+MOL-00886,flurbiprofen,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00887,fluromethalone,small_molecule,true,false,false,pmbjp,1
+MOL-00888,flurouracil,small_molecule,true,false,false,pmbjp,1
+MOL-00889,flutamide,small_molecule,false,true,false,ddinter,0
+MOL-00890,fluticasone,small_molecule,true,true,false,pmbjp|ddinter,11
+MOL-00891,fluvastatin,small_molecule,false,true,false,ddinter,0
+MOL-00892,fluvoxamine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00893,folic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,17
+MOL-00894,folic acid a,small_molecule,true,false,false,pmbjp,1
+MOL-00895,folinic acid,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-00896,follitropin,small_molecule,false,true,false,ddinter,0
+MOL-00897,fomepizole,small_molecule,false,true,false,ddinter,0
+MOL-00898,fondaparinux,small_molecule,false,true,false,ddinter,0
+MOL-00899,formoterol,small_molecule,true,true,true,pmbjp|ddinter|nppa,13
+MOL-00900,fosamprenavir,small_molecule,false,true,false,ddinter,0
+MOL-00901,fosaprepitant,small_molecule,false,true,false,ddinter,0
+MOL-00902,foscarnet,small_molecule,false,true,false,ddinter,0
+MOL-00903,fosfomycin,small_molecule,false,true,false,ddinter,0
+MOL-00904,fosinopril,small_molecule,false,true,false,ddinter,0
+MOL-00905,fosnetupitant,small_molecule,false,true,false,ddinter,0
+MOL-00906,fosphenytoin,small_molecule,false,true,false,ddinter,0
+MOL-00907,fospropofol,small_molecule,false,true,false,ddinter,0
+MOL-00908,fostamatinib,small_molecule,false,true,false,ddinter,0
+MOL-00909,fostemsavir,small_molecule,false,true,false,ddinter,0
+MOL-00910,framycetin,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-00911,frangula purshiana bark,small_molecule,false,true,false,ddinter,0
+MOL-00912,fresh frozen plasma,small_molecule,false,false,true,nppa,0
+MOL-00913,frovatriptan,small_molecule,false,true,false,ddinter,0
+MOL-00914,fulvestrant,small_molecule,false,true,false,ddinter,0
+MOL-00915,fungal diastase,small_molecule,true,false,false,pmbjp,4
+MOL-00916,fungal diastase carminatives,small_molecule,true,false,false,pmbjp,1
+MOL-00917,fungal diastase enyme,small_molecule,true,false,false,pmbjp,1
+MOL-00918,furazolidone,small_molecule,true,false,false,pmbjp,1
+MOL-00919,furosemide,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-00920,fusidic acid,small_molecule,true,false,true,pmbjp|nppa,4
+MOL-00921,gabapentin,small_molecule,true,true,false,pmbjp|ddinter,9
+MOL-00922,gadobenate,small_molecule,false,false,true,nppa,0
+MOL-00923,gadobenic acid,small_molecule,false,true,false,ddinter,0
+MOL-00924,gadobutrol,small_molecule,false,true,false,ddinter,0
+MOL-00925,gadodiamide,small_molecule,false,true,false,ddinter,0
+MOL-00926,gadofosveset trisodium,small_molecule,false,true,false,ddinter,0
+MOL-00927,gadopentetic acid,small_molecule,false,true,false,ddinter,0
+MOL-00928,gadoteric acid,small_molecule,false,true,false,ddinter,0
+MOL-00929,gadoteridol,small_molecule,false,true,false,ddinter,0
+MOL-00930,gadoversetamide,small_molecule,false,true,false,ddinter,0
+MOL-00931,gadoxetic acid,small_molecule,false,true,false,ddinter,0
+MOL-00932,galactose,small_molecule,false,true,false,ddinter,0
+MOL-00933,galantamine,small_molecule,false,true,false,ddinter,0
+MOL-00934,gallium,small_molecule,false,true,false,ddinter,0
+MOL-00935,gallium chloride ga,small_molecule,false,true,false,ddinter,0
+MOL-00936,gama benzene hexachloride,small_molecule,true,false,false,pmbjp,1
+MOL-00937,gamma-aminobutyric acid,small_molecule,false,true,false,ddinter,0
+MOL-00938,ganciclovir,small_molecule,false,true,true,ddinter|nppa,0
+MOL-00939,ganirelix,small_molecule,false,true,false,ddinter,0
+MOL-00940,garlic,small_molecule,false,true,false,ddinter,0
+MOL-00941,gatifloxacin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00942,gefitinib,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00943,gemcitabine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-00944,gemfibrozil,small_molecule,false,true,false,ddinter,0
+MOL-00945,gemifloxacin,small_molecule,false,true,false,ddinter,0
+MOL-00946,gemtuzumab ozogamicin,biologic,false,true,false,ddinter,0
+MOL-00947,gentamicin,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-00948,gentian violet,small_molecule,false,false,true,nppa,0
+MOL-00949,gestodene,small_molecule,true,false,false,pmbjp,1
+MOL-00950,gilteritinib,small_molecule,false,true,false,ddinter,0
+MOL-00951,ginger,small_molecule,false,true,false,ddinter,0
+MOL-00952,ginkgo biloba,herbal,false,true,false,ddinter,0
+MOL-00953,ginkgo biloba extract,herbal,true,false,false,pmbjp,1
+MOL-00954,ginseng,small_molecule,false,true,false,ddinter,0
+MOL-00955,ginseng multivitamins,small_molecule,true,false,false,pmbjp,1
+MOL-00956,givosiran,small_molecule,false,true,false,ddinter,0
+MOL-00957,glargine pen,small_molecule,true,false,false,pmbjp,1
+MOL-00958,glasdegib,small_molecule,false,true,false,ddinter,0
+MOL-00959,glatiramer,small_molecule,false,true,false,ddinter,0
+MOL-00960,glecaprevir,small_molecule,false,true,false,ddinter,0
+MOL-00961,gliclazide,small_molecule,true,false,false,pmbjp,10
+MOL-00962,glimepiride,small_molecule,true,true,true,pmbjp|ddinter|nppa,24
+MOL-00963,glimipride,small_molecule,true,false,false,pmbjp,2
+MOL-00964,glipizide,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-00965,glucagon,small_molecule,false,true,false,ddinter,0
+MOL-00966,glucarpidase,small_molecule,false,true,false,ddinter,0
+MOL-00967,glucosamine,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-00968,glucosamine sulfate chondroitin sulfat msm vitamin,small_molecule,true,false,false,pmbjp,1
+MOL-00969,glucose,small_molecule,false,false,true,nppa,0
+MOL-00970,glutamic acid,small_molecule,false,true,false,ddinter,0
+MOL-00971,glutaraldehyde,small_molecule,false,false,true,nppa,0
+MOL-00972,glyburide,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-00973,glycerin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00974,glycerol phenylbutyrate,small_molecule,false,true,false,ddinter,0
+MOL-00975,glycolic acid,small_molecule,true,false,false,pmbjp,2
+MOL-00976,glycopyrrolate,small_molecule,true,false,true,pmbjp|nppa,3
+MOL-00977,glycopyrronium,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-00978,goat milk,small_molecule,true,false,false,pmbjp,1
+MOL-00979,goldenseal,small_molecule,false,true,false,ddinter,0
+MOL-00980,golimumab,biologic,false,true,false,ddinter,0
+MOL-00981,gonadorelin,small_molecule,false,true,false,ddinter,0
+MOL-00982,goserelin,small_molecule,false,true,false,ddinter,0
+MOL-00983,granisetron,small_molecule,false,true,false,ddinter,0
+MOL-00984,grazoprevir,small_molecule,false,true,false,ddinter,0
+MOL-00985,grepafloxacin,small_molecule,false,true,false,ddinter,0
+MOL-00986,griseofulvin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-00987,guaifenesin,small_molecule,true,false,false,pmbjp,4
+MOL-00988,guaiphenesin,small_molecule,true,false,false,pmbjp,1
+MOL-00989,guaiphenesin menthol,small_molecule,true,false,false,pmbjp,1
+MOL-00990,guanabenz,small_molecule,false,true,false,ddinter,0
+MOL-00991,guanadrel,small_molecule,false,true,false,ddinter,0
+MOL-00992,guanethidine,small_molecule,false,true,false,ddinter,0
+MOL-00993,guanfacine,small_molecule,false,true,false,ddinter,0
+MOL-00994,guanidine,small_molecule,false,true,false,ddinter,0
+MOL-00995,guselkumab,biologic,false,true,false,ddinter,0
+MOL-00996,haematinic iron,small_molecule,true,false,false,pmbjp,1
+MOL-00997,haemodialysis fluid,small_molecule,false,false,true,nppa,0
+MOL-00998,halazepam,small_molecule,false,true,false,ddinter,0
+MOL-00999,halcinonide,small_molecule,false,true,false,ddinter,0
+MOL-01000,halobetasol,small_molecule,true,false,false,pmbjp,2
+MOL-01001,halofantrine,small_molecule,false,true,false,ddinter,0
+MOL-01002,haloperidol,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01003,halothane,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01004,heating pad,small_molecule,true,false,false,pmbjp,1
+MOL-01005,hemin,small_molecule,false,true,false,ddinter,0
+MOL-01006,hep b vaccine,vaccine,false,false,true,nppa,0
+MOL-01007,heparin,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-01008,hepatitis a vaccine,vaccine,false,true,false,ddinter,0
+MOL-01009,hepatitis b immunoglobulin,small_molecule,false,false,true,nppa,0
+MOL-01010,hepatitis b vaccine,vaccine,false,true,true,ddinter|nppa,0
+MOL-01011,hesperidin,small_molecule,true,false,false,pmbjp,1
+MOL-01012,hexachlorophene,small_molecule,false,true,false,ddinter,0
+MOL-01013,hexaminolevulinate,small_molecule,false,true,false,ddinter,0
+MOL-01014,hib,small_molecule,false,false,true,nppa,0
+MOL-01015,histamine,small_molecule,false,true,false,ddinter,0
+MOL-01016,histrelin,small_molecule,false,true,false,ddinter,0
+MOL-01017,homatropine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01018,hormone releasing iud,small_molecule,false,false,true,nppa,0
+MOL-01019,human adenovirus e serotype strain cl- antigen,small_molecule,false,true,false,ddinter,0
+MOL-01020,human botulinum neurotoxin a b immune globulin,small_molecule,false,true,false,ddinter,0
+MOL-01021,human c -esterase inhibitor,small_molecule,false,true,false,ddinter,0
+MOL-01022,human chorionic gonadotrophin,small_molecule,true,false,false,pmbjp,1
+MOL-01023,human chorionic gonadotropin,small_molecule,false,false,true,nppa,0
+MOL-01024,human cytomegalovirus immune globulin,small_molecule,false,true,false,ddinter,0
+MOL-01025,human immunoglobulin g,small_molecule,false,true,false,ddinter,0
+MOL-01026,human normal immunoglobulin,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-01027,human papillomavirus l capsid protein antigen,small_molecule,false,true,false,ddinter,0
+MOL-01028,human papillomavirus quadrivalent types,small_molecule,true,false,false,pmbjp,1
+MOL-01029,human rho immune globulin,small_molecule,false,true,false,ddinter,0
+MOL-01030,hyaluronic acid,small_molecule,false,true,false,ddinter,0
+MOL-01031,hyaluronidase,small_molecule,false,true,false,ddinter,0
+MOL-01032,hydralazine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01033,hydrochlorothiazide,small_molecule,true,true,true,pmbjp|ddinter|nppa,21
+MOL-01034,hydrochlorothiazide tabelts,small_molecule,true,false,false,pmbjp,1
+MOL-01035,hydrocodone,small_molecule,false,true,false,ddinter,0
+MOL-01036,hydrocortisone,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-01037,hydroflumethiazide,small_molecule,false,true,false,ddinter,0
+MOL-01038,hydrogen peroxide,small_molecule,false,false,true,nppa,0
+MOL-01039,hydromorphone,small_molecule,false,true,false,ddinter,0
+MOL-01040,hydroquinone,small_molecule,true,false,false,pmbjp,3
+MOL-01041,hydroxocobalamin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01042,hydroxyamphetamine,small_molecule,false,true,false,ddinter,0
+MOL-01043,hydroxychloroquine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01044,hydroxyprogesterone,small_molecule,true,false,false,pmbjp,2
+MOL-01045,hydroxypropylmethylcellulose,small_molecule,true,false,false,pmbjp,1
+MOL-01046,hydroxyurea,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01047,hydroxyzine,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01048,hyoscyamine,small_molecule,false,true,false,ddinter,0
+MOL-01049,hypromellose,small_molecule,false,false,true,nppa,0
+MOL-01050,ibandronate,small_molecule,false,true,false,ddinter,0
+MOL-01051,ibandronic acid,small_molecule,true,false,false,pmbjp,1
+MOL-01052,ibritumomab tiuxetan,biologic,false,true,false,ddinter,0
+MOL-01053,ibrutinib,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01054,ibuprofen,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-01055,ibutilide,small_molecule,false,true,false,ddinter,0
+MOL-01056,icatibant,small_molecule,false,true,false,ddinter,0
+MOL-01057,icosapent,small_molecule,false,true,false,ddinter,0
+MOL-01058,idarubicin,small_molecule,false,true,false,ddinter,0
+MOL-01059,idelalisib,small_molecule,false,true,false,ddinter,0
+MOL-01060,ifosfamide,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01061,iguratimod,small_molecule,true,false,false,pmbjp,1
+MOL-01062,ilaprazole,small_molecule,true,false,false,pmbjp,2
+MOL-01063,iloperidone,small_molecule,false,true,false,ddinter,0
+MOL-01064,iloprost,small_molecule,false,true,false,ddinter,0
+MOL-01065,imatinib,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01066,imeglimin,small_molecule,true,false,false,pmbjp,2
+MOL-01067,imiglucerase,small_molecule,false,true,false,ddinter,0
+MOL-01068,imipenem,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01069,imipramine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01070,imiquimod,small_molecule,false,true,false,ddinter,0
+MOL-01071,indacaterol,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01072,indapamide,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-01073,indinavir,small_molecule,false,true,false,ddinter,0
+MOL-01074,indium - oxyquinoline,small_molecule,false,true,false,ddinter,0
+MOL-01075,indium - pentetate,small_molecule,false,true,false,ddinter,0
+MOL-01076,indium - pentetreotide,small_molecule,false,true,false,ddinter,0
+MOL-01077,indomethacin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01078,inebilizumab,biologic,false,true,false,ddinter,0
+MOL-01079,infliximab,biologic,false,true,false,ddinter,0
+MOL-01080,influenza a virus a california -like antigen,small_molecule,false,true,false,ddinter,0
+MOL-01081,influenza a virus a vietnam antigen,small_molecule,false,true,false,ddinter,0
+MOL-01082,inhalent,small_molecule,true,false,false,pmbjp,1
+MOL-01083,inosine pranobex,small_molecule,true,false,false,pmbjp,1
+MOL-01084,inositol,small_molecule,true,false,false,pmbjp,2
+MOL-01085,inositol hydroxocobalamin vitaminb folic acid nicotinamide inositol l-lysine,small_molecule,true,false,false,pmbjp,1
+MOL-01086,inotersen,small_molecule,false,true,false,ddinter,0
+MOL-01087,inotuzumab ozogamicin,biologic,false,true,false,ddinter,0
+MOL-01088,insulin,biologic,false,false,true,nppa,0
+MOL-01089,insulin aspart,biologic,true,true,false,pmbjp|ddinter,1
+MOL-01090,insulin degludec,biologic,false,true,false,ddinter,0
+MOL-01091,insulin detemir,biologic,false,true,false,ddinter,0
+MOL-01092,insulin glargine,biologic,true,true,false,pmbjp|ddinter,1
+MOL-01093,insulin glulisine,biologic,true,true,false,pmbjp|ddinter,1
+MOL-01094,insulin human,biologic,false,true,false,ddinter,0
+MOL-01095,insulin insulin human soluble,biologic,true,false,false,pmbjp,1
+MOL-01096,insulin lispro,biologic,true,true,false,pmbjp|ddinter,1
+MOL-01097,insulin pen,biologic,true,false,false,pmbjp,1
+MOL-01098,interferon alfa- a recombinant,small_molecule,false,true,false,ddinter,0
+MOL-01099,interferon alfa- b,small_molecule,false,true,false,ddinter,0
+MOL-01100,interferon alfa-n,small_molecule,false,true,false,ddinter,0
+MOL-01101,interferon alfacon,small_molecule,false,true,false,ddinter,0
+MOL-01102,interferon beta- a,small_molecule,false,true,false,ddinter,0
+MOL-01103,interferon beta- b,small_molecule,false,true,false,ddinter,0
+MOL-01104,interferon gamma- b,small_molecule,false,true,false,ddinter,0
+MOL-01105,intermediate acting insulin,biologic,false,false,true,nppa,0
+MOL-01106,intraperitoneal dialysis,small_molecule,false,false,true,nppa,0
+MOL-01107,inulin,small_molecule,false,true,false,ddinter,0
+MOL-01108,iobenguane,small_molecule,false,true,false,ddinter,0
+MOL-01109,iodide i,small_molecule,false,true,false,ddinter,0
+MOL-01110,iodine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01111,iodipamide,small_molecule,false,true,false,ddinter,0
+MOL-01112,iodixanol,small_molecule,false,true,false,ddinter,0
+MOL-01113,ioflupane i,small_molecule,false,true,false,ddinter,0
+MOL-01114,iohexol,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01115,iopamidol,small_molecule,false,true,false,ddinter,0
+MOL-01116,iopanoic acid,small_molecule,false,true,false,ddinter,0
+MOL-01117,iopodic acid,small_molecule,false,true,false,ddinter,0
+MOL-01118,iopromide,small_molecule,false,true,false,ddinter,0
+MOL-01119,iothalamic acid,small_molecule,false,true,false,ddinter,0
+MOL-01120,ioversol,small_molecule,false,true,false,ddinter,0
+MOL-01121,ioxilan,small_molecule,false,true,false,ddinter,0
+MOL-01122,ipecac,small_molecule,false,true,false,ddinter,0
+MOL-01123,ipilimumab,biologic,false,true,false,ddinter,0
+MOL-01124,ipratropium,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-01125,ipratropium rotacap,small_molecule,true,false,false,pmbjp,1
+MOL-01126,irbesartan,small_molecule,false,true,false,ddinter,0
+MOL-01127,irinotecan,small_molecule,false,true,false,ddinter,0
+MOL-01128,iron,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01129,iron dextran,small_molecule,false,true,false,ddinter,0
+MOL-01130,iron protein succinylate,small_molecule,false,true,false,ddinter,0
+MOL-01131,iron sucrose,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01132,isatuximab,biologic,false,true,false,ddinter,0
+MOL-01133,isavuconazonium,small_molecule,false,true,false,ddinter,0
+MOL-01134,isocarboxazid,small_molecule,false,true,false,ddinter,0
+MOL-01135,isoetharine,small_molecule,false,true,false,ddinter,0
+MOL-01136,isoflurane,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01137,isoflurophate,small_molecule,false,true,false,ddinter,0
+MOL-01138,isometheptene,small_molecule,false,true,false,ddinter,0
+MOL-01139,isoniazid,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01140,isophane,small_molecule,true,false,false,pmbjp,1
+MOL-01141,isophane insu,small_molecule,true,false,false,pmbjp,1
+MOL-01142,isoprenaline,small_molecule,false,true,false,ddinter,0
+MOL-01143,isopropyl alcohol,small_molecule,true,false,false,pmbjp,1
+MOL-01144,isosorbide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01145,isosorbide dinitrate,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01146,isosorbide mononitrate,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01147,isosorbide- -mononitrate,small_molecule,false,false,true,nppa,0
+MOL-01148,isosorbidemononitrate,small_molecule,true,false,false,pmbjp,1
+MOL-01149,isotretinoin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01150,isoxsuprine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01151,isradipine,small_molecule,false,true,false,ddinter,0
+MOL-01152,istradefylline,small_molecule,false,true,false,ddinter,0
+MOL-01153,itopride,small_molecule,true,false,false,pmbjp,4
+MOL-01154,itraconazole,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-01155,iud containing copper,small_molecule,false,false,true,nppa,0
+MOL-01156,ivabradine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01157,ivacaftor,small_molecule,false,true,false,ddinter,0
+MOL-01158,ivermectin,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01159,ivosidenib,small_molecule,false,true,false,ddinter,0
+MOL-01160,ixabepilone,small_molecule,false,true,false,ddinter,0
+MOL-01161,ixazomib,small_molecule,false,true,false,ddinter,0
+MOL-01162,ixekizumab,biologic,false,true,false,ddinter,0
+MOL-01163,jan pudina,small_molecule,true,false,false,pmbjp,1
+MOL-01164,janaushadhi burn relief lidocaine,small_molecule,true,false,false,pmbjp,1
+MOL-01165,janaushadhi choline salicylate lignocaine,small_molecule,true,false,false,pmbjp,1
+MOL-01166,janaushadhi footcare,small_molecule,true,false,false,pmbjp,1
+MOL-01167,janaushadhi janani,small_molecule,true,false,false,pmbjp,2
+MOL-01168,janaushadhi nirmal,small_molecule,true,false,false,pmbjp,1
+MOL-01169,janaushadhi suraksha,small_molecule,true,false,false,pmbjp,1
+MOL-01170,japanese encephalitis vaccine,vaccine,false,false,true,nppa,0
+MOL-01171,kanamycin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01172,kaolin,small_molecule,false,true,false,ddinter,0
+MOL-01173,kava,small_molecule,false,true,false,ddinter,0
+MOL-01174,ketamine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01175,ketoconazole,small_molecule,true,true,false,pmbjp|ddinter,8
+MOL-01176,ketoprofen,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01177,ketorolac,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01178,ketorolac tromethamine,small_molecule,true,false,false,pmbjp,2
+MOL-01179,ketorolac tromethamine dispersible,small_molecule,true,false,false,pmbjp,1
+MOL-01180,ketotifen,small_molecule,false,true,false,ddinter,0
+MOL-01181,l-arginine,small_molecule,true,false,false,pmbjp,3
+MOL-01182,l-arginine l-cysteine,small_molecule,true,false,false,pmbjp,1
+MOL-01183,l-carnitine,small_molecule,true,false,false,pmbjp,2
+MOL-01184,l-carnitine l-tartrate,small_molecule,true,false,false,pmbjp,1
+MOL-01185,l-carnitine-l-tartrate,small_molecule,true,false,false,pmbjp,1
+MOL-01186,l-lysine,small_molecule,true,false,false,pmbjp,2
+MOL-01187,l-methyl folate,small_molecule,true,false,false,pmbjp,1
+MOL-01188,l-methylfoate,small_molecule,true,false,false,pmbjp,1
+MOL-01189,l-methylfolate,small_molecule,true,false,false,pmbjp,6
+MOL-01190,l-ornithin l-aspartate,small_molecule,true,false,false,pmbjp,1
+MOL-01191,l-ornithine l-aspartate,small_molecule,true,false,false,pmbjp,3
+MOL-01192,labetalol,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-01193,lacosamide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01194,lactic acid,small_molecule,false,true,false,ddinter,0
+MOL-01195,lactic acid bacillus,small_molecule,true,false,false,pmbjp,11
+MOL-01196,lactitol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01197,lactobacillus acidophilus,small_molecule,false,true,false,ddinter,0
+MOL-01198,lactulose,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01199,lamivudine,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-01200,lamotrigine,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01201,lancets round,small_molecule,true,false,false,pmbjp,1
+MOL-01202,lanreotide,small_molecule,false,true,false,ddinter,0
+MOL-01203,lansoprazole,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01204,lanthanum,small_molecule,false,true,false,ddinter,0
+MOL-01205,lapatinib,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01206,laronidase,small_molecule,false,true,false,ddinter,0
+MOL-01207,larotrectinib,small_molecule,false,true,false,ddinter,0
+MOL-01208,lasmiditan,small_molecule,false,true,false,ddinter,0
+MOL-01209,latanoprost,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01210,lecithin,small_molecule,true,false,false,pmbjp,1
+MOL-01211,ledipasvir,small_molecule,false,true,false,ddinter,0
+MOL-01212,lefamulin,small_molecule,false,true,false,ddinter,0
+MOL-01213,leflunomide,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01214,lemborexant,small_molecule,false,true,false,ddinter,0
+MOL-01215,lenalidomide,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01216,lenvatinib,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01217,lepirudin,small_molecule,false,true,false,ddinter,0
+MOL-01218,lesinurad,small_molecule,false,true,false,ddinter,0
+MOL-01219,letermovir,small_molecule,false,true,false,ddinter,0
+MOL-01220,letrozole,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01221,leucovorin,small_molecule,false,true,false,ddinter,0
+MOL-01222,leuprolide,small_molecule,false,true,false,ddinter,0
+MOL-01223,leuprolide acetate injections,small_molecule,true,false,false,pmbjp,1
+MOL-01224,levacetylmethadol,small_molecule,false,true,false,ddinter,0
+MOL-01225,levamisole,small_molecule,false,true,false,ddinter,0
+MOL-01226,levamlodipine,small_molecule,false,true,false,ddinter,0
+MOL-01227,levetiracetam,small_molecule,true,true,true,pmbjp|ddinter|nppa,8
+MOL-01228,levetiracetam xr,small_molecule,true,false,false,pmbjp,1
+MOL-01229,levmetamfetamine,small_molecule,false,true,false,ddinter,0
+MOL-01230,levo salbutamol,small_molecule,true,false,false,pmbjp,1
+MOL-01231,levo-thyroxine,small_molecule,true,false,false,pmbjp,2
+MOL-01232,levobetaxolol,small_molecule,false,true,false,ddinter,0
+MOL-01233,levobunolol,small_molecule,false,true,false,ddinter,0
+MOL-01234,levobupivacaine,small_molecule,false,true,false,ddinter,0
+MOL-01235,levocarnitine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01236,levocarnitine injections,small_molecule,true,false,false,pmbjp,1
+MOL-01237,levocetirizine,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-01238,levocetrizine,small_molecule,true,false,false,pmbjp,1
+MOL-01239,levocloperastine,small_molecule,true,false,false,pmbjp,2
+MOL-01240,levodopa,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-01241,levodropropizine,small_molecule,true,false,false,pmbjp,1
+MOL-01242,levofloxacin,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-01243,levoleucovorin,small_molecule,false,true,false,ddinter,0
+MOL-01244,levomefolic acid,small_molecule,false,true,false,ddinter,0
+MOL-01245,levomilnacipran,small_molecule,false,true,false,ddinter,0
+MOL-01246,levonordefrin,small_molecule,false,true,false,ddinter,0
+MOL-01247,levonorgestrel,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-01248,levorphanol,small_molecule,false,true,false,ddinter,0
+MOL-01249,levosalbutamol,small_molecule,true,true,false,pmbjp|ddinter,12
+MOL-01250,levosulpiride,small_molecule,true,false,false,pmbjp,6
+MOL-01251,levothyroxine,small_molecule,true,true,false,pmbjp|ddinter,8
+MOL-01252,licorice,small_molecule,false,true,false,ddinter,0
+MOL-01253,lidocaine,small_molecule,true,true,true,pmbjp|ddinter|nppa,12
+MOL-01254,light paraffin,small_molecule,true,false,false,pmbjp,1
+MOL-01255,linaclotide,small_molecule,false,true,false,ddinter,0
+MOL-01256,linagliptin,small_molecule,true,true,false,pmbjp|ddinter,9
+MOL-01257,linceed oil,small_molecule,true,false,false,pmbjp,1
+MOL-01258,lincomycin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01259,lindane,small_molecule,false,true,false,ddinter,0
+MOL-01260,linezolid,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01261,linomycin,small_molecule,true,false,false,pmbjp,1
+MOL-01262,linseed oil,small_molecule,true,false,false,pmbjp,4
+MOL-01263,liothyronine,small_molecule,false,true,false,ddinter,0
+MOL-01264,liotrix,small_molecule,false,true,false,ddinter,0
+MOL-01265,lipid liposomal amphotericin b,small_molecule,false,false,true,nppa,0
+MOL-01266,lipoic acid,small_molecule,false,true,false,ddinter,0
+MOL-01267,liposomal amphotericin b,small_molecule,true,false,false,pmbjp,1
+MOL-01268,liraglutide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01269,lisdexamfetamine,small_molecule,false,true,false,ddinter,0
+MOL-01270,lisinopril,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01271,lisocabtagene maraleucel,small_molecule,false,true,false,ddinter,0
+MOL-01272,lithium,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01273,lixisenatide,small_molecule,false,true,false,ddinter,0
+MOL-01274,lobeglitazone,small_molecule,true,false,false,pmbjp,1
+MOL-01275,lofexidine,small_molecule,false,true,false,ddinter,0
+MOL-01276,lomefloxacin,small_molecule,false,true,false,ddinter,0
+MOL-01277,lomitapide,small_molecule,false,true,false,ddinter,0
+MOL-01278,lomustine,small_molecule,false,true,false,ddinter,0
+MOL-01279,lonafarnib,small_molecule,false,true,false,ddinter,0
+MOL-01280,loperamide,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01281,lopinavir,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01282,loracarbef,small_molecule,false,true,false,ddinter,0
+MOL-01283,loratadine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01284,lorazepam,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-01285,lorcaserin,small_molecule,false,true,false,ddinter,0
+MOL-01286,lorlatinib,small_molecule,false,true,false,ddinter,0
+MOL-01287,lornoxicam,small_molecule,true,false,false,pmbjp,1
+MOL-01288,losartan,small_molecule,true,true,false,pmbjp|ddinter,8
+MOL-01289,loteprednol,small_molecule,false,true,false,ddinter,0
+MOL-01290,loteprednol etabonate,small_molecule,false,true,false,ddinter,0
+MOL-01291,lovastatin,small_molecule,false,true,false,ddinter,0
+MOL-01292,loxapine,small_molecule,false,true,false,ddinter,0
+MOL-01293,lubiprostone,small_molecule,false,true,false,ddinter,0
+MOL-01294,luliconazole,small_molecule,true,false,false,pmbjp,2
+MOL-01295,lumacaftor,small_molecule,false,true,false,ddinter,0
+MOL-01296,lumateperone,small_molecule,false,true,false,ddinter,0
+MOL-01297,lumefantrine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01298,lurasidone,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01299,lurbinectedin,small_molecule,false,true,false,ddinter,0
+MOL-01300,lusutrombopag,small_molecule,false,true,false,ddinter,0
+MOL-01301,lutein,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01302,lutetium lu dotatate,small_molecule,false,true,false,ddinter,0
+MOL-01303,lycopene,small_molecule,true,false,false,pmbjp,4
+MOL-01304,lycopene multivitamins,small_molecule,true,false,false,pmbjp,1
+MOL-01305,lyme disease vaccine,vaccine,false,true,false,ddinter,0
+MOL-01306,lyophilized polyvalent,small_molecule,false,false,true,nppa,0
+MOL-01307,macimorelin,small_molecule,false,true,false,ddinter,0
+MOL-01308,macitentan,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01309,madhu,small_molecule,true,false,false,pmbjp,3
+MOL-01310,magaldrate,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01311,magnesium,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-01312,magnesium hydroxide,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01313,magnesium oxide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01314,manganese,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01315,mannitol,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01316,maprotiline,small_molecule,false,true,false,ddinter,0
+MOL-01317,maraviroc,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01318,mazindol,small_molecule,false,true,false,ddinter,0
+MOL-01319,measles vaccine,vaccine,false,false,true,nppa,0
+MOL-01320,measles vaccine mumps virus vaccine,vaccine,true,false,false,pmbjp,1
+MOL-01321,measles virus vaccine live attenuated,vaccine,false,true,false,ddinter,0
+MOL-01322,mebendazole,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01323,mebeverine,small_molecule,true,false,false,pmbjp,2
+MOL-01324,mebrofenin,small_molecule,false,true,false,ddinter,0
+MOL-01325,mecamylamine,small_molecule,false,true,false,ddinter,0
+MOL-01326,mecasermin,small_molecule,false,true,false,ddinter,0
+MOL-01327,mecasermin rinfabate,small_molecule,false,true,false,ddinter,0
+MOL-01328,mechlorethamine,small_molecule,false,true,false,ddinter,0
+MOL-01329,meclizine,small_molecule,false,true,false,ddinter,0
+MOL-01330,meclofenamic acid,small_molecule,false,true,false,ddinter,0
+MOL-01331,mecobalamin,small_molecule,true,true,false,pmbjp|ddinter,24
+MOL-01332,medroxyprogesterone,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01333,medrysone,small_molecule,false,true,false,ddinter,0
+MOL-01334,mefenamic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,9
+MOL-01335,mefloquine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01336,megaldrate,small_molecule,true,false,false,pmbjp,1
+MOL-01337,megestrol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01338,meglumine diatrizoate,small_molecule,false,false,true,nppa,0
+MOL-01339,melatonin,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01340,melitracen,small_molecule,true,false,false,pmbjp,1
+MOL-01341,meloxicam,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01342,melphalan,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01343,melphalan flufenamide,small_molecule,false,true,false,ddinter,0
+MOL-01344,memantine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01345,meningococcal polysaccharide vaccine group c,vaccine,false,true,false,ddinter,0
+MOL-01346,menotrophin,small_molecule,true,false,false,pmbjp,1
+MOL-01347,menotropins,small_molecule,false,true,false,ddinter,0
+MOL-01348,menthol,small_molecule,true,false,false,pmbjp,10
+MOL-01349,menthol - cough,small_molecule,true,false,false,pmbjp,1
+MOL-01350,menthol cinnamon,small_molecule,true,false,false,pmbjp,1
+MOL-01351,mepenzolate,small_molecule,false,true,false,ddinter,0
+MOL-01352,meperidine,small_molecule,false,true,false,ddinter,0
+MOL-01353,mephentermine,small_molecule,false,true,false,ddinter,0
+MOL-01354,mephenytoin,small_molecule,false,true,false,ddinter,0
+MOL-01355,mepivacaine,small_molecule,false,true,false,ddinter,0
+MOL-01356,meprobamate,small_molecule,false,true,false,ddinter,0
+MOL-01357,mepyramine,small_molecule,false,true,false,ddinter,0
+MOL-01358,mercaptopurine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01359,meropenem,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01360,mesalazine,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01361,mesna,small_molecule,false,false,true,nppa,0
+MOL-01362,mesoridazine,small_molecule,false,true,false,ddinter,0
+MOL-01363,mestranol,small_molecule,false,true,false,ddinter,0
+MOL-01364,metadoxine,small_molecule,true,false,false,pmbjp,1
+MOL-01365,metamfetamine,small_molecule,false,true,false,ddinter,0
+MOL-01366,metaraminol,small_molecule,false,true,false,ddinter,0
+MOL-01367,metaxalone,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01368,metformin,small_molecule,true,true,true,pmbjp|ddinter|nppa,76
+MOL-01369,metformin hydrchloride,small_molecule,true,false,false,pmbjp,2
+MOL-01370,methacholine,small_molecule,false,true,false,ddinter,0
+MOL-01371,methadone,small_molecule,false,true,false,ddinter,0
+MOL-01372,methazolamide,small_molecule,false,true,false,ddinter,0
+MOL-01373,methdilazine,small_molecule,false,true,false,ddinter,0
+MOL-01374,methenamine,small_molecule,false,true,false,ddinter,0
+MOL-01375,methimazole,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01376,methionine,small_molecule,false,true,false,ddinter,0
+MOL-01377,methocarbamol,small_molecule,false,true,false,ddinter,0
+MOL-01378,methohexital,small_molecule,false,true,false,ddinter,0
+MOL-01379,methotrexate,small_molecule,true,true,true,pmbjp|ddinter|nppa,8
+MOL-01380,methotrimeprazine,small_molecule,false,true,false,ddinter,0
+MOL-01381,methoxamine,small_molecule,false,true,false,ddinter,0
+MOL-01382,methoxsalen,small_molecule,false,true,false,ddinter,0
+MOL-01383,methoxyflurane,small_molecule,false,true,false,ddinter,0
+MOL-01384,methscopolamine,small_molecule,false,true,false,ddinter,0
+MOL-01385,methsuximide,small_molecule,false,true,false,ddinter,0
+MOL-01386,methyl,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-01387,methyl aminolevulinate,small_molecule,false,true,false,ddinter,0
+MOL-01388,methyl ergometrine,small_molecule,true,false,false,pmbjp,1
+MOL-01389,methylcellulose,small_molecule,false,true,false,ddinter,0
+MOL-01390,methyldopa,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01391,methylene blue,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01392,methylergometrine,small_molecule,false,true,false,ddinter,0
+MOL-01393,methylergonovine,small_molecule,false,false,true,nppa,0
+MOL-01394,methylnaltrexone,small_molecule,false,true,false,ddinter,0
+MOL-01395,methylphenidate,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01396,methylphenobarbital,small_molecule,false,true,false,ddinter,0
+MOL-01397,methylprednisolone,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-01398,methylsalicylate,small_molecule,true,false,false,pmbjp,2
+MOL-01399,methylsulfonylmethane,small_molecule,true,false,false,pmbjp,1
+MOL-01400,methyltestosterone,small_molecule,false,true,false,ddinter,0
+MOL-01401,methysergide,small_molecule,false,true,false,ddinter,0
+MOL-01402,meticillin,small_molecule,false,true,false,ddinter,0
+MOL-01403,metipranolol,small_molecule,false,true,false,ddinter,0
+MOL-01404,metoclopramide,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-01405,metocurine,small_molecule,false,true,false,ddinter,0
+MOL-01406,metolazone,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01407,metoprolol,small_molecule,true,true,true,pmbjp|ddinter|nppa,22
+MOL-01408,metoprolol er,small_molecule,true,false,false,pmbjp,3
+MOL-01409,metreleptin,small_molecule,false,true,false,ddinter,0
+MOL-01410,metronidazole,small_molecule,true,true,true,pmbjp|ddinter|nppa,8
+MOL-01411,metyrapone,small_molecule,false,true,false,ddinter,0
+MOL-01412,metyrosine,small_molecule,false,true,false,ddinter,0
+MOL-01413,mexiletine,small_molecule,false,true,false,ddinter,0
+MOL-01414,mezlocillin,small_molecule,false,true,false,ddinter,0
+MOL-01415,micafungin,small_molecule,false,true,false,ddinter,0
+MOL-01416,miconazole,small_molecule,true,true,false,pmbjp|ddinter,8
+MOL-01417,microcrystalline cellulose,small_molecule,false,true,false,ddinter,0
+MOL-01418,micronized purified flavanoid fraction mpff diosmin,small_molecule,true,false,false,pmbjp,1
+MOL-01419,midazolam,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01420,midodrine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01421,midostaurin,small_molecule,false,true,false,ddinter,0
+MOL-01422,mifepristone,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01423,migalastat,small_molecule,false,true,false,ddinter,0
+MOL-01424,miglitol,small_molecule,false,true,false,ddinter,0
+MOL-01425,miglustat,small_molecule,false,true,false,ddinter,0
+MOL-01426,milk magnesia,small_molecule,true,false,false,pmbjp,2
+MOL-01427,milk thistle,small_molecule,false,true,false,ddinter,0
+MOL-01428,milnacipran,small_molecule,false,true,false,ddinter,0
+MOL-01429,milrinone,small_molecule,false,true,false,ddinter,0
+MOL-01430,miltefosine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01431,mineral oil,small_molecule,false,true,false,ddinter,0
+MOL-01432,minerals,small_molecule,true,false,false,pmbjp,3
+MOL-01433,minocycline,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01434,minocycline tab,small_molecule,true,false,false,pmbjp,1
+MOL-01435,minoxidil,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01436,mipomersen,small_molecule,false,true,false,ddinter,0
+MOL-01437,mirabegron,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01438,mirtazapine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01439,misoprostol,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01440,mitomycin,small_molecule,false,true,false,ddinter,0
+MOL-01441,mitotane,small_molecule,false,true,false,ddinter,0
+MOL-01442,mitoxantrone,small_molecule,false,true,false,ddinter,0
+MOL-01443,mivacurium,small_molecule,false,true,false,ddinter,0
+MOL-01444,modafinil,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01445,moexipril,small_molecule,false,true,false,ddinter,0
+MOL-01446,mogamulizumab,biologic,false,true,false,ddinter,0
+MOL-01447,molindone,small_molecule,false,true,false,ddinter,0
+MOL-01448,molnupiravir,small_molecule,true,false,false,pmbjp,1
+MOL-01449,mometasone,small_molecule,true,false,false,pmbjp,6
+MOL-01450,mometasone aqueous,small_molecule,true,false,false,pmbjp,1
+MOL-01451,monomethyl,small_molecule,false,true,false,ddinter,0
+MOL-01452,monopotassium,small_molecule,false,true,false,ddinter,0
+MOL-01453,montelukast,small_molecule,true,true,false,pmbjp|ddinter,13
+MOL-01454,montelukast orodispersible,small_molecule,true,false,false,pmbjp,1
+MOL-01455,moricizine,small_molecule,false,true,false,ddinter,0
+MOL-01456,morphine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01457,mosapride,small_molecule,true,false,false,pmbjp,4
+MOL-01458,moxetumomab pasudotox,biologic,false,true,false,ddinter,0
+MOL-01459,moxifloxacin,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-01460,moxonidine,small_molecule,true,false,false,pmbjp,2
+MOL-01461,multi minerals,small_molecule,true,false,false,pmbjp,1
+MOL-01462,multiminerals,small_molecule,true,false,false,pmbjp,1
+MOL-01463,multivitamin,small_molecule,true,false,false,pmbjp,1
+MOL-01464,multivitamin chocolate,small_molecule,true,false,false,pmbjp,1
+MOL-01465,multivitamins,small_molecule,true,false,false,pmbjp,1
+MOL-01466,multivitamins amino acid,small_molecule,true,false,false,pmbjp,1
+MOL-01467,mumps virus strain b level jeryl lynn live antigen,small_molecule,false,true,false,ddinter,0
+MOL-01468,mupirocin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01469,muromonab,small_molecule,false,true,false,ddinter,0
+MOL-01470,mycophenolate,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01471,mycophenolic acid,small_molecule,false,true,false,ddinter,0
+MOL-01472,myo-inositol,small_molecule,true,false,false,pmbjp,2
+MOL-01473,nabilone,small_molecule,false,true,false,ddinter,0
+MOL-01474,nabumetone,small_molecule,false,true,false,ddinter,0
+MOL-01475,nadifloxacin,small_molecule,true,false,false,pmbjp,3
+MOL-01476,nadolol,small_molecule,false,true,false,ddinter,0
+MOL-01477,nafcillin,small_molecule,false,true,false,ddinter,0
+MOL-01478,naftifine,small_molecule,true,false,false,pmbjp,1
+MOL-01479,nalbuphine,small_molecule,false,true,false,ddinter,0
+MOL-01480,naldemedine,small_molecule,false,true,false,ddinter,0
+MOL-01481,nalidixic acid,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01482,nalmefene,small_molecule,false,true,false,ddinter,0
+MOL-01483,naloxegol,small_molecule,false,true,false,ddinter,0
+MOL-01484,naloxone,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01485,naltrexone,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01486,nandrolone decanoate,small_molecule,true,false,false,pmbjp,3
+MOL-01487,naphazoline,small_molecule,false,true,false,ddinter,0
+MOL-01488,naproxen,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-01489,naratriptan,small_molecule,false,true,false,ddinter,0
+MOL-01490,natalizumab,biologic,false,true,false,ddinter,0
+MOL-01491,natamycin,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-01492,nateglinide,small_molecule,false,true,false,ddinter,0
+MOL-01493,natural micronised progesterone,small_molecule,true,false,false,pmbjp,2
+MOL-01494,naxitamab,biologic,false,true,false,ddinter,0
+MOL-01495,nebivolol,small_molecule,true,true,false,pmbjp|ddinter,10
+MOL-01496,necitumumab,biologic,false,true,false,ddinter,0
+MOL-01497,nedocromil,small_molecule,false,true,false,ddinter,0
+MOL-01498,nefazodone,small_molecule,false,true,false,ddinter,0
+MOL-01499,nelarabine,small_molecule,false,true,false,ddinter,0
+MOL-01500,nelfinavir,small_molecule,false,true,false,ddinter,0
+MOL-01501,neomycin,small_molecule,true,true,false,pmbjp|ddinter,10
+MOL-01502,neostigmine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01503,neostigmine methylsulphate,small_molecule,true,false,false,pmbjp,2
+MOL-01504,nepafenac,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01505,neratinib,small_molecule,false,true,false,ddinter,0
+MOL-01506,nesiritide,small_molecule,false,true,false,ddinter,0
+MOL-01507,netilmicin,small_molecule,false,true,false,ddinter,0
+MOL-01508,netupitant,small_molecule,false,true,false,ddinter,0
+MOL-01509,nevirapine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01510,niacin,small_molecule,false,true,false,ddinter,0
+MOL-01511,niacinamide,small_molecule,true,false,true,pmbjp|nppa,7
+MOL-01512,nicardipine,small_molecule,false,true,false,ddinter,0
+MOL-01513,niclosamide,small_molecule,false,true,false,ddinter,0
+MOL-01514,nicorandil,small_molecule,true,false,false,pmbjp,2
+MOL-01515,nicotinamide,small_molecule,false,true,false,ddinter,0
+MOL-01516,nicotine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01517,nicoumalone,small_molecule,true,false,false,pmbjp,1
+MOL-01518,nicoumalone acenocoumarol,small_molecule,true,false,false,pmbjp,3
+MOL-01519,nifedipine,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-01520,nifurtimox,small_molecule,false,true,false,ddinter,0
+MOL-01521,nilotinib,small_molecule,false,true,false,ddinter,0
+MOL-01522,nilutamide,small_molecule,false,true,false,ddinter,0
+MOL-01523,nimesulid,small_molecule,true,false,false,pmbjp,1
+MOL-01524,nimesulide,small_molecule,true,false,false,pmbjp,4
+MOL-01525,nimodipine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01526,nintedanib,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01527,niraparib,small_molecule,false,true,false,ddinter,0
+MOL-01528,nisoldipine,small_molecule,false,true,false,ddinter,0
+MOL-01529,nitazoxanide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01530,nitisinone,small_molecule,false,true,false,ddinter,0
+MOL-01531,nitrazepam,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01532,nitric oxide,small_molecule,false,true,false,ddinter,0
+MOL-01533,nitrofurantoin,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-01534,nitroglycerin,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01535,nitroprusside,small_molecule,false,true,false,ddinter,0
+MOL-01536,nitrous acid,small_molecule,false,true,false,ddinter,0
+MOL-01537,nitrous oxide,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01538,nivolumab,biologic,false,true,false,ddinter,0
+MOL-01539,nizatidine,small_molecule,false,true,false,ddinter,0
+MOL-01540,norelgestromin,small_molecule,false,true,false,ddinter,0
+MOL-01541,norepinephrine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01542,norethindrone,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-01543,norethisterone,small_molecule,false,true,false,ddinter,0
+MOL-01544,norfloxacin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01545,norgestimate,small_molecule,false,true,false,ddinter,0
+MOL-01546,norgestrel,small_molecule,false,true,false,ddinter,0
+MOL-01547,nortriptyline,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-01548,nortryptyline,small_molecule,true,false,false,pmbjp,1
+MOL-01549,noscapine,small_molecule,true,false,false,pmbjp,1
+MOL-01550,novobiocin,small_molecule,false,true,false,ddinter,0
+MOL-01551,nystatin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01552,obeticholic acid,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01553,obinutuzumab,biologic,false,true,false,ddinter,0
+MOL-01554,ocrelizumab,biologic,false,true,false,ddinter,0
+MOL-01555,octasulfur,small_molecule,false,true,false,ddinter,0
+MOL-01556,octreotide,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01557,ofatumumab,biologic,false,true,false,ddinter,0
+MOL-01558,ofloxacin,small_molecule,true,true,false,pmbjp|ddinter,12
+MOL-01559,ofloxaxin,small_molecule,true,false,false,pmbjp,1
+MOL-01560,olanzapine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01561,olaparib,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01562,olaratumab,biologic,false,true,false,ddinter,0
+MOL-01563,oliceridine,small_molecule,false,true,false,ddinter,0
+MOL-01564,olmesartan,small_molecule,true,true,false,pmbjp|ddinter,19
+MOL-01565,olodaterol,small_molecule,false,true,false,ddinter,0
+MOL-01566,olopatadine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01567,olopatadine tab,small_molecule,true,false,false,pmbjp,1
+MOL-01568,olsalazine,small_molecule,false,true,false,ddinter,0
+MOL-01569,omacetaxine mepesuccinate,small_molecule,false,true,false,ddinter,0
+MOL-01570,omadacycline,small_molecule,false,true,false,ddinter,0
+MOL-01571,omalizumab,biologic,false,true,false,ddinter,0
+MOL-01572,omega fatty acid,small_molecule,true,false,false,pmbjp,2
+MOL-01573,omega- fatty acid,small_molecule,true,false,false,pmbjp,1
+MOL-01574,omega- fatty acids,small_molecule,false,true,false,ddinter,0
+MOL-01575,omega- fatty acids epa,small_molecule,true,false,false,pmbjp,1
+MOL-01576,omeprazole,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-01577,onasemnogene abeparvovec,small_molecule,false,true,false,ddinter,0
+MOL-01578,ondansetron,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-01579,opicapone,small_molecule,false,true,false,ddinter,0
+MOL-01580,opipramol,small_molecule,true,false,false,pmbjp,2
+MOL-01581,opium,small_molecule,false,true,false,ddinter,0
+MOL-01582,oprelvekin,small_molecule,false,true,false,ddinter,0
+MOL-01583,orciprenaline,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01584,oritavancin,small_molecule,false,true,false,ddinter,0
+MOL-01585,orlistat,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01586,ornidazole,small_molecule,true,false,false,pmbjp,3
+MOL-01587,orphenadrine,small_molecule,false,true,false,ddinter,0
+MOL-01588,oseltamivir,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01589,osilodrostat,small_molecule,false,true,false,ddinter,0
+MOL-01590,osimertinib,small_molecule,false,true,false,ddinter,0
+MOL-01591,ospemifene,small_molecule,false,true,false,ddinter,0
+MOL-01592,oxaceprol,small_molecule,true,false,false,pmbjp,1
+MOL-01593,oxacillin,small_molecule,false,true,false,ddinter,0
+MOL-01594,oxaliplatin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01595,oxaliplatin injections,small_molecule,true,false,false,pmbjp,1
+MOL-01596,oxamniquine,small_molecule,false,true,false,ddinter,0
+MOL-01597,oxandrolone,small_molecule,false,true,false,ddinter,0
+MOL-01598,oxaprozin,small_molecule,false,true,false,ddinter,0
+MOL-01599,oxazepam,small_molecule,false,true,false,ddinter,0
+MOL-01600,oxcarbazepine,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-01601,oxetacaine,small_molecule,true,false,false,pmbjp,2
+MOL-01602,oxetacaine aluminium hydroxide,small_molecule,true,false,false,pmbjp,1
+MOL-01603,oxitriptan,small_molecule,false,true,false,ddinter,0
+MOL-01604,oxtriphylline,small_molecule,false,true,false,ddinter,0
+MOL-01605,oxybuprocaine,small_molecule,false,true,false,ddinter,0
+MOL-01606,oxybutynin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01607,oxycodone,small_molecule,false,true,false,ddinter,0
+MOL-01608,oxygen,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01609,oxymetazoline,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01610,oxymetholone,small_molecule,false,true,false,ddinter,0
+MOL-01611,oxymorphone,small_molecule,false,true,false,ddinter,0
+MOL-01612,oxyquinoline,small_molecule,false,true,false,ddinter,0
+MOL-01613,oxytetracycline,small_molecule,false,true,false,ddinter,0
+MOL-01614,oxytocin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01615,ozanimod,small_molecule,false,true,false,ddinter,0
+MOL-01616,ozenoxacin,small_molecule,true,false,false,pmbjp,2
+MOL-01617,paclitaxel,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01618,palbociclib,small_molecule,false,true,false,ddinter,0
+MOL-01619,palifermin,small_molecule,false,true,false,ddinter,0
+MOL-01620,paliperidone,small_molecule,false,true,false,ddinter,0
+MOL-01621,palonosetron,small_molecule,false,true,false,ddinter,0
+MOL-01622,pamidronic acid,small_molecule,false,true,false,ddinter,0
+MOL-01623,pancreatin,small_molecule,true,false,false,pmbjp,7
+MOL-01624,pancrelipase,small_molecule,false,true,false,ddinter,0
+MOL-01625,pancuronium,small_molecule,false,true,false,ddinter,0
+MOL-01626,panitumumab,biologic,true,true,false,pmbjp|ddinter,2
+MOL-01627,panobinostat,small_molecule,false,true,false,ddinter,0
+MOL-01628,pantoprazole,small_molecule,true,true,true,pmbjp|ddinter|nppa,10
+MOL-01629,pantoprazole gastro-resistance,small_molecule,true,false,false,pmbjp,1
+MOL-01630,papain,small_molecule,true,false,false,pmbjp,4
+MOL-01631,papaverine,small_molecule,false,true,false,ddinter,0
+MOL-01632,papaya,herbal,false,true,false,ddinter,0
+MOL-01633,papaya leaf extract,herbal,true,false,false,pmbjp,1
+MOL-01634,para aminobenzoic acid,small_molecule,true,false,false,pmbjp,1
+MOL-01635,paracetamol acetaminophen,small_molecule,true,false,false,pmbjp,1
+MOL-01636,paracetamol paediatric,small_molecule,true,false,false,pmbjp,1
+MOL-01637,paradichlorobenzene,small_molecule,true,false,false,pmbjp,2
+MOL-01638,paraffin,small_molecule,true,false,false,pmbjp,2
+MOL-01639,paraldehyde,small_molecule,false,true,false,ddinter,0
+MOL-01640,paramethadione,small_molecule,false,true,false,ddinter,0
+MOL-01641,parathyroid hormone,small_molecule,false,true,false,ddinter,0
+MOL-01642,paricalcitol,small_molecule,false,true,false,ddinter,0
+MOL-01643,paritaprevir,small_molecule,false,true,false,ddinter,0
+MOL-01644,paromomycin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01645,paroxetin,small_molecule,true,false,false,pmbjp,1
+MOL-01646,paroxetine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01647,pasireotide,small_molecule,false,true,false,ddinter,0
+MOL-01648,patiromer,small_molecule,false,true,false,ddinter,0
+MOL-01649,pazopanib,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01650,pectin,small_molecule,false,true,false,ddinter,0
+MOL-01651,pegademase,small_molecule,false,true,false,ddinter,0
+MOL-01652,pegaptanib,small_molecule,false,true,false,ddinter,0
+MOL-01653,pegaspargase,small_molecule,false,true,false,ddinter,0
+MOL-01654,pegfilgrastim,small_molecule,false,true,false,ddinter,0
+MOL-01655,peginesatide,small_molecule,false,true,false,ddinter,0
+MOL-01656,peginterferon alfa- a,small_molecule,false,true,false,ddinter,0
+MOL-01657,peginterferon alfa- b,small_molecule,false,true,false,ddinter,0
+MOL-01658,peginterferon beta- a,small_molecule,false,true,false,ddinter,0
+MOL-01659,pegloticase,small_molecule,false,true,false,ddinter,0
+MOL-01660,pegvaliase,small_molecule,false,true,false,ddinter,0
+MOL-01661,pegvisomant,small_molecule,false,true,false,ddinter,0
+MOL-01662,pegylated interferon,small_molecule,false,false,true,nppa,0
+MOL-01663,pegylated interferon alfa a,small_molecule,false,false,true,nppa,0
+MOL-01664,pegylated interferon alfa b,small_molecule,false,false,true,nppa,0
+MOL-01665,pembrolizumab,biologic,false,true,false,ddinter,0
+MOL-01666,pemetrexed,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01667,pemigatinib,small_molecule,false,true,false,ddinter,0
+MOL-01668,pemoline,small_molecule,false,true,false,ddinter,0
+MOL-01669,penbutolol,small_molecule,false,true,false,ddinter,0
+MOL-01670,penciclovir,small_molecule,false,true,false,ddinter,0
+MOL-01671,penicillamine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01672,penicillin g,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-01673,penicillin g benzathine,small_molecule,false,false,true,nppa,0
+MOL-01674,pentamidine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01675,pentazocine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01676,pentobarbital,small_molecule,false,true,false,ddinter,0
+MOL-01677,pentosan polysulfate,small_molecule,false,true,false,ddinter,0
+MOL-01678,pentostatin,small_molecule,false,true,false,ddinter,0
+MOL-01679,pentoxifylline,small_molecule,false,true,false,ddinter,0
+MOL-01680,pentoxyverine,small_molecule,false,true,false,ddinter,0
+MOL-01681,pepsin,small_molecule,true,false,false,pmbjp,2
+MOL-01682,pepsin enzyme,small_molecule,true,false,false,pmbjp,1
+MOL-01683,perampanel,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01684,perflutren,small_molecule,false,true,false,ddinter,0
+MOL-01685,pergolide,small_molecule,false,true,false,ddinter,0
+MOL-01686,perindopril,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01687,perindopril erbumine,small_molecule,true,false,false,pmbjp,2
+MOL-01688,permethrin,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-01689,perphenazine,small_molecule,false,true,false,ddinter,0
+MOL-01690,pertuzumab,biologic,false,true,false,ddinter,0
+MOL-01691,petrolatum,small_molecule,false,false,true,nppa,0
+MOL-01692,pexidartinib,small_molecule,false,true,false,ddinter,0
+MOL-01693,pfizer-biontech covid- vaccine,vaccine,false,true,false,ddinter,0
+MOL-01694,phenacemide,small_molecule,false,true,false,ddinter,0
+MOL-01695,phenazopyridine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01696,phendimetrazine,small_molecule,false,true,false,ddinter,0
+MOL-01697,phenelzine,small_molecule,false,true,false,ddinter,0
+MOL-01698,phenindamine,small_molecule,false,true,false,ddinter,0
+MOL-01699,pheniramine,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-01700,phenobarbital,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-01701,phenolphthalein,small_molecule,false,true,false,ddinter,0
+MOL-01702,phenoxybenzamine,small_molecule,false,true,false,ddinter,0
+MOL-01703,phenoxymethylpenicillin,small_molecule,false,true,false,ddinter,0
+MOL-01704,phensuximide,small_molecule,false,true,false,ddinter,0
+MOL-01705,phentermine,small_molecule,false,true,false,ddinter,0
+MOL-01706,phentolamine,small_molecule,false,true,false,ddinter,0
+MOL-01707,phenyl,small_molecule,false,true,false,ddinter,0
+MOL-01708,phenylbutazone,small_molecule,false,true,false,ddinter,0
+MOL-01709,phenylbutyric acid,small_molecule,false,true,false,ddinter,0
+MOL-01710,phenylephrine,small_molecule,true,true,true,pmbjp|ddinter|nppa,14
+MOL-01711,phenylpropanolamine,small_molecule,false,true,false,ddinter,0
+MOL-01712,phenyltoloxamine,small_molecule,false,true,false,ddinter,0
+MOL-01713,phenytoin,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01714,phylloquinone,small_molecule,false,true,false,ddinter,0
+MOL-01715,physostigmine,small_molecule,false,true,false,ddinter,0
+MOL-01716,phytonadione,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-01717,picosulfuric acid,small_molecule,false,true,false,ddinter,0
+MOL-01718,pilocarpine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01719,pimavanserin,small_molecule,false,true,false,ddinter,0
+MOL-01720,pimecrolimus,small_molecule,false,true,false,ddinter,0
+MOL-01721,pimozide,small_molecule,false,true,false,ddinter,0
+MOL-01722,pindolol,small_molecule,false,true,false,ddinter,0
+MOL-01723,pine oil soft,small_molecule,true,false,false,pmbjp,1
+MOL-01724,pioglitazone,small_molecule,true,true,false,pmbjp|ddinter,12
+MOL-01725,pipecuronium,small_molecule,false,true,false,ddinter,0
+MOL-01726,piperacillin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01727,piperazine,small_molecule,false,true,false,ddinter,0
+MOL-01728,piracetam,small_molecule,true,false,false,pmbjp,4
+MOL-01729,pirbuterol,small_molecule,false,true,false,ddinter,0
+MOL-01730,pirfenidone,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01731,piroxicam,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01732,piroxicam bezyl alcohol,small_molecule,true,false,false,pmbjp,2
+MOL-01733,pitavastatin,small_molecule,false,true,false,ddinter,0
+MOL-01734,pitolisant,small_molecule,false,true,false,ddinter,0
+MOL-01735,plantago seed,small_molecule,false,true,false,ddinter,0
+MOL-01736,plastic bedpan,small_molecule,true,false,false,pmbjp,1
+MOL-01737,platelet rich plasma,small_molecule,false,false,true,nppa,0
+MOL-01738,plazomicin,small_molecule,false,true,false,ddinter,0
+MOL-01739,plecanatide,small_molecule,false,true,false,ddinter,0
+MOL-01740,plicamycin,small_molecule,false,true,false,ddinter,0
+MOL-01741,podophyllin resin,small_molecule,false,false,true,nppa,0
+MOL-01742,polatuzumab vedotin,biologic,false,true,false,ddinter,0
+MOL-01743,poliomyelitis vaccine,vaccine,false,false,true,nppa,0
+MOL-01744,poliovirus antigen,small_molecule,false,true,false,ddinter,0
+MOL-01745,polmacoxib,small_molecule,true,false,false,pmbjp,1
+MOL-01746,polyamide,small_molecule,true,false,false,pmbjp,1
+MOL-01747,polyethylene glycol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01748,polymyxin b,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01749,polymyxin b sulfates,small_molecule,true,false,false,pmbjp,1
+MOL-01750,polythiazide,small_molecule,false,true,false,ddinter,0
+MOL-01751,polyvitamin nfi,small_molecule,true,false,false,pmbjp,1
+MOL-01752,pomalidomide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01753,ponatinib,small_molecule,false,true,false,ddinter,0
+MOL-01754,porfimer,small_molecule,false,true,false,ddinter,0
+MOL-01755,posaconazole,small_molecule,false,true,false,ddinter,0
+MOL-01756,potassium,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-01757,potassium perchlorate,small_molecule,false,true,false,ddinter,0
+MOL-01758,potassium permanganate,small_molecule,false,false,true,nppa,0
+MOL-01759,povidone iodine,small_molecule,true,false,false,pmbjp,6
+MOL-01760,povidone- iodine,small_molecule,true,false,false,pmbjp,1
+MOL-01761,povidone-iodine,small_molecule,true,false,true,pmbjp|nppa,3
+MOL-01762,pralatrexate,small_molecule,false,true,false,ddinter,0
+MOL-01763,pralidoxime,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01764,pralsetinib,small_molecule,false,true,false,ddinter,0
+MOL-01765,pramipexole,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01766,pramlintide,small_molecule,false,true,false,ddinter,0
+MOL-01767,prasterone enantate,small_molecule,false,true,false,ddinter,0
+MOL-01768,prasugrel,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01769,pravastatin,small_molecule,false,true,false,ddinter,0
+MOL-01770,praziquantel,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01771,prazosin,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01772,prednicarbate,small_molecule,false,true,false,ddinter,0
+MOL-01773,prednisolone,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-01774,prednisolone dispersible,small_molecule,true,false,false,pmbjp,1
+MOL-01775,prednisone,small_molecule,false,true,false,ddinter,0
+MOL-01776,pregabalin,small_molecule,true,true,false,pmbjp|ddinter,12
+MOL-01777,premix insulin,biologic,false,false,true,nppa,0
+MOL-01778,pretomanid,small_molecule,false,true,false,ddinter,0
+MOL-01779,prilocaine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01780,primaquine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01781,primidone,small_molecule,false,true,false,ddinter,0
+MOL-01782,proanthocyanidin,small_molecule,true,false,false,pmbjp,1
+MOL-01783,probenecid,small_molecule,false,true,false,ddinter,0
+MOL-01784,probucol,small_molecule,false,true,false,ddinter,0
+MOL-01785,procainamide,small_molecule,false,true,false,ddinter,0
+MOL-01786,procaine,small_molecule,false,true,false,ddinter,0
+MOL-01787,procarbazine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01788,prochlorperazine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01789,procyclidine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01790,progesterone,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01791,proguanil,small_molecule,false,true,false,ddinter,0
+MOL-01792,promazine,small_molecule,false,true,false,ddinter,0
+MOL-01793,promethazine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01794,propafenone,small_molecule,false,true,false,ddinter,0
+MOL-01795,propantheline,small_molecule,false,true,false,ddinter,0
+MOL-01796,proparacaine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01797,propiomazine,small_molecule,false,true,false,ddinter,0
+MOL-01798,propofol,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01799,propranolol,small_molecule,true,true,true,pmbjp|ddinter|nppa,11
+MOL-01800,propylene glycol,small_molecule,true,false,false,pmbjp,1
+MOL-01801,propylhexedrine,small_molecule,false,true,false,ddinter,0
+MOL-01802,propylthiouracil,small_molecule,false,true,false,ddinter,0
+MOL-01803,protamine,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-01804,protein c,small_molecule,false,true,false,ddinter,0
+MOL-01805,protriptyline,small_molecule,false,true,false,ddinter,0
+MOL-01806,prucalopride,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01807,prulifloxacin,small_molecule,true,false,false,pmbjp,1
+MOL-01808,pseudoephedrine,small_molecule,false,true,false,ddinter,0
+MOL-01809,psyllium,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-01810,pyrantel,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01811,pyrazinamide,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01812,pyridostigmine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01813,pyridoxal,small_molecule,true,false,false,pmbjp,1
+MOL-01814,pyridoxal- -phosphate,small_molecule,true,false,false,pmbjp,3
+MOL-01815,pyridoxine,small_molecule,true,true,true,pmbjp|ddinter|nppa,10
+MOL-01816,pyrimethamine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01817,pyrimethamine combi,small_molecule,true,false,false,pmbjp,1
+MOL-01818,pyrophosphoric acid,small_molecule,false,true,false,ddinter,0
+MOL-01819,quazepam,small_molecule,false,true,false,ddinter,0
+MOL-01820,quetiapine,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-01821,quinapril,small_molecule,false,true,false,ddinter,0
+MOL-01822,quinestrol,small_molecule,false,true,false,ddinter,0
+MOL-01823,quinidine,small_molecule,false,true,false,ddinter,0
+MOL-01824,quinine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01825,quiniodochlor,small_molecule,true,false,false,pmbjp,1
+MOL-01826,quinupristin,small_molecule,false,true,false,ddinter,0
+MOL-01827,rabeprazole,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-01828,rabies vaccine,vaccine,false,false,true,nppa,0
+MOL-01829,rabies vaccine human,vaccine,true,false,false,pmbjp,1
+MOL-01830,racecadotril,small_molecule,true,false,false,pmbjp,4
+MOL-01831,racepinephrine,small_molecule,false,true,false,ddinter,0
+MOL-01832,radium ra dichloride,small_molecule,false,true,false,ddinter,0
+MOL-01833,raloxifene,small_molecule,false,true,false,ddinter,0
+MOL-01834,raltegravir,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01835,ramelteon,small_molecule,false,true,false,ddinter,0
+MOL-01836,ramipril,small_molecule,true,true,true,pmbjp|ddinter|nppa,10
+MOL-01837,ramosetron,small_molecule,true,false,false,pmbjp,1
+MOL-01838,ramucirumab,biologic,false,true,false,ddinter,0
+MOL-01839,ranitidine,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-01840,ranolazine,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01841,rapacuronium,small_molecule,false,true,false,ddinter,0
+MOL-01842,rasagiline,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01843,rasburicase,small_molecule,false,true,false,ddinter,0
+MOL-01844,ravulizumab,biologic,false,true,false,ddinter,0
+MOL-01845,rebamipide,small_molecule,true,false,false,pmbjp,1
+MOL-01846,recombinant human tissue plasminogen activator,small_molecule,true,false,false,pmbjp,2
+MOL-01847,red blood cells,small_molecule,false,false,true,nppa,0
+MOL-01848,regadenoson,small_molecule,false,true,false,ddinter,0
+MOL-01849,regorafenib,small_molecule,false,true,false,ddinter,0
+MOL-01850,rehydration salts,small_molecule,false,false,true,nppa,0
+MOL-01851,relugolix,small_molecule,false,true,false,ddinter,0
+MOL-01852,remdesivir,small_molecule,false,true,false,ddinter,0
+MOL-01853,remifentanil,small_molecule,false,true,false,ddinter,0
+MOL-01854,remimazolam,small_molecule,false,true,false,ddinter,0
+MOL-01855,remogliflozin etabonate,small_molecule,true,false,false,pmbjp,6
+MOL-01856,repaglinide,small_molecule,true,true,false,pmbjp|ddinter,9
+MOL-01857,reserpine,small_molecule,false,true,false,ddinter,0
+MOL-01858,resorcinol,small_molecule,false,true,false,ddinter,0
+MOL-01859,retapamulin,small_molecule,false,true,false,ddinter,0
+MOL-01860,reteplase,small_molecule,false,true,false,ddinter,0
+MOL-01861,reteplase-recombinant tissue plasminogen activator,small_molecule,true,false,false,pmbjp,1
+MOL-01862,revefenacin,small_molecule,false,true,false,ddinter,0
+MOL-01863,ribavirin,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-01864,ribociclib,small_molecule,false,true,false,ddinter,0
+MOL-01865,riboflavin,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-01866,rifabutin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01867,rifampicin,small_molecule,false,true,false,ddinter,0
+MOL-01868,rifampin,small_molecule,false,false,true,nppa,0
+MOL-01869,rifamycin,small_molecule,false,true,false,ddinter,0
+MOL-01870,rifapentine,small_molecule,false,true,false,ddinter,0
+MOL-01871,rifaximin,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01872,rilonacept,small_molecule,false,true,false,ddinter,0
+MOL-01873,rilpivirine,small_molecule,false,true,false,ddinter,0
+MOL-01874,riluzole,small_molecule,false,true,false,ddinter,0
+MOL-01875,rimantadine,small_molecule,false,true,false,ddinter,0
+MOL-01876,rimegepant,small_molecule,false,true,false,ddinter,0
+MOL-01877,rimexolone,small_molecule,false,true,false,ddinter,0
+MOL-01878,ringer,small_molecule,true,false,true,pmbjp|nppa,1
+MOL-01879,riociguat,small_molecule,false,true,false,ddinter,0
+MOL-01880,ripretinib,small_molecule,false,true,false,ddinter,0
+MOL-01881,risankizumab,biologic,false,true,false,ddinter,0
+MOL-01882,risdiplam,small_molecule,false,true,false,ddinter,0
+MOL-01883,risedronic acid,small_molecule,false,true,false,ddinter,0
+MOL-01884,risperidone,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-01885,risperidone trihexyphenidyl,small_molecule,true,false,false,pmbjp,2
+MOL-01886,ritodrine,small_molecule,false,true,false,ddinter,0
+MOL-01887,ritonavir,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01888,rituximab,biologic,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01889,rivaroxaban,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01890,rivastigmine,small_molecule,true,true,false,pmbjp|ddinter,7
+MOL-01891,rizatriptan,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01892,rocuronium,small_molecule,false,true,false,ddinter,0
+MOL-01893,rofecoxib,small_molecule,false,true,false,ddinter,0
+MOL-01894,roflumilast,small_molecule,false,true,false,ddinter,0
+MOL-01895,rolapitant,small_molecule,false,true,false,ddinter,0
+MOL-01896,romidepsin,small_molecule,false,true,false,ddinter,0
+MOL-01897,romiplostim,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01898,romosozumab,biologic,false,true,false,ddinter,0
+MOL-01899,ropinirole,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-01900,ropivacaine,small_molecule,false,true,false,ddinter,0
+MOL-01901,rosehip extract,herbal,true,false,false,pmbjp,1
+MOL-01902,rosiglitazone,small_molecule,false,true,false,ddinter,0
+MOL-01903,rosuvastatin,small_molecule,true,true,false,pmbjp|ddinter,17
+MOL-01904,rotavirus vaccine,vaccine,false,true,false,ddinter,0
+MOL-01905,rotigotine,small_molecule,false,true,false,ddinter,0
+MOL-01906,roxithromycin,small_molecule,true,false,false,pmbjp,3
+MOL-01907,rubella vaccine,vaccine,true,false,false,pmbjp,1
+MOL-01908,rubella virus vaccine,vaccine,false,true,false,ddinter,0
+MOL-01909,rucaparib,small_molecule,false,true,false,ddinter,0
+MOL-01910,rufinamide,small_molecule,false,true,false,ddinter,0
+MOL-01911,rupatadine,small_molecule,true,false,false,pmbjp,1
+MOL-01912,rupatadine tab,small_molecule,true,false,false,pmbjp,1
+MOL-01913,rutoside,small_molecule,true,false,false,pmbjp,2
+MOL-01914,ruxolitinib,small_molecule,false,true,false,ddinter,0
+MOL-01915,s amlodipine,small_molecule,true,false,false,pmbjp,3
+MOL-01916,s-adenosyl l-methionine,small_molecule,true,false,false,pmbjp,2
+MOL-01917,s-amlodipine,small_molecule,true,false,false,pmbjp,7
+MOL-01918,s-metoprolol,small_molecule,true,false,false,pmbjp,3
+MOL-01919,saccharomyces boulardii,small_molecule,true,false,false,pmbjp,2
+MOL-01920,sacituzumab govitecan,biologic,false,true,false,ddinter,0
+MOL-01921,sacubitril,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-01922,safinamide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01923,salbutamol,small_molecule,false,true,false,ddinter,0
+MOL-01924,salicylic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,6
+MOL-01925,saline,small_molecule,true,false,false,pmbjp,1
+MOL-01926,salmeterol,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01927,salmon calcitonin,small_molecule,false,true,false,ddinter,0
+MOL-01928,salsalate,small_molecule,false,true,false,ddinter,0
+MOL-01929,samarium lexidronam,small_molecule,false,true,false,ddinter,0
+MOL-01930,sapropterin,small_molecule,false,true,false,ddinter,0
+MOL-01931,saquinavir,small_molecule,false,true,false,ddinter,0
+MOL-01932,sarecycline,small_molecule,false,true,false,ddinter,0
+MOL-01933,sargramostim,small_molecule,false,true,false,ddinter,0
+MOL-01934,sarilumab,biologic,false,true,false,ddinter,0
+MOL-01935,saroglitazar,small_molecule,true,false,false,pmbjp,1
+MOL-01936,satralizumab,biologic,false,true,false,ddinter,0
+MOL-01937,satranidazole,small_molecule,true,false,false,pmbjp,1
+MOL-01938,saw palmetto,small_molecule,false,true,false,ddinter,0
+MOL-01939,saxagliptin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01940,scopolamine,small_molecule,false,true,false,ddinter,0
+MOL-01941,scopolamine butylbromide,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-01942,secnidazole,small_molecule,false,true,false,ddinter,0
+MOL-01943,secobarbital,small_molecule,false,true,false,ddinter,0
+MOL-01944,secretin human,small_molecule,false,true,false,ddinter,0
+MOL-01945,secukinumab,biologic,false,true,false,ddinter,0
+MOL-01946,selegiline,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01947,selenium,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01948,selenium dioxide,small_molecule,true,false,false,pmbjp,1
+MOL-01949,selenium sulfide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01950,selenium sulphide,small_molecule,true,false,false,pmbjp,2
+MOL-01951,selexipag,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01952,selinexor,small_molecule,false,true,false,ddinter,0
+MOL-01953,selpercatinib,small_molecule,false,true,false,ddinter,0
+MOL-01954,selumetinib,small_molecule,false,true,false,ddinter,0
+MOL-01955,semaglutide,small_molecule,false,true,false,ddinter,0
+MOL-01956,sermorelin,small_molecule,false,true,false,ddinter,0
+MOL-01957,serrapeptase,small_molecule,true,false,false,pmbjp,5
+MOL-01958,sertaconazole,small_molecule,true,false,false,pmbjp,2
+MOL-01959,sertraline,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-01960,sesame oil,small_molecule,true,false,false,pmbjp,2
+MOL-01961,sevelamer,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01962,sevoflurane,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01963,shilajit,small_molecule,true,false,false,pmbjp,1
+MOL-01964,sibutramine,small_molecule,false,true,false,ddinter,0
+MOL-01965,sildenafil,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-01966,silodosin,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01967,siltuximab,biologic,false,true,false,ddinter,0
+MOL-01968,silver,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01969,silver sulfadiazine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-01970,silver sulphadiazine,small_molecule,true,false,false,pmbjp,2
+MOL-01971,silymarin,small_molecule,true,false,false,pmbjp,2
+MOL-01972,simeprevir,small_molecule,false,true,false,ddinter,0
+MOL-01973,simethicone,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-01974,simethicone effervescent,small_molecule,true,false,false,pmbjp,1
+MOL-01975,simvastatin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01976,siponimod,small_molecule,false,true,false,ddinter,0
+MOL-01977,sipuleucel-t,small_molecule,false,true,false,ddinter,0
+MOL-01978,sirolimus,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-01979,sitagliptin,small_molecule,true,true,false,pmbjp|ddinter,16
+MOL-01980,smallpox vaccine live,vaccine,false,true,false,ddinter,0
+MOL-01981,snake venom antiserum,small_molecule,false,false,true,nppa,0
+MOL-01982,sodium,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-01983,sodium aurothiomalate,small_molecule,false,true,false,ddinter,0
+MOL-01984,sodium cellulose,small_molecule,false,true,false,ddinter,0
+MOL-01985,sodium ferric gluconate complex,small_molecule,false,true,false,ddinter,0
+MOL-01986,sodium fluoride,small_molecule,true,false,false,pmbjp,1
+MOL-01987,sodium glycerophosphate,small_molecule,false,true,false,ddinter,0
+MOL-01988,sodium hyaluronate,small_molecule,true,false,false,pmbjp,2
+MOL-01989,sodium nitrite,small_molecule,false,false,true,nppa,0
+MOL-01990,sodium nitroprusside,small_molecule,false,false,true,nppa,0
+MOL-01991,sodium oxybate,small_molecule,false,true,false,ddinter,0
+MOL-01992,sodium phosphate monobasic,small_molecule,false,true,false,ddinter,0
+MOL-01993,sodium picosulphate,small_molecule,true,false,false,pmbjp,2
+MOL-01994,sodium tauroglycocholate digestive enzyme,small_molecule,true,false,false,pmbjp,1
+MOL-01995,sodium thiosulfate,small_molecule,false,false,true,nppa,0
+MOL-01996,sodium zirconium cyclosilicate,small_molecule,false,true,false,ddinter,0
+MOL-01997,sofosbuvir,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-01998,solifenacin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-01999,solriamfetol,small_molecule,false,true,false,ddinter,0
+MOL-02000,soluble insulin,biologic,true,false,false,pmbjp,2
+MOL-02001,soluble polyvalent,small_molecule,false,false,true,nppa,0
+MOL-02002,solvent,small_molecule,true,false,false,pmbjp,2
+MOL-02003,somapacitan,small_molecule,false,true,false,ddinter,0
+MOL-02004,somatostatin,small_molecule,false,false,true,nppa,0
+MOL-02005,somatotropin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02006,somatrem,small_molecule,false,true,false,ddinter,0
+MOL-02007,sonidegib,small_molecule,false,true,false,ddinter,0
+MOL-02008,sorafenib,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02009,sorbitol,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02010,sotalol,small_molecule,false,true,false,ddinter,0
+MOL-02011,sparfloxacin,small_molecule,false,true,false,ddinter,0
+MOL-02012,specican,small_molecule,true,false,false,pmbjp,1
+MOL-02013,spectinomycin,small_molecule,false,true,false,ddinter,0
+MOL-02014,spiramycin miu,small_molecule,true,false,false,pmbjp,1
+MOL-02015,spironolactone,small_molecule,true,true,true,pmbjp|ddinter|nppa,10
+MOL-02016,st john s wort,small_molecule,false,true,false,ddinter,0
+MOL-02017,stanozolol,small_molecule,false,true,false,ddinter,0
+MOL-02018,stavudine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-02019,stiripentol,small_molecule,false,true,false,ddinter,0
+MOL-02020,streptokinase,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-02021,streptomycin,small_molecule,false,true,true,ddinter|nppa,0
+MOL-02022,streptozocin,small_molecule,false,true,false,ddinter,0
+MOL-02023,strontium chloride sr,small_molecule,false,true,false,ddinter,0
+MOL-02024,succinylcholine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-02025,sucralfate,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02026,sufentanil,small_molecule,false,true,false,ddinter,0
+MOL-02027,sugammadex,small_molecule,false,true,false,ddinter,0
+MOL-02028,sulbactam,small_molecule,true,false,false,pmbjp,11
+MOL-02029,sulfacetamide,small_molecule,false,true,false,ddinter,0
+MOL-02030,sulfadiazine,small_molecule,false,true,false,ddinter,0
+MOL-02031,sulfadoxine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02032,sulfamethizole,small_molecule,false,true,false,ddinter,0
+MOL-02033,sulfamethoxazole,small_molecule,false,true,false,ddinter,0
+MOL-02034,sulfasalazine,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-02035,sulfinpyrazone,small_molecule,false,true,false,ddinter,0
+MOL-02036,sulfisoxazole,small_molecule,false,true,false,ddinter,0
+MOL-02037,sulindac,small_molecule,false,true,false,ddinter,0
+MOL-02038,sulphacetamide,small_molecule,true,false,false,pmbjp,3
+MOL-02039,sulphadoxine - pyrimethamine,small_molecule,false,false,true,nppa,0
+MOL-02040,sumatriptan,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-02041,sunitinib,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02042,suprofen,small_molecule,false,true,false,ddinter,0
+MOL-02043,surfactant,small_molecule,false,false,true,nppa,0
+MOL-02044,suvorexant,small_molecule,false,true,false,ddinter,0
+MOL-02045,tacrine,small_molecule,false,true,false,ddinter,0
+MOL-02046,tacrolimus,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-02047,tadalafil,small_molecule,true,true,false,pmbjp|ddinter,8
+MOL-02048,tafamidis,small_molecule,false,true,false,ddinter,0
+MOL-02049,tafasitamab,biologic,false,true,false,ddinter,0
+MOL-02050,tafenoquine,small_molecule,false,true,false,ddinter,0
+MOL-02051,tagraxofusp,small_molecule,false,true,false,ddinter,0
+MOL-02052,talazoparib,small_molecule,false,true,false,ddinter,0
+MOL-02053,talimogene laherparepvec,small_molecule,false,true,false,ddinter,0
+MOL-02054,tamoxifen,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-02055,tamsulosin,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-02056,tannic acid glycerin,small_molecule,true,false,false,pmbjp,1
+MOL-02057,tapentadol,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02058,tasimelteon,small_molecule,false,true,false,ddinter,0
+MOL-02059,taurine,small_molecule,true,false,false,pmbjp,1
+MOL-02060,tazarotene,small_molecule,false,true,false,ddinter,0
+MOL-02061,tazemetostat,small_molecule,false,true,false,ddinter,0
+MOL-02062,tazobactam,small_molecule,true,false,true,pmbjp|nppa,3
+MOL-02063,tazobactum,small_molecule,true,false,false,pmbjp,3
+MOL-02064,tedizolid,small_molecule,false,true,false,ddinter,0
+MOL-02065,teduglutide,small_molecule,false,true,false,ddinter,0
+MOL-02066,tegaserod,small_molecule,false,true,false,ddinter,0
+MOL-02067,teicoplanin,small_molecule,true,false,false,pmbjp,1
+MOL-02068,telaprevir,small_molecule,false,true,false,ddinter,0
+MOL-02069,telavancin,small_molecule,false,true,false,ddinter,0
+MOL-02070,telbivudine,small_molecule,false,true,false,ddinter,0
+MOL-02071,telithromycin,small_molecule,false,true,false,ddinter,0
+MOL-02072,telmisartan,small_molecule,true,true,false,pmbjp|ddinter,36
+MOL-02073,telotristat ethyl,small_molecule,false,true,false,ddinter,0
+MOL-02074,temazepam,small_molecule,false,true,false,ddinter,0
+MOL-02075,temozolomide,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02076,temsirolimus,small_molecule,false,true,false,ddinter,0
+MOL-02077,tenecteplase,small_molecule,false,true,false,ddinter,0
+MOL-02078,teneligliptin,small_molecule,true,false,false,pmbjp,11
+MOL-02079,teniposide,small_molecule,false,true,false,ddinter,0
+MOL-02080,tenofovir,small_molecule,false,false,true,nppa,0
+MOL-02081,tenofovir alafenamide,small_molecule,true,false,false,pmbjp,2
+MOL-02082,tenofovir disoproxil,small_molecule,true,false,false,pmbjp,4
+MOL-02083,teprotumumab,biologic,false,true,false,ddinter,0
+MOL-02084,terazosin,small_molecule,false,true,false,ddinter,0
+MOL-02085,terazosin tab,small_molecule,true,false,false,pmbjp,2
+MOL-02086,terbinafine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02087,terbutaline,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-02088,terfenadine,small_molecule,false,true,false,ddinter,0
+MOL-02089,teriflunomide,small_molecule,false,true,false,ddinter,0
+MOL-02090,teriparatide,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02091,terlipressin,small_molecule,true,false,false,pmbjp,1
+MOL-02092,terpineol,small_molecule,true,false,false,pmbjp,1
+MOL-02093,tesamorelin,small_molecule,false,true,false,ddinter,0
+MOL-02094,testolactone,small_molecule,false,true,false,ddinter,0
+MOL-02095,testosterone,small_molecule,false,true,false,ddinter,0
+MOL-02096,testosterone enanthate,small_molecule,true,false,false,pmbjp,1
+MOL-02097,tetanus toxoid,vaccine,false,false,true,nppa,0
+MOL-02098,tetanus vaccine,vaccine,true,false,false,pmbjp,1
+MOL-02099,tetrabenazine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02100,tetracaine,small_molecule,false,true,false,ddinter,0
+MOL-02101,tetracosactide,small_molecule,false,true,false,ddinter,0
+MOL-02102,tetracycline,small_molecule,false,true,false,ddinter,0
+MOL-02103,tetraferric tricitrate decahydrate,small_molecule,false,true,false,ddinter,0
+MOL-02104,tetrofosmin,small_molecule,false,true,false,ddinter,0
+MOL-02105,tetryzoline,small_molecule,false,true,false,ddinter,0
+MOL-02106,thalidomide,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02107,thallous,small_molecule,false,true,false,ddinter,0
+MOL-02108,theophylline,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-02109,thiabendazole,small_molecule,false,true,false,ddinter,0
+MOL-02110,thiamine,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-02111,thiethylperazine,small_molecule,false,true,false,ddinter,0
+MOL-02112,thimerosal,small_molecule,false,true,false,ddinter,0
+MOL-02113,thiocholchicoside,small_molecule,true,false,false,pmbjp,1
+MOL-02114,thiocolchicoside,small_molecule,true,false,false,pmbjp,6
+MOL-02115,thiopental,small_molecule,false,true,true,ddinter|nppa,0
+MOL-02116,thioridazine,small_molecule,false,true,false,ddinter,0
+MOL-02117,thiotepa,small_molecule,false,true,false,ddinter,0
+MOL-02118,thiothixene,small_molecule,false,true,false,ddinter,0
+MOL-02119,thymol,small_molecule,true,false,false,pmbjp,1
+MOL-02120,thymol glycerine,small_molecule,true,false,false,pmbjp,1
+MOL-02121,thyroid porcine,small_molecule,false,true,false,ddinter,0
+MOL-02122,thyrotropin alfa,small_molecule,false,true,false,ddinter,0
+MOL-02123,tiagabine,small_molecule,false,true,false,ddinter,0
+MOL-02124,tianeptine,small_molecule,true,false,false,pmbjp,1
+MOL-02125,ticagrelor,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02126,ticarcillin,small_molecule,false,true,false,ddinter,0
+MOL-02127,ticlopidine,small_molecule,false,true,false,ddinter,0
+MOL-02128,tigecycline,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02129,tildrakizumab,biologic,false,true,false,ddinter,0
+MOL-02130,tilmanocept,small_molecule,false,true,false,ddinter,0
+MOL-02131,tiludronic acid,small_molecule,false,true,false,ddinter,0
+MOL-02132,timolol,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-02133,tinidazole,small_molecule,true,true,false,pmbjp|ddinter,6
+MOL-02134,tinospora cordifolia extract,herbal,true,false,false,pmbjp,1
+MOL-02135,tinzaparin,small_molecule,false,true,false,ddinter,0
+MOL-02136,tioconazole,small_molecule,false,true,false,ddinter,0
+MOL-02137,tioguanine,small_molecule,false,true,false,ddinter,0
+MOL-02138,tiotropium,small_molecule,true,true,true,pmbjp|ddinter|nppa,5
+MOL-02139,tipiracil,small_molecule,false,true,false,ddinter,0
+MOL-02140,tipranavir,small_molecule,false,true,false,ddinter,0
+MOL-02141,tirofiban,small_molecule,false,true,false,ddinter,0
+MOL-02142,tirofiban hydrochloride i,small_molecule,true,false,false,pmbjp,1
+MOL-02143,tisagenlecleucel,small_molecule,false,true,false,ddinter,0
+MOL-02144,tivozanib,small_molecule,false,true,false,ddinter,0
+MOL-02145,tizanidine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02146,tobramycin,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02147,tocainide,small_molecule,false,true,false,ddinter,0
+MOL-02148,tocilizumab,biologic,false,true,false,ddinter,0
+MOL-02149,tofacitinib,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-02150,tofisopam,small_molecule,true,false,false,pmbjp,1
+MOL-02151,tolazamide,small_molecule,false,true,false,ddinter,0
+MOL-02152,tolazoline,small_molecule,false,true,false,ddinter,0
+MOL-02153,tolbutamide,small_molecule,false,true,false,ddinter,0
+MOL-02154,tolcapone,small_molecule,false,true,false,ddinter,0
+MOL-02155,tolevamer,small_molecule,false,true,false,ddinter,0
+MOL-02156,tolmetin,small_molecule,false,true,false,ddinter,0
+MOL-02157,tolperisone,small_molecule,true,false,false,pmbjp,2
+MOL-02158,tolterodine,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-02159,tolvaptan,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02160,topiramate,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02161,topiroxostat,small_molecule,true,false,false,pmbjp,3
+MOL-02162,topotecan,small_molecule,false,true,false,ddinter,0
+MOL-02163,torasemide,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-02164,toremifene,small_molecule,false,true,false,ddinter,0
+MOL-02165,torsemide,small_molecule,true,false,false,pmbjp,8
+MOL-02166,tositumomab,biologic,false,true,false,ddinter,0
+MOL-02167,trabectedin,small_molecule,false,true,false,ddinter,0
+MOL-02168,tracheostomy,small_molecule,true,false,false,pmbjp,1
+MOL-02169,tramadol,small_molecule,true,true,true,pmbjp|ddinter|nppa,7
+MOL-02170,trametinib,small_molecule,false,true,false,ddinter,0
+MOL-02171,trandolapril,small_molecule,false,true,false,ddinter,0
+MOL-02172,tranexamic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02173,tranylcypromine,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02174,trastuzumab,biologic,false,true,true,ddinter|nppa,0
+MOL-02175,trastuzumab deruxtecan,biologic,false,true,false,ddinter,0
+MOL-02176,trastuzumab emtansine,biologic,false,true,false,ddinter,0
+MOL-02177,trastuzumab wfi,biologic,true,false,false,pmbjp,1
+MOL-02178,travoprost,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02179,trazodone,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02180,treprostinil,small_molecule,false,true,false,ddinter,0
+MOL-02181,tretinoin,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02182,triamcinolone,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02183,triamterene,small_molecule,false,true,false,ddinter,0
+MOL-02184,triazolam,small_molecule,false,true,false,ddinter,0
+MOL-02185,trichlormethiazide,small_molecule,false,true,false,ddinter,0
+MOL-02186,tricholine,small_molecule,true,false,false,pmbjp,2
+MOL-02187,trichophyton mentagrophytes,small_molecule,false,true,false,ddinter,0
+MOL-02188,triclabendazole,small_molecule,false,true,false,ddinter,0
+MOL-02189,triclofos,small_molecule,true,false,false,pmbjp,1
+MOL-02190,trientine,small_molecule,true,false,false,pmbjp,1
+MOL-02191,triethylenetetramine,small_molecule,false,true,false,ddinter,0
+MOL-02192,trifarotene,small_molecule,false,true,false,ddinter,0
+MOL-02193,trifluoperazine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02194,triflupromazine,small_molecule,false,true,false,ddinter,0
+MOL-02195,trifluridine,small_molecule,false,true,false,ddinter,0
+MOL-02196,triheptanoin,small_molecule,false,true,false,ddinter,0
+MOL-02197,trihexiphenidyl,small_molecule,true,false,false,pmbjp,1
+MOL-02198,trihexyphenidyl,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02199,trimetazidine,small_molecule,true,false,false,pmbjp,2
+MOL-02200,trimethadione,small_molecule,false,true,false,ddinter,0
+MOL-02201,trimethaphan,small_molecule,false,true,false,ddinter,0
+MOL-02202,trimethobenzamide,small_molecule,false,true,false,ddinter,0
+MOL-02203,trimethoprim,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02204,trimetrexate,small_molecule,false,true,false,ddinter,0
+MOL-02205,trimipramine,small_molecule,false,true,false,ddinter,0
+MOL-02206,trioxsalen,small_molecule,false,true,false,ddinter,0
+MOL-02207,tripelennamine,small_molecule,false,true,false,ddinter,0
+MOL-02208,triprolidine,small_molecule,false,true,false,ddinter,0
+MOL-02209,triptorelin,small_molecule,false,true,false,ddinter,0
+MOL-02210,troglitazone,small_molecule,false,true,false,ddinter,0
+MOL-02211,troleandomycin,small_molecule,false,true,false,ddinter,0
+MOL-02212,tromethamine,small_molecule,false,true,false,ddinter,0
+MOL-02213,tropicamide,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-02214,trospium,small_molecule,false,true,false,ddinter,0
+MOL-02215,trovafloxacin,small_molecule,false,true,false,ddinter,0
+MOL-02216,troxerutin,small_molecule,true,false,false,pmbjp,1
+MOL-02217,trypsin,small_molecule,true,false,false,pmbjp,2
+MOL-02218,trypsin k,small_molecule,true,false,false,pmbjp,1
+MOL-02219,trypsin-chymotrypsin,small_molecule,true,false,false,pmbjp,1
+MOL-02220,tryptophan,small_molecule,false,true,false,ddinter,0
+MOL-02221,tuberculin purified protein derivative,small_molecule,false,true,true,ddinter|nppa,0
+MOL-02222,tubocurarine,small_molecule,false,true,false,ddinter,0
+MOL-02223,tucatinib,small_molecule,false,true,false,ddinter,0
+MOL-02224,tulobuterol,small_molecule,true,false,false,pmbjp,1
+MOL-02225,turmeric,small_molecule,false,true,false,ddinter,0
+MOL-02226,turpentine oil,small_molecule,true,false,false,pmbjp,2
+MOL-02227,typhoid vaccine,vaccine,false,true,false,ddinter,0
+MOL-02228,tyropanoic acid,small_molecule,false,true,false,ddinter,0
+MOL-02229,ubidecarenone,small_molecule,true,false,false,pmbjp,3
+MOL-02230,ubrogepant,small_molecule,false,true,false,ddinter,0
+MOL-02231,ulipristal,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02232,ulobetasol,small_molecule,false,true,false,ddinter,0
+MOL-02233,umeclidinium,small_molecule,false,true,false,ddinter,0
+MOL-02234,undenatured collagen ii,small_molecule,true,false,false,pmbjp,1
+MOL-02235,under sheet,small_molecule,true,false,false,pmbjp,1
+MOL-02236,upadacitinib,small_molecule,false,true,false,ddinter,0
+MOL-02237,uracil mustard,small_molecule,false,true,false,ddinter,0
+MOL-02238,urea,small_molecule,false,true,false,ddinter,0
+MOL-02239,urofollitropin,small_molecule,false,true,false,ddinter,0
+MOL-02240,urokinase,small_molecule,false,true,false,ddinter,0
+MOL-02241,ursodeoxycholic acid,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02242,ustekinumab,biologic,false,true,false,ddinter,0
+MOL-02243,vaccine recombinant,vaccine,true,false,false,pmbjp,1
+MOL-02244,valaciclovir,small_molecule,false,true,false,ddinter,0
+MOL-02245,valacyclovir,small_molecule,true,false,false,pmbjp,2
+MOL-02246,valbenazine,small_molecule,false,true,false,ddinter,0
+MOL-02247,valdecoxib,small_molecule,false,true,false,ddinter,0
+MOL-02248,valerian,small_molecule,false,true,false,ddinter,0
+MOL-02249,valethamate,small_molecule,true,false,false,pmbjp,1
+MOL-02250,valganciclovir,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02251,valproic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,8
+MOL-02252,valrubicin,small_molecule,false,true,false,ddinter,0
+MOL-02253,valsartan,small_molecule,true,true,false,pmbjp|ddinter,5
+MOL-02254,vancomycin,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02255,vandetanib,small_molecule,false,true,false,ddinter,0
+MOL-02256,vardenafil,small_molecule,false,true,false,ddinter,0
+MOL-02257,varenicline,small_molecule,false,true,false,ddinter,0
+MOL-02258,varicella zoster vaccine,vaccine,false,true,false,ddinter,0
+MOL-02259,vasopressin,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02260,vecuronium,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-02261,vedolizumab,biologic,false,true,false,ddinter,0
+MOL-02262,velpatasvir,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02263,vemurafenib,small_molecule,false,true,false,ddinter,0
+MOL-02264,venetoclax,small_molecule,false,true,false,ddinter,0
+MOL-02265,venlafaxine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02266,verapamil,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02267,verteporfin,small_molecule,false,true,false,ddinter,0
+MOL-02268,vibegron,small_molecule,false,true,false,ddinter,0
+MOL-02269,vibrio cholerae cvd -hgr strain live antigen,small_molecule,false,true,false,ddinter,0
+MOL-02270,vigabatrin,small_molecule,false,true,false,ddinter,0
+MOL-02271,vilanterol,small_molecule,false,true,false,ddinter,0
+MOL-02272,vilazodone,small_molecule,false,true,false,ddinter,0
+MOL-02273,vildaglipitin,small_molecule,true,false,false,pmbjp,1
+MOL-02274,vildagliptin,small_molecule,true,false,false,pmbjp,15
+MOL-02275,vinblastine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-02276,vincristine,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-02277,vinorelbine,small_molecule,false,true,false,ddinter,0
+MOL-02278,vismodegib,small_molecule,false,true,false,ddinter,0
+MOL-02279,vit d,small_molecule,true,false,false,pmbjp,1
+MOL-02280,vit k,small_molecule,true,false,false,pmbjp,1
+MOL-02281,vitamin a,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-02282,vitamin b,small_molecule,true,false,false,pmbjp,3
+MOL-02283,vitamin b benfotiamine,small_molecule,true,false,false,pmbjp,1
+MOL-02284,vitamin b complex,small_molecule,true,false,false,pmbjp,1
+MOL-02285,vitamin b folic acid,small_molecule,true,false,false,pmbjp,1
+MOL-02286,vitamin b zinc,small_molecule,true,false,false,pmbjp,1
+MOL-02287,vitamin b-complex,small_molecule,true,false,false,pmbjp,2
+MOL-02288,vitamin b-complex fort zinc,small_molecule,true,false,false,pmbjp,1
+MOL-02289,vitamin d,small_molecule,true,true,false,pmbjp|ddinter,17
+MOL-02290,vitamin e,small_molecule,true,true,false,pmbjp|ddinter,4
+MOL-02291,vitamin k,small_molecule,true,false,false,pmbjp,3
+MOL-02292,vitamin-c,small_molecule,true,false,false,pmbjp,1
+MOL-02293,vitamine b complex,small_molecule,true,false,false,pmbjp,1
+MOL-02294,vitamins,small_molecule,true,false,false,pmbjp,1
+MOL-02295,vitamins a c d e b complex,small_molecule,true,false,false,pmbjp,1
+MOL-02296,voglibose,small_molecule,true,false,false,pmbjp,16
+MOL-02297,von willebrand factor human,small_molecule,false,true,false,ddinter,0
+MOL-02298,vorapaxar,small_molecule,false,true,false,ddinter,0
+MOL-02299,voriconazole,small_molecule,true,true,false,pmbjp|ddinter,1
+MOL-02300,vorinostat,small_molecule,false,true,false,ddinter,0
+MOL-02301,vortioxetine,small_molecule,true,true,false,pmbjp|ddinter,3
+MOL-02302,voxelotor,small_molecule,false,true,false,ddinter,0
+MOL-02303,voxilaprevir,small_molecule,false,true,false,ddinter,0
+MOL-02304,warfarin,small_molecule,true,true,true,pmbjp|ddinter|nppa,3
+MOL-02305,water,small_molecule,true,false,true,pmbjp|nppa,2
+MOL-02306,whole blood,small_molecule,false,false,true,nppa,0
+MOL-02307,xylometazoline,small_molecule,true,true,true,pmbjp|ddinter|nppa,1
+MOL-02308,yellow fever vaccine,vaccine,false,true,false,ddinter,0
+MOL-02309,yohimbine,small_molecule,false,true,false,ddinter,0
+MOL-02310,zafirlukast,small_molecule,false,true,false,ddinter,0
+MOL-02311,zalcitabine,small_molecule,false,true,false,ddinter,0
+MOL-02312,zaleplon,small_molecule,false,true,false,ddinter,0
+MOL-02313,zanamivir,small_molecule,false,true,false,ddinter,0
+MOL-02314,zanubrutinib,small_molecule,false,true,false,ddinter,0
+MOL-02315,zeaxanthin,small_molecule,true,false,false,pmbjp,2
+MOL-02316,ziconotide,small_molecule,false,true,false,ddinter,0
+MOL-02317,zidovudine,small_molecule,false,true,true,ddinter|nppa,0
+MOL-02318,zileuton,small_molecule,false,true,false,ddinter,0
+MOL-02319,zinc,small_molecule,true,true,true,pmbjp|ddinter|nppa,11
+MOL-02320,zinc oxide,small_molecule,true,false,false,pmbjp,2
+MOL-02321,zinc pyrithione,small_molecule,true,false,false,pmbjp,1
+MOL-02322,ziprasidone,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02323,zoledronic acid,small_molecule,true,true,true,pmbjp|ddinter|nppa,2
+MOL-02324,zolmitriptan,small_molecule,false,true,false,ddinter,0
+MOL-02325,zolpidem,small_molecule,true,true,true,pmbjp|ddinter|nppa,4
+MOL-02326,zonisamide,small_molecule,true,true,false,pmbjp|ddinter,2
+MOL-02327,zopiclone,small_molecule,false,true,false,ddinter,0
