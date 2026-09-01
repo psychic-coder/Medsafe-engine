@@ -1,8 +1,4 @@
-"""Generate contains.csv from product components.
 
-Matches each component of ``pmbjp_final_clean.csv`` against ``molecule_catalog`` and
-``alias_bridge_table`` to emit the ``CONTAINS`` edge list.
-"""
 
 from __future__ import annotations
 

@@ -1,22 +1,4 @@
-"""Ingest the PMBJP product catalogue into a processed product table.
 
-Reads the raw PMBJP mirror from ``data/raw/`` (gitignored, not redistributable), parses each row
-into the ``Product`` shape from ``docs/schema.md`` — ``product_id``, ``source="PMBJP"``,
-``generic_name_raw``, ``form``, ``strength_raw``, ``mrp`` — runs the generic name through
-``resolution.normalize`` to emit ``Alias`` rows with ``source="pmbjp"``, and writes the result to
-``data/processed/``. Reports rows it could not parse rather than dropping them silently. Read-only
-with respect to Neo4j; ``load_graph.py`` does the writing.
-
-    python scripts/ingest_pmbjp.py --input data/raw/pmbjp_products.csv
-
-Column names in the mirror are not stable, so headers are matched case-insensitively against the
-aliases in ``COLUMN_ALIASES`` rather than hard-coded. A header the mapping does not recognise is
-reported by name — guessing at it is how a price column silently becomes a strength column.
-
-Molecule identity is *not* assigned here. This script emits products and their raw generic names;
-``build_bridge_table.py`` owns the join to a ``molecule_id``, because that is the step where a wrong
-decision becomes a wrong substitution.
-"""
 
 from __future__ import annotations
 

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv
+.git/
+.gitignore
+.mypy_cache/
+.pytest_cache/
+.next/
+out/
+node_modules/
+web/node_modules/
+web/.next/
+web/.env.local
+.env
+.env.*
+.DS_Store

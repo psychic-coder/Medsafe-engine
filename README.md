@@ -247,24 +247,30 @@ is fine for local development, but it also disables credentialed requests.
 
 ## Running with Docker
 
+The default Docker stack uses the project’s original processed dataset from `data/processed/` and loads it into a Neo4j graph before the API becomes healthy. The demo fixtures remain available as an explicit override when you want a lightweight smoke test.
+
 ```bash
-docker compose up -d neo4j     # Neo4j alone (browser on :7474, bolt on :7687)
-docker compose up              # Neo4j + API
+docker compose up --build
 ```
 
-The `api` service waits on the `neo4j` healthcheck before starting. The graph starts empty — run the
-[data pipeline](#data-pipeline) to populate it, or use the in-memory backend for a demo.
-
-The web console is not part of the compose stack; run it with `npm run dev` against the
-containerised API, and make sure `CORS_ALLOW_ORIGINS` includes `http://localhost:3000`.
+Open <http://localhost:3000> for the console, <http://localhost:8000/docs> for the API docs, and <http://localhost:7474> for the Neo4j browser. The `graph-loader` service runs once at startup and loads `data/processed/` into the graph before the API becomes healthy.
 
 Useful commands:
 
 ```bash
 docker compose logs -f api          # follow API logs
+docker compose logs -f graph-loader # inspect the initial graph load
 docker compose down                 # stop
 docker compose down -v              # stop and delete graph data
 docker compose exec neo4j cypher-shell -u neo4j -p "$NEO4J_PASSWORD"
+```
+
+If you want to run only the database and not the full stack:
+
+For a demo-only smoke test, override the loader command with `--processed-dir data/demo`.
+
+```bash
+docker compose up -d neo4j
 ```
 
 ---

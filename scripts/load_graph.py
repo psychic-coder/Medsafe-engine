@@ -1,3 +1,4 @@
+
 """Load processed data artifacts into Neo4j.
 
 Command-line entry point for the graph write path: applies constraints and indexes from

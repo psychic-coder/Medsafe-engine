@@ -78,8 +78,8 @@ STAGE_FILES: dict[str, tuple[str, ...]] = {
     MOLECULES_FILE: ("molecules", "molecule_catalog"),
     PRODUCTS_FILE: ("products", "pmbjp_final_clean"),
     CONTAINS_FILE: ("contains",),
-    ALIASES_FILE: ("aliases", "alias_bridge_table_final"),
-    INTERACTIONS_FILE: ("interactions", "ddinter_final_clean"),
+    ALIASES_FILE: ("alias_bridge_table_final", "aliases"),
+    INTERACTIONS_FILE: ("ddinter_final_clean", "interactions"),
 }
 
 Record = dict[str, Any]
