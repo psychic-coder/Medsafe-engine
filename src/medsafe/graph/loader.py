@@ -40,13 +40,20 @@ from medsafe.graph.repository import GraphRepository
 
 logger = logging.getLogger(__name__)
 
-__all__ = ["LoadReport", "ArtifactSet", "load_artifacts", "load_records", "read_artifact"]
+__all__ = [
+    "LoadReport",
+    "ArtifactSet",
+    "load_artifacts",
+    "load_records",
+    "read_artifact",
+    "read_stage",
+]
 
-MOLECULES_FILE = "molecule_catalog"
-PRODUCTS_FILE = "pmbjp_final_clean"
-CONTAINS_FILE = "contains"  # Not used in current data; loader skips gracefully if missing
-ALIASES_FILE = "alias_bridge_table_final"
-INTERACTIONS_FILE = "ddinter_final_clean"
+MOLECULES_FILE = "molecules"
+PRODUCTS_FILE = "products"
+CONTAINS_FILE = "contains"
+ALIASES_FILE = "aliases"
+INTERACTIONS_FILE = "interactions"
 
 # Dependency order is load-bearing: an edge whose endpoints do not exist yet is silently dropped by
 # a MATCH-based MERGE, so nodes must always precede the edges that reference them.
@@ -57,6 +64,23 @@ LOAD_ORDER: tuple[str, ...] = (
     ALIASES_FILE,
     INTERACTIONS_FILE,
 )
+
+# A stage is a logical thing to load; the filename it arrives under is not.
+#
+# ``scripts/build_bridge_table.py`` and ``scripts/ingest_*.py`` emit the canonical names
+# (``molecules.csv``, ``products.csv``, ...), while the curated snapshots in ``data/processed/``
+# and ``data/demo/`` carry the names of the pipeline stage that produced them
+# (``molecule_catalog.csv``, ``pmbjp_final_clean.csv``, ...). Both are the same artifact, so a
+# stage resolves against an ordered list of candidate stems and takes the first that exists.
+# Reporting is always keyed by the logical stage name, so an operator reading a LoadReport does not
+# need to know which naming convention a given directory happens to use.
+STAGE_FILES: dict[str, tuple[str, ...]] = {
+    MOLECULES_FILE: ("molecules", "molecule_catalog"),
+    PRODUCTS_FILE: ("products", "pmbjp_final_clean"),
+    CONTAINS_FILE: ("contains",),
+    ALIASES_FILE: ("aliases", "alias_bridge_table_final"),
+    INTERACTIONS_FILE: ("interactions", "ddinter_final_clean"),
+}
 
 Record = dict[str, Any]
 
@@ -144,6 +168,15 @@ def read_artifact(processed_dir: Path, stem: str) -> list[Record] | None:
     return None
 
 
+def read_stage(processed_dir: Path, stage: str) -> list[Record] | None:
+    """Read the artifact for a logical ``stage``, trying each candidate filename in order."""
+    for stem in STAGE_FILES.get(stage, (stage,)):
+        rows = read_artifact(processed_dir, stem)
+        if rows is not None:
+            return rows
+    return None
+
+
 def _normalize_keys(stage: str, rows: list[Record]) -> list[Record]:
     """Re-normalize the comparison keys on write.
 
@@ -173,7 +206,10 @@ def _load_anchor_profile(manual_dir: Path | str) -> dict[str, str]:
     """
     csv_path = Path(manual_dir) / "ddinter_anchor_profile.csv"
     if not csv_path.is_file():
-        logger.warning(f"Anchor profile not found at {csv_path}; ddinter_anchor will be None for all molecules")
+        logger.warning(
+            "Anchor profile not found at %s; ddinter_anchor will be None for all molecules",
+            csv_path,
+        )
         return {}
     
     anchors: dict[str, str] = {}
@@ -293,15 +329,15 @@ def load_artifacts(
 
     # Load anchors and molecules, enrich before merge
     anchors = _load_anchor_profile(manual_dir)
-    molecules = read_artifact(directory, MOLECULES_FILE)
+    molecules = read_stage(directory, MOLECULES_FILE)
     if molecules is not None:
         molecules = _enrich_molecules_with_anchors(molecules, anchors)
-    
+
     _merge_stage(repo, report, MOLECULES_FILE, molecules, strict)
-    _merge_stage(repo, report, PRODUCTS_FILE, read_artifact(directory, PRODUCTS_FILE), strict)
-    _merge_stage(repo, report, CONTAINS_FILE, read_artifact(directory, CONTAINS_FILE), strict)
-    _merge_stage(repo, report, ALIASES_FILE, read_artifact(directory, ALIASES_FILE), strict)
-    _merge_stage(repo, report, INTERACTIONS_FILE, read_artifact(directory, INTERACTIONS_FILE), strict)
+    _merge_stage(repo, report, PRODUCTS_FILE, read_stage(directory, PRODUCTS_FILE), strict)
+    _merge_stage(repo, report, CONTAINS_FILE, read_stage(directory, CONTAINS_FILE), strict)
+    _merge_stage(repo, report, ALIASES_FILE, read_stage(directory, ALIASES_FILE), strict)
+    _merge_stage(repo, report, INTERACTIONS_FILE, read_stage(directory, INTERACTIONS_FILE), strict)
 
     report.counts_after = repo.counts()
     return report

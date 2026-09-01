@@ -113,9 +113,13 @@ def main() -> int:
                 if not mol_b:
                     unmatched_names[drug_b] = unmatched_names.get(drug_b, 0) + 1
     
-    log(f"  Matched {len(interaction_rows)} / {len(interaction_rows) + unmatched_interactions} interactions")
+    total_interactions = len(interaction_rows) + unmatched_interactions
+    log(f"  Matched {len(interaction_rows)} / {total_interactions} interactions")
     if unmatched_interactions > 0:
-        log(f"  ⚠ {unmatched_interactions} interactions could not be matched (drugs not in catalog)")
+        log(
+            f"  ⚠ {unmatched_interactions} interactions could not be matched "
+            "(drugs not in catalog)"
+        )
         log("\n--- Top 100 unmatched distinct names ---")
         sorted_unmatched = sorted(unmatched_names.items(), key=lambda x: x[1], reverse=True)[:100]
         for name, count in sorted_unmatched:

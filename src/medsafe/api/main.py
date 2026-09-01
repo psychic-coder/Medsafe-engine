@@ -25,6 +25,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, Request
 from fastapi.exceptions import RequestValidationError
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
 from medsafe import __version__
@@ -141,6 +142,20 @@ def create_app(
         ),
         lifespan=lifespan,
     )
+
+    # The web UI is served from a different origin (Next.js on :3000) to the API (:8000), so
+    # without this every browser request fails at the preflight with an opaque network error
+    # rather than an HTTP status. Origins are configurable; the default covers local development.
+    origins = settings.cors_origin_list
+    if origins:
+        app.add_middleware(
+            CORSMiddleware,
+            allow_origins=origins,
+            allow_origin_regex=None if "*" not in origins else ".*",
+            allow_credentials="*" not in origins,
+            allow_methods=["GET", "POST", "OPTIONS"],
+            allow_headers=["*"],
+        )
 
     app.include_router(health_routes.router)
     app.include_router(resolve_routes.router)

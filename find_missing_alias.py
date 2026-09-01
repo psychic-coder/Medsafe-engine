@@ -1,6 +1,5 @@
 import csv
 import subprocess
-import json
 
 norm_strings = set()
 with open('data/processed/alias_bridge_table_final.csv') as f:

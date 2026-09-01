@@ -1,4 +1,8 @@
-"""Generate contains.csv from pmbjp_final_clean.csv components matching molecule_catalog and alias_bridge_table."""
+"""Generate contains.csv from product components.
+
+Matches each component of ``pmbjp_final_clean.csv`` against ``molecule_catalog`` and
+``alias_bridge_table`` to emit the ``CONTAINS`` edge list.
+"""
 
 from __future__ import annotations
 
@@ -63,7 +67,8 @@ def generate_contains() -> int:
         writer.writerows(contains_rows)
 
     print(
-        f"Generated {len(contains_rows)} CONTAINS edges to {out_path.name} ({unmatched_count} unmatched components)"
+        f"Generated {len(contains_rows)} CONTAINS edges to {out_path.name} "
+        f"({unmatched_count} unmatched components)"
     )
     return len(contains_rows)
 

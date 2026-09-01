@@ -32,6 +32,25 @@ __all__ = ["BlocklistEntry", "ConfusablePairBlocklist", "load_blocklist"]
 
 logger = logging.getLogger(__name__)
 
+# The blocklist is maintained by hand and by the curation scan, and the two settled on different
+# column names for the same fields ("name_a" vs "molecule_a", "source" vs "origin"). Accepting both
+# spellings keeps a hand-written row and a scan-generated row loadable from the same file: a safety
+# control that silently loads zero pairs because of a header rename is worse than one that is
+# missing outright, because `missing` stays False and readiness still reports it as present.
+NAME_A_COLUMNS: tuple[str, ...] = ("name_a", "molecule_a", "drug_a")
+NAME_B_COLUMNS: tuple[str, ...] = ("name_b", "molecule_b", "drug_b")
+REASON_COLUMNS: tuple[str, ...] = ("reason", "verdict")
+SOURCE_COLUMNS: tuple[str, ...] = ("source", "origin")
+
+
+def _column(row: dict[str, str | None], names: tuple[str, ...]) -> str:
+    """First non-empty value among ``names``. Returns ``""`` when none is present."""
+    for name in names:
+        value = (row.get(name) or "").strip()
+        if value:
+            return value
+    return ""
+
 
 @dataclass(frozen=True, slots=True)
 class BlocklistEntry:
@@ -104,15 +123,15 @@ class ConfusablePairBlocklist:
         ]
         entries: list[BlocklistEntry] = []
         for row in csv.DictReader(lines):
-            name_a = (row.get("name_a") or "").strip()
-            name_b = (row.get("name_b") or "").strip()
+            name_a = _column(row, NAME_A_COLUMNS)
+            name_b = _column(row, NAME_B_COLUMNS)
             if not name_a or not name_b:
                 continue
             entry = _build_entry(
                 name_a,
                 name_b,
-                reason=(row.get("reason") or "").strip(),
-                source=(row.get("source") or "").strip() or "csv",
+                reason=_column(row, REASON_COLUMNS),
+                source=_column(row, SOURCE_COLUMNS) or "csv",
                 origin=str(csv_path),
             )
             if entry is not None:

@@ -81,6 +81,11 @@ class Settings(BaseModel):
     api_port: int = 8000
     log_level: str = "INFO"
 
+    # Browser clients (the Next.js web UI) are blocked by the same-origin policy unless the API
+    # sends CORS headers. Comma-separated origin list; "*" allows any origin, which is convenient
+    # for local development but should be narrowed for any deployment.
+    cors_allow_origins: str = "http://localhost:3000,http://127.0.0.1:3000"
+
     # --- Graph backend selection ---
     # "neo4j" is the real backend. "memory" runs the same read/write contract against an in-process
     # store seeded from ``seed_dir`` — it exists so tests and local demos do not require a database.
@@ -102,6 +107,11 @@ class Settings(BaseModel):
     # Manifest emitted by scripts/ingest_ddinter.py recording which ATC groups a load actually
     # covered. Absent manifest => nothing is provably covered => every pair reports "not checked".
     coverage_manifest: Path = Path("data/processed/ddinter_coverage.json")
+
+    @property
+    def cors_origin_list(self) -> list[str]:
+        """``cors_allow_origins`` split into the list Starlette's middleware expects."""
+        return [origin.strip() for origin in self.cors_allow_origins.split(",") if origin.strip()]
 
     @field_validator(
         "data_raw_dir",
@@ -134,6 +144,7 @@ _ENV_MAP: dict[str, str] = {
     "API_HOST": "api_host",
     "API_PORT": "api_port",
     "LOG_LEVEL": "log_level",
+    "CORS_ALLOW_ORIGINS": "cors_allow_origins",
     "MEDSAFE_GRAPH_BACKEND": "graph_backend",
     "MEDSAFE_SEED_DIR": "seed_dir",
     "DATA_RAW_DIR": "data_raw_dir",
