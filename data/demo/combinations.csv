@@ -1,0 +1,7 @@
+brand_key,brand_raw,molecule_id,inn_name,position,kind
+augmentin,augmentin,MOL001,amoxicillin,1,brand
+augmentin,augmentin,MOL014,clavulanic acid,2,brand
+clavam,clavam,MOL001,amoxicillin,1,brand
+clavam,clavam,MOL014,clavulanic acid,2,brand
+moxikind cv,moxikind cv,MOL001,amoxicillin,1,brand
+moxikind cv,moxikind cv,MOL014,clavulanic acid,2,brand

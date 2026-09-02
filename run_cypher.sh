@@ -1,0 +1,6 @@
+docker exec medsafe-neo4j cypher-shell -u neo4j -p changeme_local_only "MATCH (n) RETURN labels(n)[0] AS label, count(n) ORDER BY label;"
+docker exec medsafe-neo4j cypher-shell -u neo4j -p changeme_local_only "MATCH ()-[r:INTERACTS_WITH]->() RETURN count(r);"
+docker exec medsafe-neo4j cypher-shell -u neo4j -p changeme_local_only "MATCH ()-[r:CONTAINS]->() RETURN count(r);"
+docker exec medsafe-neo4j cypher-shell -u neo4j -p changeme_local_only "MATCH ()-[r:ALIAS_OF]->() RETURN count(r);"
+docker exec medsafe-neo4j cypher-shell -u neo4j -p changeme_local_only "MATCH (m:Molecule {inn_name: 'amoxicillin'})-[:INTERACTS_WITH]->(other) RETURN other.inn_name, other.category, m.ddinter_anchor LIMIT 5;"
+docker exec medsafe-neo4j cypher-shell -u neo4j -p changeme_local_only "MATCH (m:Molecule) WHERE m.ddinter_anchor IS NULL RETURN count(m);"

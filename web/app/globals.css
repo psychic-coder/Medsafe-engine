@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-paper text-ink font-display text-base antialiased;
+  }
+
+  /* One visible focus treatment everywhere, including keyboard-only navigation. */
+  :where(a, button, input, textarea, [tabindex]):focus-visible {
+    @apply outline-none ring-2 ring-ink ring-offset-2 ring-offset-paper rounded-control;
+  }
+
+  ::selection {
+    @apply bg-ink text-paper;
+  }
+}
+
+@layer components {
+  /* --- The three epistemic surfaces -------------------------------------------------------
+     These are the load-bearing visual device. A reader must be able to tell, without reading a
+     word, whether the engine knows something, needs a human to decide, or has not looked. */
+
+  .surface-known {
+    @apply bg-surface border border-rule rounded-sheet;
+  }
+
+  .surface-review {
+    @apply bg-surface bg-hatch border border-caution/45 rounded-sheet;
+  }
+
+  .surface-unchecked {
+    @apply bg-transparent bg-hatch-quiet border border-dashed border-rule-strong rounded-sheet;
+  }
+
+  .rule-hair {
+    @apply border-t border-rule;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

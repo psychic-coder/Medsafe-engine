@@ -1,0 +1,35 @@
+brand_key,brand_raw,molecule_id,inn_name,position,kind
+combiflam,combiflam,MOL-01054,ibuprofen,1,brand
+combiflam,combiflam,MOL-00018,acetaminophen,2,brand
+ultracet,ultracet,MOL-02169,tramadol,1,brand
+ultracet,ultracet,MOL-00018,acetaminophen,2,brand
+digene,digene,MOL-01312,magnesium hydroxide,1,brand
+digene,digene,MOL-01973,simethicone,2,brand
+gelusil,gelusil,MOL-01312,magnesium hydroxide,1,brand
+gelusil,gelusil,MOL-01973,simethicone,2,brand
+istamet,istamet,MOL-01979,sitagliptin,1,brand
+istamet,istamet,MOL-01368,metformin,2,brand
+ecosprin av,ecosprin av,MOL-00024,acetylsalicylic acid,1,brand
+ecosprin av,ecosprin av,MOL-00156,atorvastatin,2,brand
+telma h,telma h,MOL-02072,telmisartan,1,brand
+telma h,telma h,MOL-01033,hydrochlorothiazide,2,brand
+augmentin,augmentin,MOL-00102,amoxicillin,1,brand
+augmentin,augmentin,MOL-00456,clavulanic acid,2,brand
+clavam,clavam,MOL-00102,amoxicillin,1,brand
+clavam,clavam,MOL-00456,clavulanic acid,2,brand
+moxikind cv,moxikind cv,MOL-00102,amoxicillin,1,brand
+moxikind cv,moxikind cv,MOL-00456,clavulanic acid,2,brand
+montek lc,montek lc,MOL-01453,montelukast,1,brand
+montek lc,montek lc,MOL-01237,levocetirizine,2,brand
+foracort,foracort,MOL-00899,formoterol,1,brand
+foracort,foracort,MOL-00287,budesonide,2,brand
+seroflo,seroflo,MOL-01926,salmeterol,1,brand
+seroflo,seroflo,MOL-00890,fluticasone,2,brand
+deriphyllin,deriphyllin,MOL-00808,etophylline,1,brand
+deriphyllin,deriphyllin,MOL-02108,theophylline,2,brand
+shelcal,shelcal,MOL-00309,calcium,1,brand
+shelcal,shelcal,MOL-00422,cholecalciferol,2,brand
+livogen,livogen,MOL-01128,iron,1,brand
+livogen,livogen,MOL-00893,folic acid,2,brand
+autrin,autrin,MOL-01128,iron,1,brand
+autrin,autrin,MOL-00893,folic acid,2,brand

@@ -1,0 +1,165 @@
+raw_string,normalized_string,source,origin_rule,in_pmbjp,in_ddinter,notes
+chlorthalidon,chlorthalidone,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+coenzyme q,co-enzyme q,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+cyanocobalamine,cyanocobalamin,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+cyclosporin,cyclosporine,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+di-cloxacillin,dicloxacillin,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+dil oil,dill oil,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+dosulepin,dosulepine,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+duloxetin,duloxetine,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+etophyllin,etophylline,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+flupentixol,flupentixole,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+guaifenesin,guaiphenesin,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+isosorbidemononitrate,isosorbide mononitrate,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+l-carnitine l-tartrate,l-carnitine-l-tartrate,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+l-methylfolate,l-methyl folate,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+levo salbutamol,levosalbutamol,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+levo-thyroxine,levothyroxine,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+multiminerals,multi minerals,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+nimesulid,nimesulide,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+nortryptyline,nortriptyline,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+omega fatty acid,omega- fatty acid,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+paroxetin,paroxetine,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+povidone iodine,povidone- iodine,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+povidone iodine,povidone-iodine,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+povidone-iodine,povidone- iodine,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+selenium sulphide,selenium sulfide,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+trihexiphenidyl,trihexyphenidyl,pmbjp,benign_spelling_variant,True,True,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+vitamin b complex,vitamin b-complex,pmbjp,benign_spelling_variant,True,False,orthographic variant only (same molecule under British/Indian vs USAN spelling)
+5-aminosalicylic acid,mesalazine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+5-fluorouracil,fluorouracil,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+6-mercaptopurine,mercaptopurine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+acetyl salicylic acid,acetylsalicylic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+aciclovir,acyclovir,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+actinomycin d,dactinomycin,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+adrenaline,epinephrine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+albuterol,salbutamol,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""salbutamol"", not ""albuterol"")"
+all-trans retinoic acid,tretinoin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+alpha tocopherol,vitamin e,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+amoxicillin trihydrate,amoxicillin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+amoxycillin,amoxicillin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+asa,acetylsalicylic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+aspirin,acetylsalicylic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+atorvastatin calcium,atorvastatin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+atra,tretinoin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+barium sulphate,barium sulfate,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+beclomethasone dipropionate,beclomethasone,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+benzathine benzylpenicillin,penicillin g benzathine,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+benzyl penicillin,penicillin g,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+betamethasone valerate,betamethasone,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+calcium folinate,folinic acid,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+carboxymethylcellulose,carmellose,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+cefalexin,cephalexin,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""cephalexin"", not ""cefalexin"")"
+ceftriaxone sodium,ceftriaxone,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+cephradine,cefradine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+cetirizin,cetirizine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+cetrizine,cetirizine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+chlorphenamine,chlorpheniramine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+chlorpheniramine maleate,chlorpheniramine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+clavulanate,clavulanic acid,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""clavulanic acid"", not ""clavulanate"")"
+clobetasol propionate,clobetasol,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+clomiphene,clomifene,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+co-trimoxazole,sulfamethoxazole/trimethoprim,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+cotrimoxazole,sulfamethoxazole/trimethoprim,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+cytosine arabinoside,cytarabine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+dec,diethylcarbamazine,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+desferrioxamine,deferoxamine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+diclofenac potassium,diclofenac,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+diclofenac sodium,diclofenac,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+dicycloverine,dicyclomine,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""dicyclomine"", not ""dicycloverine"")"
+divalproex,valproic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+eltroxin,levothyroxine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+ergonovine,ergometrine,manual,india_naming_seed,False,True,"direction set by real DDInter vocabulary (DDInter carries ""ergometrine"", not ""ergonovine"")"
+esomeprazole magnesium,esomeprazole,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+ethinyl estradiol,ethinylestradiol,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""ethinylestradiol"", not ""ethinyl estradiol"")"
+ethyl alcohol,ethanol,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+ferrous sulphate,ferrous sulfate,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+fluticasone propionate,fluticasone,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+folinic acid,leucovorin,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""leucovorin"", not ""folinic acid"")"
+frusemide,furosemide,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+frusemide anhydrous,furosemide,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+gentamycin,gentamicin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+glibenclamide,glyburide,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+glyceryl trinitrate,nitroglycerin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+gtn,nitroglycerin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+hydrocortisone acetate,hydrocortisone,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+hydroxypropyl methylcellulose,hypromellose,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+hyoscine,scopolamine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+hyoscine butylbromide,scopolamine butylbromide,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+isabgol,psyllium,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+isosorbide 5 mononitrate,isosorbide mononitrate,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+isosorbide-5-mononitrate,isosorbide mononitrate,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+ispaghula,psyllium,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+l-asparaginase,asparaginase,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+l-thyroxine,levothyroxine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+levocetirizine dihydrochloride,levocetirizine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+lignocain,lidocaine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+lignocaine,lidocaine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+liquid paraffin,mineral oil,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+magnesium sulphate,magnesium sulfate,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+medroxyprogesterone acetate,medroxyprogesterone,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+mesalamine,mesalazine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+metamizole,dipyrone,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+methylated spirit,ethanol,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+methylcobalamin,mecobalamin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+methylergonovine,methylergometrine,manual,india_naming_seed,False,True,"direction set by real DDInter vocabulary (DDInter carries ""methylergometrine"", not ""methylergonovine"")"
+methylrosanilinium,gentian violet,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+methylrosanilinium chloride,gentian violet,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+methylthioninium,methylene blue,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+methylthioninium chloride,methylene blue,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+mometasone furoate,mometasone,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+montelukast sodium,montelukast,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+n-acetylcysteine,acetylcysteine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+nac,acetylcysteine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+niacinamide,nicotinamide,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""nicotinamide"", not ""niacinamide"")"
+noradrenaline,norepinephrine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+norethindrone,norethisterone,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""norethisterone"", not ""norethindrone"")"
+oestradiol,estradiol,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+oestriol,estriol,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+oestrogen,estrogen,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+omeprazole magnesium,omeprazole,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+pantoprazole sodium,pantoprazole,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+para-aminosalicylic acid,aminosalicylic acid,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+paracetamol,acetaminophen,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+penicillin g,benzylpenicillin,manual,india_naming_seed,True,True,"direction set by real DDInter vocabulary (DDInter carries ""benzylpenicillin"", not ""penicillin g"")"
+penicillin v,phenoxymethylpenicillin,manual,india_naming_seed,False,True,"direction set by real DDInter vocabulary (DDInter carries ""phenoxymethylpenicillin"", not ""penicillin v"")"
+pethidine,meperidine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+phenobarbitone,phenobarbital,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+phytomenadione,phytonadione,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+potassium clavulanate,clavulanate,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+pralidoxime chloride,pralidoxime,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+procaine penicillin,penicillin g procaine,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+quinine sulphate,quinine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+rabeprazole sodium,rabeprazole,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+retinol,vitamin a,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+riboflavine,riboflavin,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+rifampin,rifampicin,manual,india_naming_seed,False,True,"direction set by real DDInter vocabulary (DDInter carries ""rifampicin"", not ""rifampin"")"
+rosuvastatin calcium,rosuvastatin,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+salbutamol sulphate,albuterol,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+serratiopeptidase,serrapeptase,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+sod. bicarbonate,sodium bicarbonate,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+sod. valproate,valproic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+sodium thiosulphate,sodium thiosulfate,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+sodium valproate,valproic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+sulphadiazine,sulfadiazine,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+sulphadoxine,sulfadoxine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+sulphamethoxazole,sulfamethoxazole,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+sulphasalazine,sulfasalazine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+terbutaline sulphate,terbutaline,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+thiopentone,thiopental,manual,india_naming_seed,False,True,known India/BP vs USAN divergence
+thyroxine,levothyroxine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+tocopherol,vitamin e,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+triamcinolone acetonide,triamcinolone,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+valproate semisodium,valproic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+vitamin b1,thiamine,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+vitamin b2,riboflavin,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+vitamin b6,pyridoxine,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+vitamin c,ascorbic acid,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+vitamin d3,cholecalciferol,manual,india_naming_seed,True,True,known India/BP vs USAN divergence
+vitamin k1,phytonadione,manual,india_naming_seed,True,False,known India/BP vs USAN divergence
+white petrolatum,petrolatum,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+zinc sulphate,zinc sulfate,manual,india_naming_seed,False,False,known India/BP vs USAN divergence
+methyl ergometrine,methylergometrine,ddinter,orthographic_bridge,True,True,deterministic spelling-system rule; verified single unambiguous DDInter target; checked against blocklist
+silver sulphadiazine,silver sulfadiazine,ddinter,orthographic_bridge,True,True,deterministic spelling-system rule; verified single unambiguous DDInter target; checked against blocklist
+sulphacetamide,sulfacetamide,ddinter,orthographic_bridge,True,True,deterministic spelling-system rule; verified single unambiguous DDInter target; checked against blocklist
+valacyclovir,valaciclovir,ddinter,orthographic_bridge,True,True,deterministic spelling-system rule; verified single unambiguous DDInter target; checked against blocklist

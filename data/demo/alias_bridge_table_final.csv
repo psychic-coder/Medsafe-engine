@@ -1,0 +1,16 @@
+raw_string,normalized_string,source,molecule_id
+Acetylsalicylic Acid,acetylsalicylic acid,rxnorm_dump,MOL005
+Ecosprin,ecosprin,manual,MOL005
+Novamox,novamox,manual,MOL001
+Mox,mox,manual,MOL001
+Glycomet,glycomet,manual,MOL002
+Atorva,atorva,manual,MOL003
+Albuterol,albuterol,rxnorm_dump,MOL012
+Thyronorm,thyronorm,manual,MOL013
+Eltroxin,eltroxin,manual,MOL013
+Omez,omez,manual,MOL006
+Plavix,plavix,manual,MOL008
+Amlong,amlong,manual,MOL009
+Lantus,lantus,manual,MOL015
+Atarax,atarax,manual,MOL007
+Wysolone,wysolone,manual,MOL010

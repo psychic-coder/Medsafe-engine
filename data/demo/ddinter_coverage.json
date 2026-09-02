@@ -1,0 +1,22 @@
+{
+  "source": "DDInter bulk (demo fixture)",
+  "covered_atc_groups": ["A", "B", "D", "H", "L", "P", "R", "V"],
+  "uncovered_atc_groups": ["C", "G", "J", "M", "N", "S"],
+  "molecule_atc_groups": {
+    "MOL001": "J",
+    "MOL002": "A",
+    "MOL003": "C",
+    "MOL004": "B",
+    "MOL005": "B",
+    "MOL006": "A",
+    "MOL007": "N",
+    "MOL008": "B",
+    "MOL009": "C",
+    "MOL010": "H",
+    "MOL011": "H",
+    "MOL012": "R",
+    "MOL013": "H",
+    "MOL014": "J",
+    "MOL015": "A"
+  }
+}

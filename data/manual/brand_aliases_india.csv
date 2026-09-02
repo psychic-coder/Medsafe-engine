@@ -1,0 +1,214 @@
+# Hand-curated map from the name printed on an Indian medicine pack to its active ingredients.
+#
+# Why this file exists: the catalogue is keyed on INN/USAN molecule names, and nobody outside a
+# pharmacy writes those. A patient holding a strip reads "Ecosprin 75" or "Dolo 650". Without this
+# pack the engine answers "not identified" to almost every real query, which reads to a user as
+# "this medicine is unknown/unsafe" when it means "we only speak Latin".
+#
+# Columns
+#   brand        Name as printed on the pack, or a widely used alternative generic name.
+#   ingredients  Pipe-separated INN names, each of which MUST exist in the molecule catalogue.
+#                Two or more makes this a combination — see below.
+#   kind         brand   = an Indian trade name (Ecosprin, Crocin)
+#                synonym = another generic name for the same substance (aspirin, paracetamol)
+#   note         Why the row is here, or what a reader should watch out for.
+#
+# Combinations are NOT collapsed to one ingredient. Mapping "Augmentin" to amoxicillin alone would
+# hide the clavulanic acid from the interaction check and let the substitution engine price a
+# two-drug product as a one-drug product. Both are the failure modes docs/schema.md forbids, so a
+# multi-ingredient row resolves to a combination that is expanded for interaction checking and
+# refused for substitution.
+#
+# scripts/build_brand_aliases.py validates every row against the catalogue and the confusable-pair
+# blocklist before anything here reaches the graph. A brand naming an ingredient that does not
+# exist is rejected loudly rather than dropped quietly.
+#
+# Strengths are deliberately absent. "Dolo 650" and "Dolo 500" are the same ingredient at different
+# doses; normalization already splits the strength onto its own field, so the brand maps to the
+# ingredient and the strength stays where it belongs.
+brand,ingredients,kind,note
+# --- alternative generic names: the single highest-value rows in the file ---
+aspirin,acetylsalicylic acid,synonym,catalogue uses the INN; nearly every user types the common name
+paracetamol,acetaminophen,synonym,paracetamol is the standard name across India and the UK
+acetyl salicylic acid,acetylsalicylic acid,synonym,spacing variant seen on older packs
+salicylic acid acetyl,acetylsalicylic acid,synonym,inverted form seen in some transcriptions
+albuterol,salbutamol,synonym,US name for the same bronchodilator
+adrenaline,epinephrine,synonym,British/Indian name; catalogue carries the US name
+noradrenaline,norepinephrine,synonym,British/Indian name; catalogue carries the US name
+cyclosporin,cyclosporine,synonym,spelling variant
+frusemide,furosemide,synonym,older British name still printed in India
+lignocaine,lidocaine,synonym,British/Indian name
+rifampin,rifampicin,synonym,US name
+# vitamin c -> ascorbic acid is REJECTED by the confusable-pair blocklist, which lists
+# vitamin a / vitamin-c as a dangerous pair: single-letter vitamin designators must never be
+# machine-resolved. A curated alias would be an auto-accept path around that guard, so the row
+# stays out. Users can search "ascorbic acid", which matches exactly.
+vitamin b12,cyanocobalamin,synonym,common name
+vitamin b1,thiamine,synonym,common name
+vitamin b6,pyridoxine,synonym,common name
+vitamin d3,cholecalciferol,synonym,common name
+vitamin b9,folic acid,synonym,common name
+# --- pain, fever, inflammation ---
+crocin,acetaminophen,brand,GSK paracetamol
+dolo,acetaminophen,brand,Micro Labs paracetamol; Dolo 650 is the common strength
+calpol,acetaminophen,brand,paediatric paracetamol
+metacin,acetaminophen,brand,paracetamol
+combiflam,ibuprofen|acetaminophen,brand,COMBINATION - ibuprofen plus paracetamol
+brufen,ibuprofen,brand,Abbott ibuprofen
+ibugesic,ibuprofen,brand,ibuprofen
+voveran,diclofenac,brand,Novartis diclofenac
+volini,diclofenac,brand,topical diclofenac
+zerodol,aceclofenac,brand,aceclofenac
+nise,nimesulide,brand,nimesulide
+naprosyn,naproxen,brand,naproxen
+ultracet,tramadol|acetaminophen,brand,COMBINATION - tramadol plus paracetamol
+tramazac,tramadol,brand,tramadol
+# --- stomach and gut ---
+pan,pantoprazole,brand,Alkem pantoprazole; Pan 40 is the common strength
+pantop,pantoprazole,brand,pantoprazole
+pantocid,pantoprazole,brand,pantoprazole
+omez,omeprazole,brand,Dr Reddy's omeprazole
+ocid,omeprazole,brand,omeprazole
+nexpro,esomeprazole,brand,esomeprazole
+razo,rabeprazole,brand,rabeprazole
+rantac,ranitidine,brand,ranitidine
+zinetac,ranitidine,brand,ranitidine
+domstal,domperidone,brand,domperidone
+emeset,ondansetron,brand,ondansetron
+vomikind,ondansetron,brand,ondansetron
+digene,magnesium hydroxide|simethicone,brand,COMBINATION - antacid plus antifoaming agent
+gelusil,magnesium hydroxide|simethicone,brand,COMBINATION - antacid plus antifoaming agent
+cremaffin,lactulose,brand,laxative
+duphalac,lactulose,brand,lactulose
+# --- diabetes ---
+glycomet,metformin,brand,USV metformin; Glycomet 500 is the common strength
+glyciphage,metformin,brand,Franco-Indian metformin
+obimet,metformin,brand,metformin
+carbophage,metformin,brand,metformin
+amaryl,glimepiride,brand,Sanofi glimepiride
+glimestar,glimepiride,brand,glimepiride
+zoryl,glimepiride,brand,glimepiride
+daonil,glyburide,brand,glyburide (glibenclamide)
+glibenclamide,glyburide,synonym,British/Indian name for glyburide
+januvia,sitagliptin,brand,sitagliptin
+istamet,sitagliptin|metformin,brand,COMBINATION - sitagliptin plus metformin
+galvus,vildagliptin,brand,vildagliptin
+jardiance,empagliflozin,brand,empagliflozin
+lantus,insulin glargine,brand,long-acting insulin
+huminsulin,insulin,brand,human insulin
+mixtard,insulin,brand,premixed insulin
+# --- heart, blood pressure, cholesterol, blood thinners ---
+ecosprin,acetylsalicylic acid,brand,USV low-dose aspirin; Ecosprin 75 is the common strength
+disprin,acetylsalicylic acid,brand,soluble aspirin
+loprin,acetylsalicylic acid,brand,low-dose aspirin
+clopilet,clopidogrel,brand,clopidogrel
+plavix,clopidogrel,brand,Sanofi clopidogrel
+deplatt,clopidogrel,brand,clopidogrel
+ecosprin av,acetylsalicylic acid|atorvastatin,brand,COMBINATION - aspirin plus atorvastatin
+warf,warfarin,brand,warfarin
+uniwarfin,warfarin,brand,warfarin
+atorva,atorvastatin,brand,atorvastatin
+storvas,atorvastatin,brand,atorvastatin
+lipvas,atorvastatin,brand,atorvastatin
+rosuvas,rosuvastatin,brand,rosuvastatin
+crestor,rosuvastatin,brand,AstraZeneca rosuvastatin
+amlong,amlodipine,brand,amlodipine
+amlopres,amlodipine,brand,amlodipine
+stamlo,amlodipine,brand,amlodipine
+telma,telmisartan,brand,Glenmark telmisartan
+telvas,telmisartan,brand,telmisartan
+telma h,telmisartan|hydrochlorothiazide,brand,COMBINATION - telmisartan plus a diuretic
+losar,losartan,brand,losartan
+repace,losartan,brand,losartan
+envas,enalapril,brand,enalapril
+zestril,lisinopril,brand,lisinopril
+ramipres,ramipril,brand,ramipril
+cardace,ramipril,brand,ramipril
+concor,bisoprolol,brand,bisoprolol
+metolar,metoprolol,brand,metoprolol
+betaloc,metoprolol,brand,metoprolol
+aten,atenolol,brand,atenolol
+ciplar,propranolol,brand,propranolol
+dytor,torsemide,brand,torsemide
+lasix,furosemide,brand,furosemide
+# --- antibiotics and anti-infectives ---
+mox,amoxicillin,brand,amoxicillin
+novamox,amoxicillin,brand,amoxicillin
+amoxil,amoxicillin,brand,amoxicillin
+augmentin,amoxicillin|clavulanic acid,brand,COMBINATION - amoxicillin plus clavulanic acid
+clavam,amoxicillin|clavulanic acid,brand,COMBINATION - amoxicillin plus clavulanic acid
+moxikind cv,amoxicillin|clavulanic acid,brand,COMBINATION - amoxicillin plus clavulanic acid
+azithral,azithromycin,brand,azithromycin
+azee,azithromycin,brand,azithromycin
+zithromax,azithromycin,brand,azithromycin
+taxim o,cefixime,brand,cefixime
+zifi,cefixime,brand,cefixime
+cefspan,cefixime,brand,cefixime
+ciplox,ciprofloxacin,brand,ciprofloxacin
+cifran,ciprofloxacin,brand,ciprofloxacin
+zenflox,ofloxacin,brand,ofloxacin
+oflox,ofloxacin,brand,ofloxacin
+levoflox,levofloxacin,brand,levofloxacin
+monocef,ceftriaxone,brand,ceftriaxone
+flagyl,metronidazole,brand,metronidazole
+metrogyl,metronidazole,brand,metronidazole
+zentel,albendazole,brand,albendazole
+bandy,albendazole,brand,albendazole
+fluka,fluconazole,brand,fluconazole
+forcan,fluconazole,brand,fluconazole
+sporlac,lactobacillus acidophilus,brand,probiotic
+# --- allergy, cough, asthma ---
+cetzine,cetirizine,brand,cetirizine
+alerid,cetirizine,brand,cetirizine
+okacet,cetirizine,brand,cetirizine
+levocet,levocetirizine,brand,levocetirizine
+xyzal,levocetirizine,brand,levocetirizine
+teczine,levocetirizine,brand,levocetirizine
+montair,montelukast,brand,montelukast
+montek lc,montelukast|levocetirizine,brand,COMBINATION - montelukast plus levocetirizine
+allegra,fexofenadine,brand,fexofenadine
+avil,pheniramine,brand,pheniramine
+atarax,hydroxyzine,brand,hydroxyzine
+asthalin,salbutamol,brand,salbutamol inhaler or tablet
+ventolin,salbutamol,brand,GSK salbutamol
+levolin,levosalbutamol,brand,levosalbutamol
+foracort,formoterol|budesonide,brand,COMBINATION - formoterol plus budesonide inhaler
+seroflo,salmeterol|fluticasone,brand,COMBINATION - salmeterol plus fluticasone inhaler
+budecort,budesonide,brand,budesonide inhaler
+deriphyllin,etophylline|theophylline,brand,COMBINATION - etophylline plus theophylline
+# --- thyroid, steroids, hormones ---
+thyronorm,levothyroxine,brand,Abbott levothyroxine
+eltroxin,levothyroxine,brand,levothyroxine
+thyrox,levothyroxine,brand,levothyroxine
+wysolone,prednisolone,brand,prednisolone
+omnacortil,prednisolone,brand,prednisolone
+medrol,methylprednisolone,brand,methylprednisolone
+decdan,dexamethasone,brand,dexamethasone
+# --- brain, mood, sleep, nerves ---
+alprax,alprazolam,brand,alprazolam
+restyl,alprazolam,brand,alprazolam
+calmpose,diazepam,brand,diazepam
+valium,diazepam,brand,diazepam
+nexito,escitalopram,brand,escitalopram
+cipralex,escitalopram,brand,escitalopram
+zoloft,sertraline,brand,sertraline
+daxid,sertraline,brand,sertraline
+prozac,fluoxetine,brand,fluoxetine
+gabapin,gabapentin,brand,gabapentin
+pregabid,pregabalin,brand,pregabalin
+lyrica,pregabalin,brand,pregabalin
+eptoin,phenytoin,brand,phenytoin
+levipil,levetiracetam,brand,levetiracetam
+# --- supplements and other common pack names ---
+shelcal,calcium|cholecalciferol,brand,COMBINATION - calcium plus vitamin D3
+calcimax,calcium,brand,calcium supplement
+becosules,multivitamin,brand,B-complex multivitamin
+neurobion,multivitamin,brand,B-complex multivitamin
+zincovit,multivitamin,brand,multivitamin with zinc
+livogen,iron|folic acid,brand,COMBINATION - iron plus folic acid
+autrin,iron|folic acid,brand,COMBINATION - iron plus folic acid
+orofer,iron,brand,iron supplement
+# electral / oral rehydration salts: no single molecule in the catalogue corresponds to ORS,
+# so there is nothing to map it to. Left out rather than mapped to an approximation.
+viagra,sildenafil,brand,sildenafil
+manforce,sildenafil,brand,sildenafil
